@@ -10,7 +10,6 @@
     var addDatasetUrl = "@Url.Action("AddSharedDataset", "DataSets")";
     var isDatasetExistUrl = "@Url.Action("IsDatasetExist", "Datasets")";
     var deletetemporarydatasetUrl = "@Url.Action("DeleteTemporaryDataset", "Datasets")";
-    var isDatasourceChanged = false;
     var oldDatasetID = "";
 
     function load() {
@@ -128,12 +127,6 @@
                 </div>
             </div>
         }
-        <environment include="Development,CloudDevelopment">
-            <script asp-append-version="true" src="@reportServerResourceUrl/cdn/scripts/localizationcontent.js"></script>
-        </environment>
-        <environment exclude="Development,CloudDevelopment">
-            <script asp-append-version="true" src="@reportServerResourceUrl/cdn/scripts/localizationcontent.min.js"></script>
-        </environment>
     </div>
     <script>
         $(document).ready(function () {
@@ -157,9 +150,6 @@
         for (var dataSource = 0; dataSource < sharedDataSource.length; dataSource++) {
             $("#sharedDataSourceList" + dataSource).selectpicker("refresh");
         }
-        $('.datasource-picker').on('change', function () {
-            isDatasourceChanged = true;
-        });
         window.parent.$('#ItemAction_wrapper').ejWaitingPopup("hide");
                     });
     </script>

@@ -60,7 +60,7 @@
                     <a href="#windows-ad-tab" id="windows-ad" aria-controls="windows-ad-tab" role="tab" data-toggle="tab">[[[Windows Active Directory]]]</a>
                 </li>
             }
-            <li role="presentation" class="@(!ServerAppConfig.IsSelfHosted ? " active" : ServerAppConfig.IsSelfHosted && isAzureApplication ? "active" : string.Empty )">
+            <li role="presentation" class="@(!ServerAppConfig.IsSelfHosted ? " active" : string.Empty)">
                 <a href="#azure-ad-tab" id="azure-ad" aria-controls="azure-ad-tab" role="tab" data-toggle="tab">[[[Azure Active Directory]]]</a>
             </li>
             <li role="presentation">
@@ -166,7 +166,7 @@
                     </form>
                 </div>
             }
-            <div role="tabpanel" class="tab-pane @(!ServerAppConfig.IsSelfHosted ? " active" : ServerAppConfig.IsSelfHosted && isAzureApplication ? "active" : string.Empty)" id="azure-ad-tab">
+            <div role="tabpanel" class="tab-pane @(!ServerAppConfig.IsSelfHosted ? " active" : string.Empty)" id="azure-ad-tab">
                 <form id="azure-ad-setting" name="azureAdSettingsForm" class="admin-page-body" method="post" enctype="multipart/form-data" autocomplete="off">
                     <div class="col-md-12 form-group">
                         <div class="col-md-6 no-padding no-margin">

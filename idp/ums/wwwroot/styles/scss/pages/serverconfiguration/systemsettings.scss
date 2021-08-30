@@ -641,6 +641,14 @@ body {
 
                             .existing-db {
                                 margin-left: 100px;
+
+                                .popover{
+                                    width: 200%;
+
+                                    .arrow{
+                                        top: auto;
+                                    }
+                                }
                             }
 
                             .note-additional-parameter {

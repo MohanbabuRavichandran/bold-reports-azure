@@ -465,7 +465,7 @@ input::-ms-clear, input::-ms-reveal {
           #server-app-container #header-area .dropdown-styles .dropdown-menu a:hover {
             background: #eeeeee; }
   #server-app-container #menu-area {
-    background-color: #333333;
+    background-color: var(--nav-menu-bg-color);
     color: #cccccc;
     height: 100%;
     margin-top: 40px;
@@ -473,7 +473,6 @@ input::-ms-clear, input::-ms-reveal {
     width: 40px;
     z-index: 2;
     margin-top: 0px !important;
-    background-color: #fff !important;
     width: 80px !important;
     box-shadow: 2px 0 4px 0 rgba(0, 0, 0, 0.12) !important; }
     #server-app-container #menu-area .menu-bar ul {
@@ -482,7 +481,7 @@ input::-ms-clear, input::-ms-reveal {
       padding: 0 12px;
       width: 80px !important; }
       #server-app-container #menu-area .menu-bar ul .sf-nav-separator {
-        background: #cccccc;
+        background: var(--nav-menu-separtor-icon-color);
         height: 1px;
         margin: 12px auto;
         width: 50%; }
@@ -501,7 +500,7 @@ input::-ms-clear, input::-ms-reveal {
           width: 40px;
           border-radius: 4px; }
           #server-app-container #menu-area .menu-bar ul li a .menu-icon-container {
-            color: #808080;
+            color: var(--nav-menu-text-color);
             display: inline-block;
             height: 36px;
             padding: 8px 13px;
@@ -512,20 +511,22 @@ input::-ms-clear, input::-ms-reveal {
               font-size: 16px;
               font-weight: 400; }
           #server-app-container #menu-area .menu-bar ul li a .menu-label {
-            color: var(--colorText);
+            color: var(--nav-menu-text-color);
             float: left;
             font-size: 10px;
             letter-spacing: 0.3px;
             margin-bottom: 3px;
             width: 100%; }
           #server-app-container #menu-area .menu-bar ul li a:hover {
-            background-color: #eeeeee; }
+            background-color: var(--nav-menu-hover-color); }
+            #server-app-container #menu-area .menu-bar ul li a:hover .menu-icon-container .su, #server-app-container #menu-area .menu-bar ul li a:hover .menu-icon-container .menu-label {
+              color: var(--nav-menu-hover-text-color); }
+            #server-app-container #menu-area .menu-bar ul li a:hover .menu-label {
+              color: var(--nav-menu-hover-text-color); }
           #server-app-container #menu-area .menu-bar ul li a.active {
-            background-color: var(--colorPrimary);
-            color: #fff; }
-          #server-app-container #menu-area .menu-bar ul li a .su {
-            font-size: 16px;
-            color: var(--colorPrimary) !important; }
+            background-color: var(--nav-menu-active-color); }
+            #server-app-container #menu-area .menu-bar ul li a.active .su, #server-app-container #menu-area .menu-bar ul li a.active .menu-label {
+              color: var(--nav-menu-active-text-color) !important; }
     #server-app-container #menu-area .menu-bar #sub-nav {
       bottom: 0;
       position: absolute;
@@ -545,7 +546,7 @@ input::-ms-clear, input::-ms-reveal {
             position: relative;
             width: 200px !important; }
             #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .menu-icon-container {
-              color: #808080;
+              color: var(--nav-menu-text-color);
               display: inline-block;
               height: 36px;
               padding: 8px 13px;
@@ -579,7 +580,7 @@ input::-ms-clear, input::-ms-reveal {
               left: 63px;
               bottom: 0px; }
             #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section:hover {
-              background-color: #4d4d4d; }
+              background-color: var(--nav-menu-hover-color); }
           #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section.open a .profile-picture {
             border: 1px solid var(--colorPrimary); }
           #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .sub-menu, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .sub-menu {
@@ -590,7 +591,8 @@ input::-ms-clear, input::-ms-reveal {
             #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .sub-menu .sub-menu-item-title, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .sub-menu .sub-menu-item-title {
               height: 34px;
               text-align: left;
-              font-size: 12px; }
+              font-size: 12px;
+              color: var(--nav-menu-text-color); }
               #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .sub-menu .sub-menu-item-title div, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .sub-menu .sub-menu-item-title div {
                 padding: 8px 8px 12px 8px;
                 width: 100%;
@@ -600,8 +602,7 @@ input::-ms-clear, input::-ms-reveal {
                 font-style: normal;
                 font-stretch: normal;
                 line-height: 1.6;
-                letter-spacing: 0.3px;
-                color: #333333; }
+                letter-spacing: 0.3px; }
             #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .sub-menu .sub-menu-profile, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .sub-menu .sub-menu-profile {
               height: auto !important; }
               #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .sub-menu .sub-menu-profile a, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .sub-menu .sub-menu-profile a {
@@ -622,7 +623,7 @@ input::-ms-clear, input::-ms-reveal {
                 font-weight: 600;
                 line-height: 1.6;
                 letter-spacing: 0.3px;
-                color: #333333;
+                color: var(--nav-menu-text-color);
                 padding: 0 0 0 8px;
                 margin-bottom: 4px; }
               #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .sub-menu .sub-menu-item a, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .sub-menu .sub-menu-item a {
@@ -631,7 +632,9 @@ input::-ms-clear, input::-ms-reveal {
                 font-weight: normal;
                 line-height: 1.5;
                 letter-spacing: 0.3px;
-                color: #333333; }
+                color: var(--nav-menu-text-color) !important; }
+                #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .sub-menu .sub-menu-item a:hover, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .sub-menu .sub-menu-item a:hover {
+                  color: var(--nav-menu-hover-text-color) !important; }
                 #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .sub-menu .sub-menu-item a .sub-menu-bar-profile-image, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .sub-menu .sub-menu-item a .sub-menu-bar-profile-image {
                   float: left;
                   height: 36px;
@@ -646,21 +649,27 @@ input::-ms-clear, input::-ms-reveal {
                   #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .sub-menu .sub-menu-item a .sub-menu-user-name .sub-menu-user-name-style, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .sub-menu .sub-menu-item a .sub-menu-user-name .sub-menu-user-name-style {
                     font-size: 12px;
                     letter-spacing: 0.3px;
-                    color: #333333;
+                    color: var(--nav-menu-text-color);
                     overflow: hidden;
                     text-overflow: ellipsis; }
                   #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .sub-menu .sub-menu-item a .sub-menu-user-name .sub-menu-user-username-style, #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .sub-menu .sub-menu-item a .sub-menu-user-name .sub-menu-user-email-style, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .sub-menu .sub-menu-item a .sub-menu-user-name .sub-menu-user-username-style, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .sub-menu .sub-menu-item a .sub-menu-user-name .sub-menu-user-email-style {
                     font-size: 10px;
                     letter-spacing: 0.25px;
-                    color: #808080;
+                    color: var(--nav-menu-text-color);
                     line-height: 12px;
                     margin-top: 2px;
                     overflow: hidden;
                     text-overflow: ellipsis; }
           #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action:hover, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section:hover {
-            background-color: #EEEEEE; }
+            background-color: var(--nav-menu-hover-color); }
+          #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .dropdown-menu, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .dropdown-menu {
+            background: var(--nav-menu-bg-color) !important; }
+            #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .dropdown-menu li.sub-menu-item a:hover, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .dropdown-menu li.sub-menu-item a:hover {
+              background: var(--nav-menu-hover-color) !important; }
+              #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .dropdown-menu li.sub-menu-item a:hover div, #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .dropdown-menu li.sub-menu-item a:hover .site-name, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .dropdown-menu li.sub-menu-item a:hover div, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .dropdown-menu li.sub-menu-item a:hover .site-name {
+                color: var(--nav-menu-hover-text-color) !important; }
           #server-app-container #menu-area .menu-bar #sub-nav ul li .sf-sub-menu-separator {
-            background: #cccccc;
+            background: var(--nav-menu-separtor-icon-color);
             height: 1px;
             margin: 6px 0px; }
           #server-app-container #menu-area .menu-bar #sub-nav ul li .sub-menu-item a {
@@ -1310,7 +1319,7 @@ footer {
         left: 26px;
         top: 15px; }
   #server-app-container #menu-area {
-    background-color: #333333;
+    background-color: var(--nav-menu-bg-color);
     color: #cccccc;
     height: 100%;
     margin-top: 55px;
@@ -1326,7 +1335,7 @@ footer {
       padding: 0 12px;
       width: 80px !important; }
       #server-app-container #menu-area .menu-bar ul .sf-nav-separator {
-        background: #cccccc;
+        background: var(--nav-menu-separtor-icon-color);
         height: 1px;
         margin: 12px auto;
         width: 50%; }
@@ -1345,7 +1354,7 @@ footer {
           width: 55px;
           border-radius: 4px; }
           #server-app-container #menu-area .menu-bar ul li a .menu-icon-container {
-            color: #808080;
+            color: var(--nav-menu-text-color);
             display: inline-block;
             height: 36px;
             padding: 8px 13px;
@@ -1356,20 +1365,22 @@ footer {
               font-size: 18px;
               font-weight: 400; }
           #server-app-container #menu-area .menu-bar ul li a .menu-label {
-            color: var(--colorText);
+            color: var(--nav-menu-text-color);
             float: left;
             font-size: 10px;
             letter-spacing: 0.3px;
             margin-bottom: 3px;
             width: 100%; }
           #server-app-container #menu-area .menu-bar ul li a:hover {
-            background-color: #eeeeee; }
+            background-color: var(--nav-menu-hover-color); }
+            #server-app-container #menu-area .menu-bar ul li a:hover .menu-icon-container .su, #server-app-container #menu-area .menu-bar ul li a:hover .menu-icon-container .menu-label {
+              color: var(--nav-menu-hover-text-color); }
+            #server-app-container #menu-area .menu-bar ul li a:hover .menu-label {
+              color: var(--nav-menu-hover-text-color); }
           #server-app-container #menu-area .menu-bar ul li a.active {
-            background-color: var(--colorPrimary);
-            color: #fff; }
-          #server-app-container #menu-area .menu-bar ul li a .su {
-            font-size: 18px;
-            color: var(--colorPrimary) !important; }
+            background-color: var(--nav-menu-active-color); }
+            #server-app-container #menu-area .menu-bar ul li a.active .su, #server-app-container #menu-area .menu-bar ul li a.active .menu-label {
+              color: var(--nav-menu-active-text-color) !important; }
     #server-app-container #menu-area .menu-bar #sub-nav {
       bottom: 0;
       position: absolute;
@@ -1389,7 +1400,7 @@ footer {
             position: relative;
             width: 200px !important; }
             #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .menu-icon-container {
-              color: #808080;
+              color: var(--nav-menu-text-color);
               display: inline-block;
               height: 36px;
               padding: 8px 13px;
@@ -1423,7 +1434,7 @@ footer {
               left: 63px;
               bottom: 0px; }
             #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section:hover {
-              background-color: #4d4d4d; }
+              background-color: var(--nav-menu-hover-color); }
           #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section.open a .profile-picture {
             border: 1px solid var(--colorPrimary); }
           #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .sub-menu, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .sub-menu {
@@ -1434,7 +1445,8 @@ footer {
             #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .sub-menu .sub-menu-item-title, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .sub-menu .sub-menu-item-title {
               height: 34px;
               text-align: left;
-              font-size: 12px; }
+              font-size: 12px;
+              color: var(--nav-menu-text-color); }
               #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .sub-menu .sub-menu-item-title div, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .sub-menu .sub-menu-item-title div {
                 padding: 8px 8px 12px 8px;
                 width: 100%;
@@ -1444,8 +1456,7 @@ footer {
                 font-style: normal;
                 font-stretch: normal;
                 line-height: 1.6;
-                letter-spacing: 0.3px;
-                color: #333333; }
+                letter-spacing: 0.3px; }
             #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .sub-menu .sub-menu-profile, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .sub-menu .sub-menu-profile {
               height: auto !important; }
               #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .sub-menu .sub-menu-profile a, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .sub-menu .sub-menu-profile a {
@@ -1466,7 +1477,7 @@ footer {
                 font-weight: 600;
                 line-height: 1.6;
                 letter-spacing: 0.3px;
-                color: #333333;
+                color: var(--nav-menu-text-color);
                 padding: 0 0 0 8px;
                 margin-bottom: 4px; }
               #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .sub-menu .sub-menu-item a, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .sub-menu .sub-menu-item a {
@@ -1475,7 +1486,9 @@ footer {
                 font-weight: normal;
                 line-height: 1.5;
                 letter-spacing: 0.3px;
-                color: #333333; }
+                color: var(--nav-menu-text-color) !important; }
+                #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .sub-menu .sub-menu-item a:hover, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .sub-menu .sub-menu-item a:hover {
+                  color: var(--nav-menu-hover-text-color) !important; }
                 #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .sub-menu .sub-menu-item a .sub-menu-bar-profile-image, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .sub-menu .sub-menu-item a .sub-menu-bar-profile-image {
                   float: left;
                   height: 36px;
@@ -1490,21 +1503,27 @@ footer {
                   #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .sub-menu .sub-menu-item a .sub-menu-user-name .sub-menu-user-name-style, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .sub-menu .sub-menu-item a .sub-menu-user-name .sub-menu-user-name-style {
                     font-size: 12px;
                     letter-spacing: 0.3px;
-                    color: #333333;
+                    color: var(--nav-menu-text-color);
                     overflow: hidden;
                     text-overflow: ellipsis; }
                   #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .sub-menu .sub-menu-item a .sub-menu-user-name .sub-menu-user-username-style, #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .sub-menu .sub-menu-item a .sub-menu-user-name .sub-menu-user-email-style, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .sub-menu .sub-menu-item a .sub-menu-user-name .sub-menu-user-username-style, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .sub-menu .sub-menu-item a .sub-menu-user-name .sub-menu-user-email-style {
                     font-size: 10px;
                     letter-spacing: 0.25px;
-                    color: #808080;
+                    color: var(--nav-menu-text-color);
                     line-height: 12px;
                     margin-top: 2px;
                     overflow: hidden;
                     text-overflow: ellipsis; }
           #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action:hover, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section:hover {
-            background-color: #EEEEEE; }
+            background-color: var(--nav-menu-hover-color); }
+          #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .dropdown-menu, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .dropdown-menu {
+            background: var(--nav-menu-bg-color) !important; }
+            #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .dropdown-menu li.sub-menu-item a:hover, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .dropdown-menu li.sub-menu-item a:hover {
+              background: var(--nav-menu-hover-color) !important; }
+              #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .dropdown-menu li.sub-menu-item a:hover div, #server-app-container #menu-area .menu-bar #sub-nav ul li.sub-menu-action .dropdown-menu li.sub-menu-item a:hover .site-name, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .dropdown-menu li.sub-menu-item a:hover div, #server-app-container #menu-area .menu-bar #sub-nav ul li.profile-section .dropdown-menu li.sub-menu-item a:hover .site-name {
+                color: var(--nav-menu-hover-text-color) !important; }
           #server-app-container #menu-area .menu-bar #sub-nav ul li .sf-sub-menu-separator {
-            background: #cccccc;
+            background: var(--nav-menu-separtor-icon-color);
             height: 1px;
             margin: 6px 0px; }
           #server-app-container #menu-area .menu-bar #sub-nav ul li .sub-menu-item a {

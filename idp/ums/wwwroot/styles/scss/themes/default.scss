@@ -271,5 +271,40 @@ $trialnotstarted-bg-color: #fdeebe;
 $active-color: #159570;
 $active-bg-color: #d6facf;
 
+//Navigation
+$nav-menu-bg-color: var(--nav-menu-bg-color);
+$nav-menu-text-color: var(--nav-menu-text-color);
+$nav-menu-text-sec-color: var(--nav-menu-text-sec-color);
+$nav-menu-content-color: var(--nav-menu-content-color);
+$nav-menu-active-color: var(--nav-menu-active-color);
+$nav-menu-active-text-color: var(--nav-menu-active-text-color);
+$nav-menu-active-sec-color: var(--nav-menu-active-sec-color);
+$nav-menu-active-content-color: var(--nav-menu-active-content-color);
+$nav-menu-hover-color: var(--nav-menu-hover-color);
+$nav-menu-hover-text-color: var(--nav-menu-hover-text-color);
+$nav-menu-hover-text-sec-color: var(--nav-menu-hover-text-sec-color);
+$nav-menu-hover-content-color: var(--nav-menu-hover-content-color);
+$nav-menu-create-icon-bgcolor: var(--nav-menu-create-icon-bgcolor);
+$nav-menu-separtor-icon-color: var(--nav-menu-separtor-icon-color);
+
+$item-menu-bg-color: $nav-menu-bg-color;
+$item-menu-section-bg-color: var(--item-menu-section-bg-color);
+$item-menu-title-color: $nav-menu-text-color;
+$item-menu-descrip-color: $nav-menu-text-sec-color;
+$item-menu-hover-bg-color: var(--item-menu-hover-bg-color);
+$item-menu-hover-border-color: var(--item-menu-hover-border-color);
+$item-menu-hover-title-color: $nav-menu-hover-text-color;
+$item-menu-hover-descrip-color: $nav-menu-hover-text-sec-color;
+
+$nav-notification-menu-bg-color: $nav-menu-bg-color;
+$nav-notification-items-hover-bg-color: $nav-menu-hover-color;
+$nav-notification-heading-text-color: $nav-menu-text-color;
+$nav-notification-sub-heading-text-color: $nav-menu-text-sec-color;
+$nav-notification-content-text-color: $nav-menu-text-color;
+$nav-notification-time-text-color: $nav-menu-text-sec-color;
+$nav-notification-content-hover-text-color: $nav-menu-text-color;
+$nav-notification-time-hover-text-color: $nav-menu-hover-text-sec-color;
+
+
 
 

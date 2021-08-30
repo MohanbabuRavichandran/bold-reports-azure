@@ -441,7 +441,7 @@
 }
 
 @mixin app-menu($height: $menu-height, $width: $menu-width, $icon-size: $icon-size) {
-    background-color: $menu-bg;
+    background-color: $nav-menu-bg-color;
     color: $menu-icon-color;
     height: 100%;
     margin-top: $height;
@@ -457,7 +457,7 @@
             width: 80px !important;
 
             .sf-nav-separator {
-                background: $border-color;
+                background: $nav-menu-separtor-icon-color;
                 height: 1px;
                 margin: 12px auto;
                 width: 50%;
@@ -482,7 +482,7 @@
                     border-radius: 4px;
 
                     .menu-icon-container {
-                        color: $grey-500;
+                        color: $nav-menu-text-color;
                         display: inline-block;
                         height: 36px;
                         padding: 8px 13px;
@@ -499,7 +499,7 @@
                     }
 
                     .menu-label {
-                        color: $primary-text-color;
+                        color: $nav-menu-text-color;
                         float: left;
                         font-size: 10px;
                         letter-spacing: 0.3px;
@@ -508,17 +508,25 @@
                     }
 
                     &:hover {
-                        background-color: $grey-80;
+                        background-color: $nav-menu-hover-color;
+
+                        .menu-icon-container {
+                            .su, .menu-label {
+                                color: $nav-menu-hover-text-color;
+                            }
+                        }
+
+                        .menu-label {
+                            color: $nav-menu-hover-text-color;
+                        }
                     }
 
                     &.active {
-                        background-color: $menu-active-bg;
-                        color: $menu-active-icon-color;
-                    }
+                        background-color: $nav-menu-active-color;
 
-                    .su {
-                        font-size: $icon-size;
-                        color: $primary-color !important;
+                        .su, .menu-label {
+                            color: $nav-menu-active-text-color !important;
+                        }
                     }
                 }
             }
@@ -547,7 +555,7 @@
                         width: 200px !important;
 
                         .menu-icon-container {
-                            color: $grey-500;
+                            color: $nav-menu-text-color;
                             display: inline-block;
                             height: 36px;
                             padding: 8px 13px;
@@ -603,7 +611,7 @@
                         }
 
                         &:hover {
-                            background-color: $menu-hover-color;
+                            background-color: $nav-menu-hover-color;
                         }
                     }
 
@@ -626,6 +634,7 @@
                                 height: 34px;
                                 text-align: left;
                                 font-size: 12px;
+                                color: $nav-menu-text-color;
 
                                 div {
                                     padding: 8px 8px 12px 8px;
@@ -637,7 +646,6 @@
                                     font-stretch: normal;
                                     line-height: 1.6;
                                     letter-spacing: 0.3px;
-                                    color: $header-bg;
                                 }
                             }
 
@@ -671,7 +679,7 @@
                                     font-weight: 600;
                                     line-height: 1.6;
                                     letter-spacing: 0.3px;
-                                    color: $header-bg;
+                                    color: $nav-menu-text-color;
                                     padding: 0 0 0 8px;
                                     margin-bottom: 4px;
                                 }
@@ -682,7 +690,12 @@
                                     font-weight: normal;
                                     line-height: 1.5;
                                     letter-spacing: 0.3px;
-                                    color: $header-bg;
+                                    color: $nav-menu-text-color !important;
+
+                                    &:hover {
+                                        color: $nav-menu-hover-text-color !important;
+                                    }
+
 
                                     .sub-menu-bar-profile-image {
                                         float: left;
@@ -701,7 +714,7 @@
                                         .sub-menu-user-name-style {
                                             font-size: 12px;
                                             letter-spacing: 0.3px;
-                                            color: $header-bg;
+                                            color: $nav-menu-text-color;
                                             overflow: hidden;
                                             text-overflow: ellipsis;
                                         }
@@ -709,7 +722,7 @@
                                         .sub-menu-user-username-style, .sub-menu-user-email-style {
                                             font-size: 10px;
                                             letter-spacing: 0.25px;
-                                            color: $grey-500;
+                                            color: $nav-menu-text-color;
                                             line-height: 12px;
                                             margin-top: 2px;
                                             overflow: hidden;
@@ -721,12 +734,28 @@
                         }
 
                         &:hover {
-                            background-color: #EEEEEE;
+                            background-color: $nav-menu-hover-color;
+                        }
+
+                        .dropdown-menu {
+                            background: $nav-menu-bg-color !important;
+
+                            li.sub-menu-item {
+                                a {
+                                    &:hover {
+                                        background: $nav-menu-hover-color !important;
+
+                                        div, .site-name {
+                                            color: $nav-menu-hover-text-color !important;
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
 
                     .sf-sub-menu-separator {
-                        background: $border-color;
+                        background: $nav-menu-separtor-icon-color;
                         height: 1px;
                         margin: 6px 0px;
                     }

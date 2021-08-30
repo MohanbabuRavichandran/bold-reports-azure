@@ -60,7 +60,7 @@ $(document).ready(function () {
             $(".site-default-text").html("").html(boldBiPath);
         }
         $(".site-domain").html($("#enable-ssl").val() + "://" + $("#input-domain").val());
-        $(".site-url").attr("data-content", $(".site-domain") + $(".site-default-text").text());
+        $(".site-url").attr("data-content", $(".site-domain").html() + $(".site-default-text").text());
     }
 
     waitingPopUpElement = parent.$("#add-tenant-popup");
@@ -198,6 +198,7 @@ $(document).ready(function () {
             else {
                 $(".site-default-text").html("").html(boldReportsUrl + $("#tenant-identifier").val());
             }
+            $(".site-domain").html($("#enable-ssl").val() + "://" + $("#input-domain").val());
             $(".site-id-name").html("");
         }
         else {
@@ -207,22 +208,16 @@ $(document).ready(function () {
             else {
                 $(".site-default-text").html("").html(boldBIUrl + $("#tenant-identifier").val());
             }
+            $(".site-domain").html($("#enable-ssl").val() + "://" + $("#input-domain").val());
             $(".site-id-name").html("");
         }
 
         $(".site-url").attr("data-content", $(".site-domain").html() + $(".site-default-text").text());
     });
 
-    $(".site-url").attr("data-content", $(".site-default-text").text() + $(".site-id-name").text());
-
     $("[data-toggle='popover']").popover({
         container: 'body',
         trigger: 'hover',
-    });
-
-    $(".site-url").hover(function () {
-        $(".add-tenant-dialog-wrapper").nextAll(".popover").find(".arrow").css("left", "50%");
-        $(".add-tenant-dialog-wrapper").nextAll(".popover").css("left", "30%");
     });
 
     $(document).on("keyup", "#tenant-identifier", function (event) {
@@ -236,7 +231,7 @@ $(document).ready(function () {
 
         $(".site-id-name").html($(this).val());
         $(".site-domain").html($("#enable-ssl").val() + "://" + $("#input-domain").val());
-        $(".site-url").attr("data-content", $(".site-domain") + $(".site-default-text").text() + $(".site-id-name").text());
+        $(".site-url").attr("data-content", $(".site-domain").html() + $(".site-default-text").text() + $(".site-id-name").text());
     });
 
     $(document).on("keyup", "#input-domain", function (event) {
@@ -261,12 +256,12 @@ $(document).ready(function () {
                 }
                 $(".site-id-name").html("");
             }
-            $(".site-domain").html(enableSsl + "://" + $(this).val());
+            $(".site-domain").html($("#enable-ssl").val() + "://" + $("#input-domain").val());
             $(".site-url").attr("data-content", $(".site-domain").html() + $(".site-default-text").text());
         }
         else {
-            $(".site-domain").html(enableSsl + "://" + $(this).val());
-            $(".site-url").attr("data-content", $(".site-default-text").text() + $(".site-domain") + $(".site-id-name").text());
+            $(".site-domain").html($("#enable-ssl").val() + "://" + $("#input-domain").val());
+            $(".site-url").attr("data-content", $(".site-domain").html() + $(".site-default-text").text() + $(".site-id-name").text());
         }
         $("#tenant-identifier-validation-error").css("display", "none");
         $("#tenant-identifier-empty-validation-error").css("display", "none");
@@ -285,7 +280,7 @@ $(document).ready(function () {
                     $(".site-default-text").html("").html(boldBiPath);
                 }
                 $(".site-domain").html($("#enable-ssl").val() + "://" + $("#input-domain").val());
-                $(".site-url").attr("data-content", $(".site-domain") + $(".site-default-text").text());
+                $(".site-url").attr("data-content", $(".site-domain").html() + $(".site-default-text").text());
             }
             else {
                 var dropdownValue = $("#tenant-type").val();
@@ -295,7 +290,7 @@ $(document).ready(function () {
                 else {
                     $(".site-default-text").html("").html(boldBiPath);
                 }
-                $(".site-url").attr("data-content", $(".site-domain") + $(".site-default-text").text());
+                $(".site-url").attr("data-content", $(".site-domain").html() + $(".site-default-text").text());
             }
             prevTenantIdentifier = $("#tenant-identifier").val();
             $("#tenant-identifier").val("");
@@ -331,7 +326,7 @@ $(document).ready(function () {
                     }
                     $(".site-domain").html($("#enable-ssl").val() + "://" + $("#input-domain").val());
                     $(".site-id-name").html("");
-                    $(".site-url").attr("data-content", $(".site-domain") + "/" + $(".site-default-text").text() + "/" + $(".site-id-name").html());
+                    $(".site-url").attr("data-content", $(".site-domain").html() + "/" + $(".site-default-text").text() + "/" + $(".site-id-name").html());
                 }
                 else {
                     var dropdownValue = $("#tenant-type").val();
@@ -343,7 +338,7 @@ $(document).ready(function () {
                     }
                     $(".site-domain").html($("#enable-ssl").val() + "://" + $("#input-domain").val());
                     $(".site-id-name").html(prevTenantIdentifier);
-                    $(".site-url").attr("data-content", $(".site-domain") + "/" + $(".site-default-text").text() + "/" + $(".site-id-name").html());
+                    $(".site-url").attr("data-content", $(".site-domain").html() + "/" + $(".site-default-text").text() + "/" + $(".site-id-name").html());
                 }
             }
         }
@@ -1455,6 +1450,7 @@ function getTenant(id) {
                 else {
                     $(".site-domain").html("").html(data.TenantDetails.Tenant.DNS);
                 }
+                $(".site-url").attr("data-content", $(".site-domain").html());
                 haveTenantIdentifier = data.TenantDetails.Tenant.UseSiteIdentifier;
                 if (dropdownValue === "BoldReportsOnPremise") {
                     item = "reports";

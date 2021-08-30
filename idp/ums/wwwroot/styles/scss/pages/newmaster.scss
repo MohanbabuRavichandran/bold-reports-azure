@@ -103,9 +103,10 @@ a:hover, a:focus {
     color: $primary-text-color;
 }
 
-[class^="su-"], [class*=" su-"] {
+//hided for menu theme, will enable while working theme support for entire apllication
+/*[class^="su-"], [class*=" su-"] {
    color: $primary-text-color;
-}
+}*/
 
     input::-ms-clear, input::-ms-reveal {
         display: none;

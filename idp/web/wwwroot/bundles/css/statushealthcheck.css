@@ -99,8 +99,7 @@ body .image {
   content: ""; }
 
 .su-applications:before {
-  content: "";
-  color: #6d6e70; }
+  content: ""; }
 
 .su-apps-menu:before {
   content: "";
@@ -424,12 +423,10 @@ body .image {
   color: #dbdbdb; }
 
 .su-nav-settings:before {
-  content: "";
-  color: #6d6e70; }
+  content: ""; }
 
 .su-nav-user-management:before {
-  content: "";
-  color: #6d6e70; }
+  content: ""; }
 
 .su-nav-widgets:before {
   content: "";

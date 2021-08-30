@@ -426,6 +426,8 @@ body {
           right: 0; }
         #profile-navigation ul li a.active {
           color: var(--colorPrimary); }
+          #profile-navigation ul li a.active i {
+            color: var(--colorPrimary) !important; }
           #profile-navigation ul li a.active:before {
             background: var(--colorPrimary);
             left: 0;

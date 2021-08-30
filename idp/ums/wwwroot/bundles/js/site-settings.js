@@ -283,6 +283,7 @@ $(document).ready(function () {
     var mainFileName;
     var favName;
     var currentDate = $.now();
+    var prevLang = $("#language").val();
     if ($("#time_format").is(":checked")) {
         $(".time").html(window.TM.App.LocalizationContent.TimeFormatTrue);
     } else {
@@ -510,7 +511,7 @@ $(document).ready(function () {
             isUrlChange = true;
         }
         var isReloadPage = false;
-        if ($("#enable-ssl").val() != $("#scheme_value").attr("data-value") || $("#site_url").attr("data-original-value") !== $("#site_url").val()) {
+        if ($("#enable-ssl").val() != $("#scheme_value").attr("data-value") || $("#site_url").attr("data-original-value") !== $("#site_url").val() || prevLang != $("#language").val()) {
             isReloadPage = true;
         }
         var siteURL = $("#site_url").val();
