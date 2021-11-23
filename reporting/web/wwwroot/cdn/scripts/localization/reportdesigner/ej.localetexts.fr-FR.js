@@ -1764,7 +1764,10 @@ ej.ReportDesigner.Locale['fr-FR'] = {
             gcsqlLabel: 'Google Cloud SQL',
             redshiftLabel: 'Amazon Redshift',
             amazonAuroraLabel: 'Aurore amazonienne',
-            amazonRDSLabel: 'Amazon RDS'
+            amazonRDSLabel: 'Amazon RDS',
+            webapilabel: 'API Web',
+            postgresqllabel: 'PostgreSQL',
+            odatalabel: 'Odata'
         },
         datasourceConnection: {
             newConnection: 'NOUVELLE CONNEXION',
@@ -2128,6 +2131,28 @@ ej.ReportDesigner.Locale['fr-FR'] = {
             duplicateName: 'Le nom spécifié existe déjà dans la liste DataSource',
             invalidCharacterValidation: 'Le nom ne doit pas contenir d\'espaces et de caractères spéciaux',
             sharedPermissionValidation: 'La création de la source de données a été restreinte, sauf pour la source de données partagée.'
+        },
+        descriptionText: {
+            amazonAuroraInfo: 'Amazon Aurora est un service de base de données relationnelle développé et proposé par Amazon Web Services. Le connecteur Amazon Aurora vous permet d\'accéder aux données des bases de données Amazon Aurora dans {customBrandName} Designer.',
+            azureSqlInfo: 'Azure SQL Data Warehouse est une offre de service d\'entrepôt de données d\'entreprise basée sur le cloud de Microsoft. Il exploite un traitement massivement parallèle pour exécuter rapidement des requêtes complexes sur des pétaoctets de données. Le connecteur Azure SQL Data Warehouse vous permet d\'accéder aux données des bases de données Azure SQL Data Warehouse dans {customBrandName} Designer.',
+            cdataInfo: 'CDATA est une base de données SQL distribuée et hautement évolutive qui peut s\'exécuter n\'importe où. Il offre des performances maximales pour les charges de travail transactionnelles et analytiques avec des structures de données relationnelles familières. Le connecteur cdata vous permet d\'accéder aux données des bases de données cdata avec le point de terminaison MySQL dans {customBrandName} Designer.',
+            csvInfo: 'Apportez vos fichiers CSV dans {customBrandName} Designer et préparez des rapports pour voir l\'histoire qui vit dans vos données.',
+            excelInfo: 'Apportez vos fichiers Excel sous forme de tableaux ou de feuilles de calcul dans le concepteur {customBrandName}. Explorez et jouez avec vos données, préparez des rapports pour voir l\'histoire qui vit dans vos données.',
+            googleBigQueryInfo: 'BigQuery est un service Web RESTful qui permet une analyse interactive d\'ensembles de données volumineux en collaboration avec Google Storage. Il s\'agit d\'un logiciel en tant que service sans serveur qui peut être utilisé en complément de MapReduce.',
+            jsonInfo: 'Apportez vos fichiers JSON dans {customBrandName} Designer en les téléchargeant pour préparer des rapports et voir l\'histoire qui vit dans vos données.',
+            mariadbInfo: 'MariaDB est un fork développé par la communauté et soutenu commercialement du système de gestion de base de données relationnelle MySQL qui est garanti pour rester open-source. Le connecteur MariaDB vous permet d\'accéder aux données des bases de données MariaDB dans {customBrandName} Designer.',
+            memsqlInfo: 'MemSQL est une base de données SQL distribuée et hautement évolutive qui peut s\'exécuter n\'importe où. Il offre des performances maximales pour les charges de travail transactionnelles et analytiques avec des structures de données relationnelles familières. Le connecteur MemSQL vous permet d\'accéder aux données des bases de données MemSQL dans {customBrandName} Designer.',
+            microsoftsqlInfo: 'SQL Server est le système de gestion de base de données relationnelle de Microsoft. En tant que l\'un des serveurs de base de données les plus fiables et les plus fiables du marché, il est livré avec un assortiment de services à valeur ajoutée tels que l\'analyse, la création de rapports et plus encore, en plus du système de gestion de base de données de base. Le connecteur SQL Server vous permet d\'accéder aux données des bases de données Microsoft SQL Server dans {customBrandName} Designer.',
+            ssasInfo: 'SQL Server Analysis Services (SSAS) est la technologie de la pile Microsoft Business Intelligence, pour développer des solutions de traitement analytique en ligne (OLAP). En termes simples, vous pouvez utiliser SSAS pour créer des cubes à l\'aide de données provenant de magasins de données/entrepôt de données pour une analyse de données plus approfondie et plus rapide.',
+            mysqlInfo: 'MySQL est un système de gestion de base de données relationnelle open source disponible gratuitement, le plus connu pour son traitement rapide, sa fiabilité éprouvée, sa facilité et sa flexibilité d\'utilisation. Le connecteur MySQL vous permet d\'accéder aux données des bases de données MySQL dans {customBrandName} Designer.',
+            odataInfo: 'OData est un protocole ouvert permettant la création et la consommation d\'API RESTful interrogeables et interopérables de manière simple et standard. Connectez-vous avec {customBrandName} Designer et créez des rapports pour voir l\'histoire qui vit dans vos données.',
+            odbcInfo: 'Un pilote ODBC utilise l\'interface Open Database Connectivity (ODBC) de Microsoft qui permet aux applications d\'accéder aux données dans les systèmes de gestion de base de données (SGBD) en utilisant SQL comme standard pour accéder aux données.',
+            oledbInfo: 'OLE DB est l\'interface de programme d\'application (API) stratégique de bas niveau de Microsoft pour accéder à différentes sources de données. OLE DB inclut non seulement les capacités SQL (Structured Query Language) de l\'interface de données standard Open Database Connectivity (ODBC) sponsorisée par Microsoft, mais inclut également l\'accès à des données autres que les données SQL.',
+            oracleInfo: 'Oracle est une base de données relationnelle de niveau entreprise avec des fonctionnalités d\'analyse avancées. Le connecteur Oracle vous permet d\'accéder aux données des bases de données Oracle dans {customBrandName} Designer.',
+            psqlInfo: 'PostgreSQL est un système de base de données relationnelle objet puissant et open source mettant l\'accent sur l\'extensibilité et la conformité aux normes. Le connecteur PostgreSQL vous permet d\'accéder aux données des bases de données PostgreSQL dans {customBrandName} Designer.',
+            snowflakeInfo: 'Snowflake est un entrepôt de données basé sur le cloud qui fournit une plate-forme illimitée pour le stockage et la récupération de données. Contrairement aux architectures traditionnelles à disque partagé/sans partage à un seul cluster, Snowflake a une architecture de données partagée multi-cluster qui est dynamique et hautement évolutive grâce aux systèmes de stockage basés sur le cloud de classe entreprise.',
+            webAPIInfo: 'Connectez-vous avec {customBrandName} Designer en utilisant presque toutes les sources de données qui ont une API REST. Créez des rapports et voyez l\'histoire qui vit dans vos données.',
+            xmlInfo: 'Apportez vos fichiers XML dans {customBrandName} Designer et préparez des rapports pour voir l\'histoire qui vit dans vos données.'
         }
     },
     imageManager: {

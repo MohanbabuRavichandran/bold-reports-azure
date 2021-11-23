@@ -207,7 +207,7 @@
                                 </ul>
                             </div>
                         }
-                        <input type="button" class="primary-button app-btn-primary pull-right" id="add-custom-attribute" title="" value="[[[Add Attribute]]]" data-id="@userDetail.UserId" onclick="addCustomAttribute('user')">
+                        @*<input type="button" class="primary-button app-btn-primary pull-right" id="add-custom-attribute" title="" value="[[[Add Attribute]]]" data-id="@userDetail.UserId" onclick="addCustomAttribute('user')">*@
                          @if (isAdmin || permissions[PermissionEntity.UsersandGroups] && (permissions[PermissionEntity.AllPermissions] || permissions[PermissionEntity.SpecificPermissions]))
                          {
                         <a href="@Url.Action("userpermission", "permission")?userId=@userDetail.UserId" title="">
@@ -221,9 +221,9 @@
                         <li id="profile-tab" role="presentation" class='@isProfileTab'>
                             <a href="#user-profile-tab" id="user-profile" aria-controls="user-profile-tab" role="tab" data-toggle="tab">[[[Profile]]]</a>
                         </li>
-                        <li id="attribute-tab" role="presentation" class='@isAttributeTab'>
+                        @*<li id="attribute-tab" role="presentation" class='@isAttributeTab'>
                             <a href="#user-attribute-tab" id="user-attribute" aria-controls="user-attribute-tab" role="tab" data-toggle="tab">[[[Attributes]]]</a>
-                        </li>
+                        </li>*@
                     </ul>
                 </nav>
                 <div class="tab-content">
@@ -338,7 +338,7 @@
                                 <div id="azure-user-info" class="col-xs-12 no-padding">* [[[Profile editing is not currently supported for]]] Azure Active Directory, Office 365 [[[and]]] database [[[accounts.]]]</div>}
                         }
                     </div>
-                    <div id="user-attribute-tab" role="tabpanel" class="tab-pane @isAttributeTab">
+                    @*<div id="user-attribute-tab" role="tabpanel" class="tab-pane @isAttributeTab">
                         <div class="user-profile-section col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div id="UserAttributesGrid">
                             </div>
@@ -373,7 +373,7 @@
                             </div>
                             {{/if}}
                         </script>
-                    </div>
+                    </div>*@
                 </div>
             </div>
             <input type="hidden" id="image" value="" />

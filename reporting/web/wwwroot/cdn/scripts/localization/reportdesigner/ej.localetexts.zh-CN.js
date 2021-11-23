@@ -1764,7 +1764,10 @@ ej.ReportDesigner.Locale['zh-CN'] = {
             gcsqlLabel: '谷歌云 SQL',
             redshiftLabel: '亚马逊红移',
             amazonAuroraLabel: '亚马逊极光',
-            amazonRDSLabel: 'Amazon RDS'
+            amazonRDSLabel: 'Amazon RDS',
+            webapilabel: '网页接口',
+            postgresqllabel: 'PostgreSQL',
+            odatalabel: '数据'
         },
         datasourceConnection: {
             newConnection: '新的连接',
@@ -2128,6 +2131,28 @@ ej.ReportDesigner.Locale['zh-CN'] = {
             duplicateName: '指定的名称已存在于“数据源”列表中',
             invalidCharacterValidation: '名称不应包含空格和特殊字符',
             sharedPermissionValidation: '除共享數據源外，數據源的創建受到限制。'
+        },
+        descriptionText: {
+            amazonAuroraInfo: 'Amazon Aurora 是由 Amazon Web Services 开发和提供的关系数据库服务。 Amazon Aurora 连接器允许您在 {customBrandName} Designer 中访问来自 Amazon Aurora 数据库的数据。',
+            azureSqlInfo: 'Azure SQL 数据仓库是一种基于 Microsoft 云的企业数据仓库服务产品。 它利用大规模并行处理来快速运行 PB 级数据的复杂查询。 Azure SQL 数据仓库连接器允许你在 {customBrandName} 设计器中访问来自 Azure SQL 数据仓库数据库的数据。',
+            cdataInfo: 'CDATA 是一个分布式、高度可扩展的 SQL 数据库，可以在任何地方运行。它使用熟悉的关系数据结构为事务和分析工作负载提供最高性能。cdata 连接器允许您使用 {customBrandName} Designer 中的 MySQL 端点访问 cdata 数据库中的数据。',
+            csvInfo: '将您的 CSV 文件放入 {customBrandName} 设计器并准备报告以查看数据中的故事。',
+            excelInfo: '将您的 Excel 文件作为表格或工作表放入 {customBrandName} 设计器。 探索和使用您的数据，准备报告以查看数据中的故事。',
+            googleBigQueryInfo: 'BigQuery 是一种 RESTful Web 服务，可与 Google Storage 结合使用，对海量数据集进行交互式分析。它是一种无服务器软件即服务，可以与 MapReduce 互补使用。',
+            jsonInfo: '将您的 JSON 文件上传到 {customBrandName} 设计器中，以准备报告并查看数据中的故事。',
+            mariadbInfo: 'MariaDB 是 MySQL 关系数据库管理系统的一个社区开发的、商业支持的分支，保证保持开源。 MariaDB 连接器允许您在 {customBrandName} 设计器中访问来自 MariaDB 数据库的数据。',
+            memsqlInfo: 'MemSQL 是一种分布式、高度可扩展的 SQL 数据库，可以在任何地方运行。 它使用熟悉的关系数据结构为事务和分析工作负载提供最高性能。 MemSQL 连接器允许您在 {customBrandName} 设计器中访问 MemSQL 数据库中的数据。',
+            microsoftsqlInfo: 'SQL Server 是 Microsoft\ 的关系数据库管理系统。作为市场上最可靠和最值得信赖的数据库服务器之一，它在核心数据库管理之上提供各种增值服务，如分析、报告等 系统。SQL Server 连接器允许您在 {customBrandName} 设计器中访问来自 Microsoft SQL Server 数据库的数据。',
+            ssasInfo: 'SQL Server 分析服务 (SSAS) 是来自 Microsoft 商业智能堆栈的技术，用于开发在线分析处理 (OLAP) 解决方案。简单来说，您可以使用 SSAS 使用来自数据集市/数据仓库的数据创建多维数据集，以进行更深入、更快速的数据分析。',
+            mysqlInfo: 'MySQL 是一个免费提供的开源关系数据库管理系统，以其快速处理、久经考验的可靠性以及易用性和灵活性而著称。 MySQL 连接器允许您在 {customBrandName} 设计器中访问 MySQL 数据库中的数据。',
+            odataInfo: 'OData 是一种开放协议，允许以简单和标准的方式创建和使用可查询和可互操作的 RESTful API。 与 {customBrandName} Designer 连接并构建报告以查看数据中的故事。',
+            odbcInfo: 'ODBC 驱动程序使用 Microsoft 的开放式数据库连接 (ODBC) 接口，该接口允许应用程序使用 SQL 作为访问数据的标准来访问数据库管理系统 (DBMS) 中的数据。',
+            oledbInfo: 'OLE DB 是 Microsoft 用于访问不同数据源的战略性低级应用程序接口 (API)。 OLE DB 不仅包括 Microsoft 赞助的标准数据接口开放式数据库连接 (ODBC) 的结构化查询语言 (SQL) 功能，还包括对 SQL 数据以外的数据的访问。',
+            oracleInfo: 'Oracle 是具有高级分析功能的企业级关系数据库。 Oracle 连接器允许您在 {customBrandName} 设计器中访问来自 Oracle 数据库的数据。',
+            psqlInfo: 'PostgreSQL 是一个强大的开源对象关系数据库系统，强调可扩展性和标准合规性。 PostgreSQL 连接器允许您在 {customBrandName} 设计器中访问来自 PostgreSQL 数据库的数据。',
+            snowflakeInfo: 'Snowflake 是一个基于云的数据仓库，它为存储和检索数据提供了一个无限的平台。与传统的单集群共享磁盘/无共享架构不同，Snowflake 具有多集群、共享数据架构，由于企业级基于云的存储系统，该架构具有动态性和高度可扩展性。',
+            webAPIInfo: '使用几乎所有具有 REST API 的数据源与 {customBrandName} Designer 连接。创建报告并查看数据中的故事。',
+            xmlInfo: '将您的 XML 文件放入 {customBrandName} 设计器并准备报告以查看数据中的故事。'
         }
     },
     imageManager: {

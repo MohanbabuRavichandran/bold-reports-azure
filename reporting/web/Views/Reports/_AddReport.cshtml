@@ -89,16 +89,16 @@
                                         <option value="@Model[item].Id">@Model[item].Name</option>
                                     }
                                 </select>
+                                <span id="CategoryMessage" class="validation-messages hide">[[[Please select category]]]</span>
+                                @if (Model.Count == 0)
+                                {
+                                    <span id="emtpyCategoryList" class="validation-messages">* [[[Please create a category to group the report]]]</span>
+                                }
                                 @if (canCreateCategory)
                                 {
                                     <span class="input-group-btn no-padding" style="vertical-align: top" id="add-new-category">
                                         <button class="btn btn-default" type="button" title="[[[Add new Category]]]" data-toggle="tooltip"><span class="su-add"></span></button>
                                     </span>
-                                }
-                                <span id="CategoryMessage" class="ErrorMessage hide">[[[Please select category]]]</span>
-                                @if (Model.Count == 0)
-                                {
-                                    <span id="emtpyCategoryList" class="ErrorMessage">* [[[Please create a category to group the report]]]</span>
                                 }
                             </div>
                         </td>

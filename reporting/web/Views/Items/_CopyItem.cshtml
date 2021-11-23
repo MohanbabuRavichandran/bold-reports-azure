@@ -15,7 +15,7 @@
     var tenantItemUrl = "@Url.Action("getcategory", "items")";
     var tenantCopyItemUrl = "@Url.Action("tenantcopy","items")";
     var isSelfHosted = @Json.Serialize(ServerAppConfig.IsSelfHosted);
-    var addButton = '<span class="col-xs-1 input-group-btn no-padding" id="add-new-category"><button class="btn btn-default" style="padding:4px 10px;" type="button" title="[[[Add new Category]]]" data-toggle="tooltip"><span class="su-add" style="font-size:12px;"></span></button> </span>';
+    var addButton = '<span class="col-xs-1 input-group-btn no-padding" id="add-new-category"><button class="btn btn-default" style="padding:4px 10px;right:5px;" type="button" title="[[[Add new Category]]]" data-toggle="tooltip"><span class="su-add" style="font-size:12px;"></span></button> </span>';
     var isDatasetChanged = false;
     var siteIdentifier = @Json.Serialize(siteIdentifier);
 
@@ -268,7 +268,7 @@
             var tenants = @Html.Raw(Json.Serialize(ViewBag.Tenant));
             var tenantoption = "";
             for (var t = 0; t < tenants.length; t++) {
-                tenantoption += '<option value=' + tenants[t].TenantIdentifier + '>' + tenants[t].TenantIdentifier + '</option>';
+                tenantoption += "<option value='" + tenants[t].TenantName + "'>" + tenants[t].TenantName + "</option>";
             }
             $("#tenantList").html(tenantoption);
             $("#tenantList").val("@siteIdentifier");

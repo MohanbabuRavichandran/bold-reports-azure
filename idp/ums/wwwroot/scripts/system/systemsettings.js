@@ -47,6 +47,10 @@ $(document).ready(function () {
         if ($(this).attr("id") == "advanced-tab") {
             $("#default-tab").removeClass("active");
             $("#advanced-tab").addClass("active");
+            if (!isSiteCreation) {
+                $("#label_txt-dbname").html(window.TM.App.LocalizationContent.IDDatabaseName);
+                $("#label_database-name").html(window.TM.App.LocalizationContent.IDDatabaseName);
+            }
             $("#simple_tab_db_name").hide();
             $("#advanced_tab_db_name").show();
             if (getDropDownValue("database-type").toLowerCase() == "mysql" || !isBoldBI && isSiteCreation && isBoldReportsTenantType() || !isBoldBI && !isSiteCreation) {
@@ -69,6 +73,10 @@ $(document).ready(function () {
             $("#default-tab").addClass("active");
             $("#advanced-tab").removeClass("active");
             $("#simple_tab_db_name").show();
+            if (!isSiteCreation) {
+                $("#label_txt-dbname").html(window.TM.App.LocalizationContent.DatabaseName);
+                $("#label_database-name").html(window.TM.App.LocalizationContent.DatabaseName);
+            }
             $(".db-name-info").html(isBoldBI ? window.TM.App.LocalizationContent.DatabaseInfoBI : window.TM.App.LocalizationContent.DatabaseInfoReports);
             if (!isSiteCreation) {
                 $(".db-name-info").html(isBoldBI ? window.TM.App.LocalizationContent.DatabaseInfoBI3 : window.TM.App.LocalizationContentDatabaseInfoReports2);
@@ -415,7 +423,7 @@ function connectDatabase(element, actionType) {
     var isNewDatabase = true;
     window.serverName = $("#txt-servername").val();
     window.portNumber = $("#txt-portnumber").val();
-    window.maintenanceDb = $('#server-maintenance-db').val();
+    window.maintenanceDb = $('#maintenance-db').val();
     window.IsWindowsAuthentication = getRadioButtonValue("checkWindows") == "windows";
     window.login = $("#txt-login").val();
     window.password = $("#txt-password-db").val();
@@ -468,7 +476,7 @@ function getDatabaseFormValues() {
     var isNewDatabase = $("#new-db").is(":checked");
     var databaseName = $("#new-db").is(":checked") ? $("#txt-dbname").val() : $("#database-name").val();
     var serverType = getDropDownValue("database-type");
-    var maintenanceDb = $('#server-maintenance-db').val();
+    var maintenanceDb = $('#maintenance-db').val();
     var authenticationType = 0;
     var enableSSL = $("#secure-sql-connection").is(":checked");
     var additionalParameters = $("#additional-parameter").val();

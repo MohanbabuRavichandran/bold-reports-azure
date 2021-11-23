@@ -2124,8 +2124,13 @@ span.su-password-tick {
   max-width: none;
   white-space: normal; }
 
-#add-tenant-popup_wrapper .e-dialog-scroller {
-  border: 0px; }
+.e-dialog {
+  max-height: 100%; }
+
+#add-tenant-popup_wrapper {
+  top: 0 !important; }
+  #add-tenant-popup_wrapper .e-dialog-scroller {
+    border: 0px; }
 
 #add-tenant-popup {
   padding: 0;

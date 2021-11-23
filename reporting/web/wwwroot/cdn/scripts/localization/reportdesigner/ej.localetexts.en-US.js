@@ -1764,7 +1764,10 @@ ej.ReportDesigner.Locale['en-US'] = {
             gcsqlLabel: 'Google Cloud SQL',
             redshiftLabel: 'Amazon Redshift',
             amazonAuroraLabel: 'Amazon Aurora',
-            amazonRDSLabel: 'Amazon RDS'
+            amazonRDSLabel: 'Amazon RDS',
+            webapilabel: 'Web API',
+            postgresqllabel: 'PostgreSQL',
+            odatalabel: 'OData'
         },
         datasourceConnection: {
             newConnection: 'NEW CONNECTION',
@@ -2128,6 +2131,28 @@ ej.ReportDesigner.Locale['en-US'] = {
             duplicateName: 'The specified name already exists in the DataSource list',
             invalidCharacterValidation: 'Name should not contain spaces and special characters',
             sharedPermissionValidation: 'Data source creation has been restricted except for shared data source.'
+        },
+        descriptionText: {
+            amazonAuroraInfo: 'Amazon Aurora is a relational database service developed and offered by Amazon Web Services. The Amazon Aurora connector allows you to access data from Amazon Aurora databases within the {customBrandName} Designer.',
+            azureSqlInfo: 'Azure SQL Data Warehouse is a Microsoft cloud-based enterprise data warehouse service offering. It leverages massively parallel processing to quickly run complex queries across petabytes of data. The Azure SQL Data Warehouse connector allows you to access data from Azure SQL Data Warehouse databases within the {customBrandName} Designer.',
+            cdataInfo: 'CDATA is a distributed, highly-scalable SQL database that can run anywhere. It delivers maximum performance for transactional and analytical workloads with familiar relational data structures.The cdata connector allows you to access data from cdata databases with MySQL endpoint within the {customBrandName} Designer.',
+            csvInfo: 'Bring your CSV files into the {customBrandName} Designer and prepare reports to see the story that lives in your data.',
+            excelInfo: 'Bring your Excel files as Tables or Worksheets into the {customBrandName} Designer. Explore and play with your data, prepare reports to see the story that lives in your data.',
+            googleBigQueryInfo: 'BigQuery is a RESTful web service that enables interactive analysis of massive datasets working in conjunction with Google Storage. It is a serverless Software as a Service that may be used complementarily with MapReduce.',
+            jsonInfo: 'Bring your JSON files into the {customBrandName} Designer by uploading them to prepare reports and see the story that lives in your data.',
+            mariadbInfo: 'MariaDB is a community-developed, commercially supported fork of the MySQL relational database management system that is guaranteed to stay open-source. The MariaDB connector allows you to access data from MariaDB databases within the {customBrandName} Designer.',
+            memsqlInfo: 'MemSQL is a distributed, highly-scalable SQL database that can run anywhere. It delivers maximum performance for transactional and analytical workloads with familiar relational data structures. The MemSQL connector allows you to access data from MemSQL databases within the {customBrandName} Designer.',
+            microsoftsqlInfo: 'SQL Server is Microsoft\'s relational database management system.As one of the most reliable and trusted database servers on the market, it comes with an assortment of value-added services like analysis, reporting, and more on top of the core database management system.The SQL Server connector allows you to access data from Microsoft SQL server databases within the {customBrandName} Designer.',
+            ssasInfo: 'SQL Server Analysis Services (SSAS) is the technology from the Microsoft Business Intelligence stack, to develop Online Analytical Processing (OLAP) solutions. In simple terms, you can use SSAS to create cubes using data from data marts / data warehouse for deeper and faster data analysis.',
+            mysqlInfo: 'MySQL is a freely available, open-source relational database management system, most noted for its quick processing, proven reliability, and ease and flexibility of use. The MySQL connector allows you to access data from MySQL databases within the {customBrandName} Designer.',
+            odataInfo: 'OData is an open protocol to allow the creation and consumption of queryable and interoperable RESTful APIs in a simple and standard way. Connect with the {customBrandName} Designer and build reports to see the story that lives in your data.',
+            odbcInfo: 'An ODBC driver uses the Open Database Connectivity (ODBC) interface by Microsoft that allows applications to access data in database management systems (DBMS) using SQL as a standard for accessing the data.',
+            oledbInfo: 'OLE DB is Microsoft\'s strategic low-level application program interface (API) for access to different data sources. OLE DB includes not only the Structured Query Language (SQL) capabilities of the Microsoft-sponsored standard data interface Open Database Connectivity (ODBC) but also includes access to data other than SQL data.',
+            oracleInfo: 'Oracle is an enterprise-grade relational database with advanced analytics features. The Oracle connector allows you to access data from Oracle databases within the {customBrandName} Designer.',
+            psqlInfo: 'PostgreSQL is a powerful and open-source object-relational database system emphasizing extensibility and standards compliance. The PostgreSQL connector allows you to access data from PostgreSQL databases within the {customBrandName} Designer.',
+            snowflakeInfo: 'Snowflake is a cloud-based data warehouse that provides an unbounded platform for storing and retrieving data. Unlike traditional single-cluster shared-disk/shared-nothing architectures, Snowflake has as a multi-cluster, shared data architecture that is dynamic and highly scalable thanks to enterprise class cloud-based storage systems.',
+            webAPIInfo: 'Connect with the {customBrandName} Designer using almost all data sources that have a REST API. Create reports and see the story that lives in your data.',
+            xmlInfo: 'Bring your XML files into the {customBrandName} Designer and prepare reports to see the story that lives in your data.'
         }
     },
     imageManager: {

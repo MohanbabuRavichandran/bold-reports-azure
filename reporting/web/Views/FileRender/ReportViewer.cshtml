@@ -389,6 +389,7 @@
     var reportItemDetail = @Html.Raw(Json.Serialize(itemDetail));
     var isAdmin = "@isAdmin";
     var ItemType = "@ViewBag.ItemType";
+    var customFontsName = [];
 
         function renderComments() {
             var src = $("#commentModuleContainer iframe").attr("src");
@@ -557,6 +558,7 @@
 
             ReportViewer();
             reportviewerObj = $("#sync_report_viewer").data("boldReportViewer");
+            loadCustomFonts();
         });
 
     var token = "@ViewBag.AccessToken";
@@ -625,6 +627,7 @@
                         renderingComplete: 'filterView',
                         parameters: filterParameters,
                         locale: '@language',
+                        fontNames: customFontsName,
 					    parameterSettings: {
                                labelWidth: 'auto'
                         },
@@ -686,6 +689,7 @@
                         viewReportClick: "ViewReportClick",
                         renderingComplete: 'filterView',
                         locale: '@language',
+                        fontNames: customFontsName,
                         parameters: parameter,
 						 parameterSettings: {
                                labelWidth: 'auto'
@@ -742,5 +746,55 @@
             }
             return parameter;
     }
+
+    function loadCustomFonts() {
+            @if (ServerAppConfig.CustomFont != null && ServerAppConfig.CustomFont.Count > 0)
+            {
+                foreach (var font in ServerAppConfig.CustomFont)
+                {
+                    @:customFontsName.push("@font.Key");
+                    @:addCustomFonts("@font.Key", "@font.Value");
+                }
+            }
+    }
+
+        function isFontFaceExist() {
+            try {
+                return FontFace ? true : false;
+            } catch (error) {
+                return false;
+            }
+        }
+
+    function addCustomFonts(fontFamily, fontFile) {
+        var customFontUrl = baseUrl + "/content/custom-fonts/" + fontFile;
+            if (isFontFaceExist()) {
+                try {
+                    const customFont = new FontFace(fontFamily, 'url(' + customFontUrl + ')');
+                    customFont.load().then(function (loadedFont) {
+                        document.fonts.add(loadedFont);
+                    }).catch(function (error) {
+                        console.log('Failed to load font: ' + fontFamily + '; Error: ' + error);
+                    });
+                } catch (error) {
+                    console.log('Failed to load font: ' + fontFamily + '; Error: ' + error);
+                }
+            } else {
+                //Classic Approach Common for all browsers to load fonts
+                try {
+                    const style = document.createElement('style');
+                    style.innerHTML = '@@font-face { font-family:' + fontFamily + '; src: url(' + customFontUrl + ');}';
+                    document.head.appendChild(style);
+
+                    var link = document.createElement('link');
+                    link.setAttribute('rel', 'stylesheet');
+                    link.setAttribute('type', 'text/css');
+                    link.setAttribute('href', customFontUrl + fontFile);
+                    document.head.appendChild(link);
+                } catch (error) {
+                    console.log('Failed to register stylesheet for the font: ' + fontFamily + '; Error: ' + error);
+                }
+            }
+        }
 
 </script>

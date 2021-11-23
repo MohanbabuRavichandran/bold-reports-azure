@@ -86,22 +86,22 @@
                     </div>
                 }
             }
-            <div class="page-indent text">
-                @if (parameter.Values == null || !parameter.Values.Any())
-                {
-                    @Html.CheckBox(@parameter.Name + "-use-default", isParameterHidden, new { @class = "material-checkbox use-default", @dataAttrId = @parameter.Name, @dataAttrType = @parameter.ElementType, @id = @parameter.Name + "-use-default", disabled = "true" })
-                    @Html.Label(@parameter.Name + "-use-default", "[[[Use Default]]]", new { @class = "normal-font" })
-                    <div class="parameter-tool-tip">
-                        <span class="dropdown-toggle" data-toggle="dropdown"><span class="su su-info" title=""></span></span>
-                        <div class="dropdown-menu" id="parameter" role="menu">[[[There is no default value configured for this parameter.]]]</div>
-                    </div>
-                }
-                else
-                {
-                    @Html.CheckBox(@parameter.Name + "-use-default", isParameterHidden, new { @class = "material-checkbox use-default", @dataAttrId = @parameter.Name, @dataAttrType = @parameter.ElementType, @id = @parameter.Name + "-use-default" })
-                    @Html.Label(@parameter.Name + "-use-default", "[[[Use Default]]]", new { @class = "normal-font" })
-                }
-            </div>
+        <div class="page-indent text">
+            @if (parameter.Values == null || !parameter.Values.Any())
+            {
+                @Html.CheckBox(@parameter.Name + "-use-default", isParameterHidden, new { @class = "material-checkbox use-default", @dataAttrId = @parameter.Name, @dataAttrType = @parameter.ElementType, @id = @parameter.Name + "-use-default", disabled = "true" })
+                @Html.Label(@parameter.Name + "-use-default", "[[[Use Default]]]", new { @class = "normal-font" })
+                <div class="parameter-tool-tip">
+                    <span class="dropdown-toggle" data-toggle="dropdown"><span class="su su-info" title=""></span></span>
+                    <div class="dropdown-menu" id="parameter" role="menu">[[[There is no default value configured for this parameter.]]]</div>
+                </div>
+            }
+            else
+            {
+                @Html.CheckBox(@parameter.Name + "-use-default", isParameterHidden, new { @class = "material-checkbox use-default", @dataAttrId = @parameter.Name, @dataAttrType = @parameter.ElementType, @id = @parameter.Name + "-use-default" })
+                @Html.Label(@parameter.Name + "-use-default", "[[[Use Default]]]", new { @class = "normal-font" })
+            }
+        </div>
             <div class="col-sm-4 col-xs-4 no-padding validate-error" id="@parameter.Name-error-container">
                 <div id="@parameter.Name-parameter-validator"></div>
             </div>

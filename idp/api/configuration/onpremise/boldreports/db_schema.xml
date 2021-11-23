@@ -132,6 +132,7 @@
     <ToCategoryId>ToCategoryId</ToCategoryId>
     <UpdatedUserId>UpdatedUserId</UpdatedUserId>
     <SourceTypeId>SourceTypeId</SourceTypeId>
+    <AdditionalLogInfo>AdditionalLogInfo</AdditionalLogInfo>
     <ModifiedDate>ModifiedDate</ModifiedDate>
     <IsActive>IsActive</IsActive>
   </DB_ItemLog>
@@ -295,6 +296,7 @@
     <ModifiedDate>ModifiedDate</ModifiedDate>
     <IsOnDemand>IsOnDemand</IsOnDemand>
     <IsActive>IsActive</IsActive>
+    <Message>Message</Message>
   </DB_ScheduleLog>
   <DB_ScheduleLogGroup>
     <DB_TableName>ScheduleLogGroup</DB_TableName>

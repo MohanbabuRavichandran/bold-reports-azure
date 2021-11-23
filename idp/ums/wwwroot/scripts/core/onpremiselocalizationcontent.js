@@ -153,10 +153,10 @@
             DatabaseInfoBI2: "[[[This is where we store the BI tenants, dashboard resources, and data store configuration.]]]",
             DatabaseInfoReports: "[[[This is where we store your Enterprise Reporting resources, users, and their access permissions.]]]",
             DatabaseInfoReports2: "[[[This is where we store the Enterprise Reporting tenants, report resources, users, and their resource access permissions.]]]",
-            SimpleTabStartupMsg: "[[[Configure a single database for UMS, site metadata, and the data store. By default, sites will be deployed in the local file system.]]]",
-            SimpleTabSiteCreationMsg: "[[[Configure single database for site metadata and data store.]]]",
-            AdvanceTabStartupMsg: "[[[Configure individual databases and choose between the local file system and Azure Blob Storage for UMS, site metadata, and the data store.]]]",
-            AdvanceTabSiteCreationMsg: "[[[Configure individual databases for site metadata and data store.]]]",
+            SimpleTabStartupMsg: "[[[Configure a single database for UMS, site metadata, and the data store. By default, sites will be deployed in the local file system. Recommended for evaluation environments.]]]",
+            SimpleTabSiteCreationMsg: "[[[Configure a single database for site metadata and data store. Recommended for evaluation environments.]]]",
+            AdvanceTabStartupMsg: "[[[Configure individual databases and choose between the local file system and Azure Blob Storage for UMS, site metadata, and the data store. Recommended for production environments.]]]",
+            AdvanceTabSiteCreationMsg: "[[[Configure individual databases for site metadata and data store. Recommended for production environments.]]]",
             EndPoint: "[[[Please enter blob service endpoint]]]",
             AccessKey: "[[[Please enter access key]]]",
             ContainerName: "[[[Please enter container name]]]",
@@ -199,6 +199,8 @@
             DataConnectorsSaveOffline: "[[[data connectors and save it offline to access your dashboard quickly.]]]",
             DatabaseMsg: "[[[This is where we store your dashboards, users, and their access permissions.]]]",
             DatabaseReportsMsg: "[[[This is where we store your reports, users, and their access permissions.]]]",
+            DatabaseName: "[[[Database name]]]",
+            IDDatabaseName: "[[[ID database name]]]",
 
             //AddTenant.js
             BoldReportsMultiTenancy: "[[[Using a multitenant solution, you can host multiple Enterprise Reporting sites on a single instance by isolating the database and resources for each site.]]]",

@@ -22,7 +22,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Syncfusion.TenantManagement.Core/3.3.10": {
+      "Syncfusion.TenantManagement.Core/3.3.18": {
         "dependencies": {
           "Azure.Extensions.AspNetCore.DataProtection.Blobs": "1.2.0",
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": "3.1.7",
@@ -34,18 +34,18 @@
           "Npgsql": "4.1.5",
           "SecurityCodeScan": "3.5.3",
           "StyleCop.Analyzers": "1.1.118",
-          "Syncfusion.EmailSender.Base.Core": "3.3.10",
-          "Syncfusion.Server.Base.BoldService.Core": "3.3.10",
-          "Syncfusion.Server.Base.Core": "3.3.10",
-          "Syncfusion.Server.Base.Data.Core": "3.3.10",
-          "Syncfusion.Server.Base.DataClasses.Core": "3.3.10",
-          "Syncfusion.Server.Base.LicenseManagement.Core": "3.3.10",
-          "Syncfusion.Server.Base.Middlewares": "3.3.10",
-          "Syncfusion.Server.Base.Resources.Storage.Core": "3.3.10",
-          "Syncfusion.Server.Base.Stripe.Core": "3.3.10",
-          "Syncfusion.Server.Base.Support.Core": "3.3.10",
-          "Syncfusion.Server.Base.TemplateGenerator": "3.3.10",
-          "Syncfusion.Server.Base.TenantManagement.Client.Core": "3.3.10",
+          "Syncfusion.EmailSender.Base.Core": "3.3.18",
+          "Syncfusion.Server.Base.BoldService.Core": "3.3.18",
+          "Syncfusion.Server.Base.Core": "3.3.18",
+          "Syncfusion.Server.Base.Data.Core": "3.3.18",
+          "Syncfusion.Server.Base.DataClasses.Core": "3.3.18",
+          "Syncfusion.Server.Base.LicenseManagement.Core": "3.3.18",
+          "Syncfusion.Server.Base.Middlewares": "3.3.18",
+          "Syncfusion.Server.Base.Resources.Storage.Core": "3.3.18",
+          "Syncfusion.Server.Base.Stripe.Core": "3.3.18",
+          "Syncfusion.Server.Base.Support.Core": "3.3.18",
+          "Syncfusion.Server.Base.TemplateGenerator": "3.3.18",
+          "Syncfusion.Server.Base.TenantManagement.Client.Core": "3.3.18",
           "TimeZoneConverter": "3.3.0",
           "i18n.Core": "1.0.16",
           "i18n.Core.Abstractions": "1.0.16",
@@ -3497,7 +3497,7 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
-      "Syncfusion.Azure.SDK.Base.Core/3.3.10": {
+      "Syncfusion.Azure.SDK.Base.Core/3.3.18": {
         "dependencies": {
           "Azure.Storage.Blobs": "12.6.0",
           "Microsoft.Azure.KeyVault.Core": "2.0.4",
@@ -3510,10 +3510,10 @@
           "Syncfusion.Azure.SDK.Base.Core.dll": {}
         }
       },
-      "Syncfusion.EmailSender.Base.Core/3.3.10": {
+      "Syncfusion.EmailSender.Base.Core/3.3.18": {
         "dependencies": {
           "AWSSDK.SimpleEmail": "3.3.101.178",
-          "Syncfusion.Server.Base.DataClasses.Core": "3.3.10",
+          "Syncfusion.Server.Base.DataClasses.Core": "3.3.18",
           "System.Configuration.ConfigurationManager": "4.7.0"
         },
         "runtime": {
@@ -3523,10 +3523,10 @@
           "Syncfusion.EmailSender.Base.Core.dll": {}
         }
       },
-      "Syncfusion.Server.Base.ActiveDirectory.Core/3.3.10": {
+      "Syncfusion.Server.Base.ActiveDirectory.Core/3.3.18": {
         "dependencies": {
           "Microsoft.IdentityModel.Clients.ActiveDirectory": "5.2.7",
-          "Syncfusion.Server.Base.Logger": "3.3.10",
+          "Syncfusion.Server.Base.Logger": "3.3.18",
           "System.DirectoryServices.Protocols": "4.7.0",
           "log4net": "2.0.8"
         },
@@ -3537,10 +3537,10 @@
           "Syncfusion.Server.Base.ActiveDirectory.Core.dll": {}
         }
       },
-      "Syncfusion.Server.Base.BoldService.Core/3.3.10": {
+      "Syncfusion.Server.Base.BoldService.Core/3.3.18": {
         "dependencies": {
           "Microsoft.AspNetCore.Hosting": "2.2.7",
-          "Syncfusion.Server.Base.DataClasses.Core": "3.3.10",
+          "Syncfusion.Server.Base.DataClasses.Core": "3.3.18",
           "log4net": "2.0.8"
         },
         "runtime": {
@@ -3550,11 +3550,11 @@
           "Syncfusion.Server.Base.BoldService.Core.dll": {}
         }
       },
-      "Syncfusion.Server.Base.BoldSign.Core/3.3.10": {
+      "Syncfusion.Server.Base.BoldSign.Core/3.3.18": {
         "dependencies": {
           "MySqlConnector": "1.2.1",
-          "Syncfusion.Server.Base.DataClasses.Core": "3.3.10",
-          "Syncfusion.Server.Base.Logger": "3.3.10",
+          "Syncfusion.Server.Base.DataClasses.Core": "3.3.18",
+          "Syncfusion.Server.Base.Logger": "3.3.18",
           "log4net": "2.0.8"
         },
         "runtime": {
@@ -3564,7 +3564,7 @@
           "Syncfusion.Server.Base.BoldSign.Core.dll": {}
         }
       },
-      "Syncfusion.Server.Base.Core/3.3.10": {
+      "Syncfusion.Server.Base.Core/3.3.18": {
         "dependencies": {
           "Azure.Storage.Blobs": "12.6.0",
           "Microsoft.AspNetCore.Authentication": "2.2.0",
@@ -3581,20 +3581,20 @@
           "MySqlConnector": "1.2.1",
           "Newtonsoft.Json": "12.0.3",
           "Npgsql": "4.1.5",
-          "Syncfusion.Azure.SDK.Base.Core": "3.3.10",
+          "Syncfusion.Azure.SDK.Base.Core": "3.3.18",
           "Syncfusion.Bold.Core": "2.4.19",
-          "Syncfusion.EmailSender.Base.Core": "3.3.10",
-          "Syncfusion.Server.Base.ActiveDirectory.Core": "3.3.10",
-          "Syncfusion.Server.Base.BoldService.Core": "3.3.10",
-          "Syncfusion.Server.Base.BoldSign.Core": "3.3.10",
-          "Syncfusion.Server.Base.Data.Core": "3.3.10",
-          "Syncfusion.Server.Base.DataClasses.Core": "3.3.10",
-          "Syncfusion.Server.Base.Encryption": "3.3.10",
-          "Syncfusion.Server.Base.Logger": "3.3.10",
-          "Syncfusion.Server.Base.Resources.Storage.Core": "3.3.10",
-          "Syncfusion.Server.Base.Stripe.Core": "3.3.10",
-          "Syncfusion.Server.Base.Support.Core": "3.3.10",
-          "Syncfusion.Server.Base.TemplateGenerator": "3.3.10",
+          "Syncfusion.EmailSender.Base.Core": "3.3.18",
+          "Syncfusion.Server.Base.ActiveDirectory.Core": "3.3.18",
+          "Syncfusion.Server.Base.BoldService.Core": "3.3.18",
+          "Syncfusion.Server.Base.BoldSign.Core": "3.3.18",
+          "Syncfusion.Server.Base.Data.Core": "3.3.18",
+          "Syncfusion.Server.Base.DataClasses.Core": "3.3.18",
+          "Syncfusion.Server.Base.Encryption": "3.3.18",
+          "Syncfusion.Server.Base.Logger": "3.3.18",
+          "Syncfusion.Server.Base.Resources.Storage.Core": "3.3.18",
+          "Syncfusion.Server.Base.Stripe.Core": "3.3.18",
+          "Syncfusion.Server.Base.Support.Core": "3.3.18",
+          "Syncfusion.Server.Base.TemplateGenerator": "3.3.18",
           "System.CodeDom": "4.7.0",
           "System.DirectoryServices.AccountManagement": "4.7.0",
           "System.Drawing.Common": "4.7.0",
@@ -3609,13 +3609,13 @@
           "Syncfusion.Server.Base.Core.dll": {}
         }
       },
-      "Syncfusion.Server.Base.Data.Core/3.3.10": {
+      "Syncfusion.Server.Base.Data.Core/3.3.18": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.1.0",
           "Microsoft.Win32.Registry": "4.7.0",
           "MySqlConnector": "1.2.1",
           "Npgsql": "4.1.5",
-          "Syncfusion.Server.Base.DataClasses.Core": "3.3.10",
+          "Syncfusion.Server.Base.DataClasses.Core": "3.3.18",
           "System.Data.Odbc": "4.7.0",
           "System.Data.SqlClient": "4.8.1",
           "log4net": "2.0.8"
@@ -3627,15 +3627,15 @@
           "Syncfusion.Server.Base.Data.Core.dll": {}
         }
       },
-      "Syncfusion.Server.Base.DataClasses.Core/3.3.10": {
+      "Syncfusion.Server.Base.DataClasses.Core/3.3.18": {
         "dependencies": {
           "Microsoft.AspNetCore.Http": "2.2.2",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.6",
           "Newtonsoft.Json": "12.0.3",
-          "Syncfusion.Server.Base.ActiveDirectory.Core": "3.3.10",
-          "Syncfusion.Server.Base.Encryption": "3.3.10",
-          "Syncfusion.Server.Base.Logger": "3.3.10",
+          "Syncfusion.Server.Base.ActiveDirectory.Core": "3.3.18",
+          "Syncfusion.Server.Base.Encryption": "3.3.18",
+          "Syncfusion.Server.Base.Logger": "3.3.18",
           "System.Configuration.ConfigurationManager": "4.7.0",
           "log4net": "2.0.8"
         },
@@ -3646,9 +3646,9 @@
           "Syncfusion.Server.Base.DataClasses.Core.dll": {}
         }
       },
-      "Syncfusion.Server.Base.Encryption/3.3.10": {
+      "Syncfusion.Server.Base.Encryption/3.3.18": {
         "dependencies": {
-          "Syncfusion.Server.Base.Logger": "3.3.10"
+          "Syncfusion.Server.Base.Logger": "3.3.18"
         },
         "runtime": {
           "Syncfusion.Server.Base.Encryption.dll": {}
@@ -3657,14 +3657,14 @@
           "Syncfusion.Server.Base.Encryption.dll": {}
         }
       },
-      "Syncfusion.Server.Base.LicenseManagement.Core/3.3.10": {
+      "Syncfusion.Server.Base.LicenseManagement.Core/3.3.18": {
         "dependencies": {
           "Microsoft.Win32.Registry": "4.7.0",
           "Newtonsoft.Json": "12.0.3",
           "Syncfusion.Bold.Core": "2.4.19",
-          "Syncfusion.Server.Base.Core": "3.3.10",
-          "Syncfusion.Server.Base.DataClasses.Core": "3.3.10",
-          "Syncfusion.Server.Base.Encryption": "3.3.10"
+          "Syncfusion.Server.Base.Core": "3.3.18",
+          "Syncfusion.Server.Base.DataClasses.Core": "3.3.18",
+          "Syncfusion.Server.Base.Encryption": "3.3.18"
         },
         "runtime": {
           "Syncfusion.Server.Base.LicenseManagement.Core.dll": {}
@@ -3673,7 +3673,7 @@
           "Syncfusion.Server.Base.LicenseManagement.Core.dll": {}
         }
       },
-      "Syncfusion.Server.Base.Logger/3.3.10": {
+      "Syncfusion.Server.Base.Logger/3.3.18": {
         "dependencies": {
           "System.Configuration.ConfigurationManager": "4.7.0",
           "log4net": "2.0.8"
@@ -3685,9 +3685,9 @@
           "Syncfusion.Server.Base.Logger.dll": {}
         }
       },
-      "Syncfusion.Server.Base.Middlewares/3.3.10": {
+      "Syncfusion.Server.Base.Middlewares/3.3.18": {
         "dependencies": {
-          "Syncfusion.Server.Base.Core": "3.3.10",
+          "Syncfusion.Server.Base.Core": "3.3.18",
           "i18n.Core.Abstractions": "1.0.16"
         },
         "runtime": {
@@ -3697,12 +3697,12 @@
           "Syncfusion.Server.Base.Middlewares.dll": {}
         }
       },
-      "Syncfusion.Server.Base.Resources.Storage.Core/3.3.10": {
+      "Syncfusion.Server.Base.Resources.Storage.Core/3.3.18": {
         "dependencies": {
           "Azure.Storage.Blobs": "12.6.0",
           "Microsoft.Azure.Storage.Blob": "11.2.3",
-          "Syncfusion.Server.Base.DataClasses.Core": "3.3.10",
-          "Syncfusion.Server.Base.Logger": "3.3.10",
+          "Syncfusion.Server.Base.DataClasses.Core": "3.3.18",
+          "Syncfusion.Server.Base.Logger": "3.3.18",
           "log4net": "2.0.8"
         },
         "runtime": {
@@ -3712,10 +3712,10 @@
           "Syncfusion.Server.Base.Resources.Storage.Core.dll": {}
         }
       },
-      "Syncfusion.Server.Base.Stripe.Core/3.3.10": {
+      "Syncfusion.Server.Base.Stripe.Core/3.3.18": {
         "dependencies": {
           "Stripe.net": "37.11.0",
-          "Syncfusion.Server.Base.Logger": "3.3.10",
+          "Syncfusion.Server.Base.Logger": "3.3.18",
           "log4net": "2.0.8"
         },
         "runtime": {
@@ -3725,14 +3725,14 @@
           "Syncfusion.Server.Base.Stripe.Core.dll": {}
         }
       },
-      "Syncfusion.Server.Base.Support.Core/3.3.10": {
+      "Syncfusion.Server.Base.Support.Core/3.3.18": {
         "dependencies": {
           "Microsoft.AspNetCore.Http": "2.2.2",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.6",
           "Newtonsoft.Json": "12.0.3",
-          "Syncfusion.Server.Base.DataClasses.Core": "3.3.10",
-          "Syncfusion.Server.Base.Logger": "3.3.10",
+          "Syncfusion.Server.Base.DataClasses.Core": "3.3.18",
+          "Syncfusion.Server.Base.Logger": "3.3.18",
           "log4net": "2.0.8"
         },
         "runtime": {
@@ -3742,9 +3742,9 @@
           "Syncfusion.Server.Base.Support.Core.dll": {}
         }
       },
-      "Syncfusion.Server.Base.TemplateGenerator/3.3.10": {
+      "Syncfusion.Server.Base.TemplateGenerator/3.3.18": {
         "dependencies": {
-          "Syncfusion.Server.Base.DataClasses.Core": "3.3.10"
+          "Syncfusion.Server.Base.DataClasses.Core": "3.3.18"
         },
         "runtime": {
           "Syncfusion.Server.Base.TemplateGenerator.dll": {}
@@ -3753,10 +3753,10 @@
           "Syncfusion.Server.Base.TemplateGenerator.dll": {}
         }
       },
-      "Syncfusion.Server.Base.TenantManagement.Client.Core/3.3.10": {
+      "Syncfusion.Server.Base.TenantManagement.Client.Core/3.3.18": {
         "dependencies": {
-          "Syncfusion.Server.Base.Core": "3.3.10",
-          "Syncfusion.Server.Base.DataClasses.Core": "3.3.10",
+          "Syncfusion.Server.Base.Core": "3.3.18",
+          "Syncfusion.Server.Base.DataClasses.Core": "3.3.18",
           "log4net": "2.0.8"
         },
         "runtime": {
@@ -5233,7 +5233,7 @@
     }
   },
   "libraries": {
-    "Syncfusion.TenantManagement.Core/3.3.10": {
+    "Syncfusion.TenantManagement.Core/3.3.18": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -7121,87 +7121,87 @@
       "path": "windowsazure.storage/9.3.3",
       "hashPath": "windowsazure.storage.9.3.3.nupkg.sha512"
     },
-    "Syncfusion.Azure.SDK.Base.Core/3.3.10": {
+    "Syncfusion.Azure.SDK.Base.Core/3.3.18": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.EmailSender.Base.Core/3.3.10": {
+    "Syncfusion.EmailSender.Base.Core/3.3.18": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.ActiveDirectory.Core/3.3.10": {
+    "Syncfusion.Server.Base.ActiveDirectory.Core/3.3.18": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.BoldService.Core/3.3.10": {
+    "Syncfusion.Server.Base.BoldService.Core/3.3.18": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.BoldSign.Core/3.3.10": {
+    "Syncfusion.Server.Base.BoldSign.Core/3.3.18": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.Core/3.3.10": {
+    "Syncfusion.Server.Base.Core/3.3.18": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.Data.Core/3.3.10": {
+    "Syncfusion.Server.Base.Data.Core/3.3.18": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.DataClasses.Core/3.3.10": {
+    "Syncfusion.Server.Base.DataClasses.Core/3.3.18": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.Encryption/3.3.10": {
+    "Syncfusion.Server.Base.Encryption/3.3.18": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.LicenseManagement.Core/3.3.10": {
+    "Syncfusion.Server.Base.LicenseManagement.Core/3.3.18": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.Logger/3.3.10": {
+    "Syncfusion.Server.Base.Logger/3.3.18": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.Middlewares/3.3.10": {
+    "Syncfusion.Server.Base.Middlewares/3.3.18": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.Resources.Storage.Core/3.3.10": {
+    "Syncfusion.Server.Base.Resources.Storage.Core/3.3.18": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.Stripe.Core/3.3.10": {
+    "Syncfusion.Server.Base.Stripe.Core/3.3.18": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.Support.Core/3.3.10": {
+    "Syncfusion.Server.Base.Support.Core/3.3.18": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.TemplateGenerator/3.3.10": {
+    "Syncfusion.Server.Base.TemplateGenerator/3.3.18": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.TenantManagement.Client.Core/3.3.10": {
+    "Syncfusion.Server.Base.TenantManagement.Client.Core/3.3.18": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -49,7 +49,7 @@
                 </div>
                 <div class="second-radio-align radio-padding col-xs-6">
                     <input type="radio" id="check-windows" class="radio-button" name="checkWindows" />
-                    <div class="info-content radio-info">[[[Please refer to]]] <a target="_blank" href="@HelpSiteManager.GetHelpSiteUrl(HelpSiteUrlNames.WindowsAuthentication)">[[[this]]]</a> [[[documentation to configure]]] @GlobalAppSettings.BrandingDisplayName [[[with Windows Authentication.]]]</div>
+                    <div class="info-content radio-info">[[[Please refer to]]] <a target="_blank" href="@HelpSiteManager.GetHelpSiteUrl(HelpSiteUrlNames.WindowsAuthentication)">[[[this]]]</a> [[[documentation to configure]]] @helpLinkData [[[with Windows Authentication.]]]</div>
 
                 </div>
             </div>
@@ -86,7 +86,7 @@
                 </div>
                 <div class="existing-db col-xs-6 radio-padding">
                     <input type="radio" id="existing-db" class="radio-button" name="databaseType" />
-                    <div class="info-content radio-info">[[[Database name is not case-sensitive in Windows but is case-sensitive in most varieties of Unix operating systems.]]]</div>
+                    <div class="info-content radio-info">[[[Use existing database to deploy the site.]]]</div>
                 </div>
             </div>
             @await Html.PartialAsync("~/Views/ServerConfiguration/_DatabaseName.cshtml")

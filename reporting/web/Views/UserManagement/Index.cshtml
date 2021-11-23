@@ -296,6 +296,24 @@
                                         <span>[[[Import from Database]]]</span>
                                     </a>
                                 </li>
+                                @*@if (ViewBag.OAuthdIdentityProviderInfo != null && ViewBag.OAuthdIdentityProviderInfo.IsIdentityProviderInfoOptionEnabled)
+                                {
+                                    <li>
+                                        <a class="dropdown-toggle" href="@ViewBag.OAuthdIdentityProviderInfo.IdentityProviderURL" title="[[[@ViewBag.OAuthdIdentityProviderInfo.IdentityProviderName]]]" target="_blank" data-toggle="tooltip" data-placement="top">
+                                            <i class="su su-oauth path1"><span class="su su-oauth path1"></span><span class="su su-oauth path2"></span><span class="su su-oauth path3"></span></i>
+                                            <span>[[[@ViewBag.OAuthdIdentityProviderInfo.IdentityProviderName]]]</span>
+                                        </a>
+                                    </li>
+                                }
+                                @if (ViewBag.OpendIdentityProviderInfo != null && ViewBag.OpendIdentityProviderInfo.IsIdentityProviderInfoOptionEnabled)
+                                {
+                                    <li>
+                                        <a class="dropdown-toggle" href="@ViewBag.OpendIdentityProviderInfo.IdentityProviderURL" title="[[[@ViewBag.OpendIdentityProviderInfo.IdentityProviderName]]]" target="_blank" data-toggle="tooltip" data-placement="top">
+                                            <i class="su su-openid"></i>
+                                            <span>[[[@ViewBag.OpendIdentityProviderInfo.IdentityProviderName]]]</span>
+                                        </a>
+                                    </li>
+                                }*@
                             </ul>
                         }
                     </li>

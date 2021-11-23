@@ -1827,6 +1827,7 @@
       "wwwroot/Scripts/jQuery/jquery.validate.min.js",
       "wwwroot/Scripts/Bootstrap/bootstrap.min.js",
       "wwwroot/Scripts/Bootstrap/bootstrap-select.min.js",
+      "wwwroot/Scripts/Editor/easymde.min.js",
       "wwwroot/Scripts/Administration/SystemSettings.js",
       "wwwroot/Scripts/Password/ShowHidePassword.js",
       "wwwroot/Scripts/User/UserImportDatabase.js"
@@ -2188,7 +2189,8 @@
       "wwwroot/Styles/Bootstrap/bootstrap.min.css",
       "wwwroot/Styles/Fonts/font-Server.css",
       "wwwroot/Styles/scss/pages/NewMaster.css",
-      "wwwroot/Styles/scss/pages/GroupManagement.css"
+      "wwwroot/Styles/scss/pages/GroupManagement.css",
+      "wwwroot/Styles/scss/pages/Components/Buttons.css"
     ]
   },
   {

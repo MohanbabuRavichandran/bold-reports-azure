@@ -36,6 +36,7 @@
     var datasetPermissions = ViewBag.DatasetPermission;
     var oraganisationName = globalAppSettings.SystemSettings.OrganizationName;
     var reportServerResourceUrl = globalAppSettings.SystemSettings.CDNLink.TrimEnd('/');
+    var dataConnectors = @Json.Serialize(ViewBag.DataConnectors);
     var isHideHelpLink = @Json.Serialize(ServerAppConfig.IsHideHelpLink);
     var customHelpLinkDomain = "@(ServerAppConfig.AllowCustomHelpLink ? ServerAppConfig.AppSettings.Documentation.BaseUri : string.Empty)";
     var custombrandName = "@ServerAppConfig.CustomBrandName";
@@ -182,13 +183,6 @@
     <style>
         body {
             background-color: transparent;
-        }
-
-        .data-loading-icon .e-text {
-            color: var(--primary-black) !important;
-            font-size: 16px;
-            font-style: italic;
-            font-weight: 700
         }
 
         #messageBox {
@@ -452,10 +446,7 @@
         var customDomain = isCustomDomain.toLowerCase() == "true" ? "@ServerAppConfig.AppSettings.Documentation.BaseUri" : "https://help.boldreports.com";
         var isHideHelpLinks = "@ServerAppConfig.IsHideHelpLink";
         var isHideHelpLink = isHideHelpLinks.toLowerCase() == "true" ? true : false;
-        var dataConnectorsInfo = {
-            filterDataList: null,
-            customDataList: null
-        }
+        var customFontsName = [];
         if(isEdit === "true"){
             isEditReport = true;
         }
@@ -466,29 +457,12 @@
         var designerToken = "@ViewBag.AccessToken";
 
         $(document).ready(function () {
-            loadConnectors();
+            loadCustomFonts();
+            renderDesignerHeader();
+            refreshReportDesignerFooter();
+            renderDesigner();
+            $(window).resize(refreshReportDesignerFooter);
         });
-
-        function loadConnectors() {
-            $("#designer-loading-icon").ejWaitingPopup({
-                showOnInit: false,
-                cssClass: 'data-loading-icon e-designer-loader e-rptdesigner-spin-overlay',
-                appendTo: $(document.body),
-                text: 'Fetching configured data connectors... Please wait...'
-            });
-            var callBack = {
-                fnction: $.proxy(getFilterData, this),
-                indicator: [
-                    function () {
-                        $("#designer-loading-icon").data('ejWaitingPopup').show();
-                    },
-                    function () {
-                        $("#designer-loading-icon").data('ejWaitingPopup').hide();
-                    }
-                ]
-            };
-            doAjaxPost('GET', "@designerServiceUrl" + "/api/v1.0/configuration/getdataconnectors/", {}, callBack);
-        }
 
         function refreshReportDesignerFooter() {
             var windowHeight = $(window).innerHeight();
@@ -498,63 +472,12 @@
             $("#container").width($(window).width());
         }
 
-        function getFilterData(args) {
-            if (args && args.apiStatus && args.data) {
-                if (args.data.connections && args.data.connections.connectionList) {
-                    dataConnectorsInfo.filterDataList = args.data.connections.connectionList;
-                }
-
-                if (args.data.connectors && args.data.connectors.customConnectors) {
-                    dataConnectorsInfo.customDataList = JSON.parse(args.data.connectors.customConnectors);
-                }
-            }
-
-            renderDesignerHeader();
-            refreshReportDesignerFooter();
-            renderDesigner(dataConnectorsInfo);
-            $(window).resize(refreshReportDesignerFooter);
-        }
-
-        function doAjaxPost(type, url, jsonObj, callBack) {
-            $.ajax({
-                type: type,
-                url: url,
-                data: jsonObj,
-                beforeSend: function(req) {
-                    req.setRequestHeader('ServerUrl', "@reportServerApiUrl");
-                    req.setRequestHeader('serviceAuthorizationToken', designerToken);
-                    if (callBack && callBack.indicator && callBack.indicator.length > 0) {
-                        ej.ReportUtil.invokeCallBack(callBack.indicator[0], {});
-                    }
-                },
-                success: function (data) {
-                    if (callBack) {
-                        if (callBack.indicator && callBack.indicator.length > 0) {
-                            ej.ReportUtil.invokeCallBack(callBack.indicator[1], {});
-                        }
-                        if (callBack.fnction) {
-                            ej.ReportUtil.invokeCallBack(callBack.fnction, data);
-                        }
-                    }
-                },
-                error: function (msg, textStatus, errorThrown) {
-                    if (callBack) {
-                        if (callBack.indicator && callBack.indicator.length > 0) {
-                            ej.ReportUtil.invokeCallBack(callBack.indicator[1], {});
-                        }
-                        if (callBack.fnction) {
-                            ej.ReportUtil.invokeCallBack(callBack.fnction, null);
-                        }
-                    }
-                }
-            });
-        }
-
-        function renderDesigner(dataConnectorsInfo) {
+        function renderDesigner() {
             $(document.body).bind('submit', $.proxy(this.formSubmit, this));
             $(window).bind('beforeunload', $.proxy(this.windowUnload, this));
-             var datasetPermission = noPermission;
+            var datasetPermission = noPermission;
             var datasourcePermission = noPermission;
+            var filterDataTiles = (@dataConnectors) ? JSON.parse(@dataConnectors) : [];
 
             if ('@datasetPermissions[PermissionAccess.ReadWriteDelete]' == 'True') {
                 datasetPermission = '@datasetPermissions[PermissionAccess.Create]' == 'True' ? allPermission : readWriteDeletePermission;
@@ -590,8 +513,7 @@
             var designerModel = {
                 enableAutoDraft: true,
                 serviceUrl: "@reportServiceUrl",
-                filterData: dataConnectorsInfo.filterDataList,
-                customWebAPIData: dataConnectorsInfo.customDataList,
+                filterDataConnectors: filterDataTiles,
                 ajaxBeforeLoad: ajaxBeforeSend,
                 reportServerUrl: "@reportServerApiUrl",
                 create: $.proxy(controlInitialized, this),
@@ -611,6 +533,7 @@
                 reportItemExtensions: window.itemExtensions,
                 queryDesignerAction: disableDesignerHeaderPane,
                 mapShapData: window.ShapData,
+                fontNames: customFontsName,
                 isAzureApp: (@isAzureApplication.ToString().ToLower()),
                 customBrandSettings: {
                     hideHelpLink: isHideHelpLink,
@@ -622,6 +545,56 @@
             };
 
             var designer = new boldReportDesigner($('#' + controlId), designerModel);
+        }
+
+        function loadCustomFonts() {
+            @if (ServerAppConfig.CustomFont != null && ServerAppConfig.CustomFont.Count > 0)
+            {
+                foreach (var font in ServerAppConfig.CustomFont)
+                {
+                    @:customFontsName.push("@font.Key");
+                    @:addCustomFonts("@font.Key", "@font.Value");
+                }
+            }
+        }
+
+        function isFontFaceExist() {
+            try {
+                return FontFace ? true : false;
+            } catch (error) {
+                return false;
+            }
+        }
+
+        function addCustomFonts(fontFamily, fontFile) {
+            var customFontUrl = "@baseUrl/content/custom-fonts/" + fontFile;
+            if (isFontFaceExist()) {
+                try {
+                    const customFont = new FontFace(fontFamily, 'url(' + customFontUrl + ')');
+                    customFont.load().then(function (loadedFont) {
+                        document.fonts.add(loadedFont);
+                    }).catch(function (error) {
+                        console.log('Failed to load font: ' + fontFamily + '; Error: ' + error);
+                    });
+                } catch (error) {
+                    console.log('Failed to load font: ' + fontFamily + '; Error: ' + error);
+                }
+            } else {
+                //Classic Approach Common for all browsers to load fonts
+                try {
+                    const style = document.createElement('style');
+                    style.innerHTML = '@@font-face { font-family:' + fontFamily + '; src: url(' + customFontUrl + ');}';
+                    document.head.appendChild(style);
+
+                    var link = document.createElement('link');
+                    link.setAttribute('rel', 'stylesheet');
+                    link.setAttribute('type', 'text/css');
+                    link.setAttribute('href', customFontUrl);
+                    document.head.appendChild(link);
+                } catch (error) {
+                    console.log('Failed to register stylesheet for the font: ' + fontFamily + '; Error: ' + error);
+                }
+            }
         }
 
         function controlInitialized(args) {
@@ -804,11 +777,11 @@
 
         function windowUnload(args) {
             var designer = $('#' + controlId).data('boldReportDesigner');
-			
+
             if (designer && isSubmit) {
                 designer.disposeViewerCache();
             }
-			
+
             isSubmit = true;
         }
 

@@ -1764,7 +1764,10 @@ ej.ReportDesigner.Locale['es-ES'] = {
             gcsqlLabel: 'Google Cloud SQL',
             redshiftLabel: 'Amazon Redshift',
             amazonAuroraLabel: 'Amazonas Aurora',
-            amazonRDSLabel: 'Amazon RDS'
+            amazonRDSLabel: 'Amazon RDS',
+            webapilabel: 'API web',
+            postgresqllabel: 'PostgreSQL',
+            odatalabel: 'OData'
         },
         datasourceConnection: {
             newConnection: 'NUEVA CONEXIÓN',
@@ -2128,6 +2131,28 @@ ej.ReportDesigner.Locale['es-ES'] = {
             duplicateName: 'El nombre especificado ya existe en la lista Fuente de datos',
             invalidCharacterValidation: 'El nombre no debe contener espacios ni caracteres especiales',
             sharedPermissionValidation: 'La creación de fuentes de datos se ha restringido, excepto la fuente de datos compartida.'
+        },
+        descriptionText: {
+            amazonAuroraInfo: 'Amazon Aurora es un servicio de base de datos relacional desarrollado y ofrecido por Amazon Web Services. El conector de Amazon Aurora le permite acceder a los datos de las bases de datos de Amazon Aurora dentro del {customBrandName} Designer.',
+            azureSqlInfo: 'Azure SQL Data Warehouse es una oferta de servicio de almacenamiento de datos empresarial basado en la nube de Microsoft. Aprovecha el procesamiento masivamente paralelo para ejecutar rápidamente consultas complejas en petabytes de datos. El conector de Azure SQL Data Warehouse le permite acceder a los datos de las bases de datos de Azure SQL Data Warehouse dentro del {customBrandName} Designer.',
+            cdataInfo: 'CDATA es una base de datos SQL distribuida y altamente escalable que puede ejecutarse en cualquier lugar. Ofrece el máximo rendimiento para cargas de trabajo transaccionales y analíticas con estructuras de datos relacionales familiares. El conector cdata le permite acceder a datos de bases de datos cdata con un punto final MySQL dentro del {customBrandName} Designer.',
+            csvInfo: 'Lleve sus archivos CSV al {customBrandName} Designer y prepare informes para ver la historia que vive en sus datos.',
+            excelInfo: 'Traiga sus archivos de Excel como tablas u hojas de trabajo al diseñador {customBrandName}. Explore y juegue con sus datos, prepare informes para ver la historia que vive en sus datos.',
+            googleBigQueryInfo: 'BigQuery es un servicio web RESTful que permite el análisis interactivo de conjuntos de datos masivos que trabajan en conjunto con Google Storage. Es un software como servicio sin servidor que se puede utilizar de forma complementaria con MapReduce.',
+            jsonInfo: 'Lleve sus archivos JSON al {customBrandName} Designer cargándolos para preparar informes y ver la historia que vive en sus datos.',
+            mariadbInfo: 'MariaDB es una bifurcación desarrollada por la comunidad y con soporte comercial del sistema de administración de bases de datos relacionales MySQL que garantiza que seguirá siendo de código abierto. El conector MariaDB le permite acceder a los datos de las bases de datos MariaDB dentro del {customBrandName} Designer.',
+            memsqlInfo: 'MemSQL es una base de datos SQL distribuida y altamente escalable que puede ejecutarse en cualquier lugar. Ofrece el máximo rendimiento para cargas de trabajo transaccionales y analíticas con estructuras de datos relacionales familiares. El conector MemSQL le permite acceder a datos de bases de datos MemSQL dentro del {customBrandName} Designer.',
+            microsoftsqlInfo: 'SQL Server es el sistema de administración de bases de datos relacionales de Microsoft.Como uno de los servidores de bases de datos más confiables y confiables del mercado, viene con una variedad de servicios de valor agregado como análisis, informes y más, además del sistema de administración de base de datos central. El conector de SQL Server le permite acceder a los datos de las bases de datos del servidor Microsoft SQL dentro del {customBrandName} Designer.',
+            ssasInfo: 'SQL Server Analysis Services (SSAS) es la tecnología de la pila de Microsoft Business Intelligence para desarrollar soluciones de procesamiento analítico en línea (OLAP). En términos simples, puede usar SSAS para crear cubos usando datos de data marts / data warehouse para un análisis de datos más profundo y rápido.',
+            mysqlInfo: 'MySQL es un sistema de administración de bases de datos relacionales de código abierto y de libre acceso, que se destaca principalmente por su procesamiento rápido, confiabilidad comprobada y facilidad y flexibilidad de uso. El conector MySQL le permite acceder a datos de bases de datos MySQL dentro del {customBrandName} Designer.',
+            odataInfo: 'OData es un protocolo abierto que permite la creación y consumo de APIs RESTful consultables e interoperables de forma sencilla y estándar. Conéctese con {customBrandName} Designer y cree informes para ver la historia que vive en sus datos.',
+            odbcInfo: 'Un controlador ODBC utiliza la interfaz Open Database Connectivity (ODBC) de Microsoft que permite que las aplicaciones accedan a los datos en los sistemas de administración de bases de datos (DBMS) utilizando SQL como estándar para acceder a los datos.',
+            oledbInfo: 'OLE DB es la interfaz de programa de aplicación (API) estratégica de bajo nivel de Microsoft para acceder a diferentes fuentes de datos. OLE DB incluye no solo las capacidades de Lenguaje de consulta estructurado (SQL) de la interfaz de datos estándar patrocinada por Microsoft, Conectividad abierta de bases de datos (ODBC), sino que también incluye acceso a datos distintos de los datos SQL.',
+            oracleInfo: 'Oracle es una base de datos relacional de nivel empresarial con funciones analíticas avanzadas. El conector de Oracle le permite acceder a los datos de las bases de datos de Oracle dentro del {customBrandName} Designer.',
+            psqlInfo: 'PostgreSQL es un sistema de base de datos relacional de objetos poderoso y de código abierto que enfatiza la extensibilidad y el cumplimiento de estándares. El conector de PostgreSQL le permite acceder a los datos de las bases de datos de PostgreSQL dentro del {customBrandName} Designer.',
+            snowflakeInfo: 'Snowflake es un almacén de datos basado en la nube que proporciona una plataforma ilimitada para almacenar y recuperar datos. A diferencia de las arquitecturas tradicionales de disco compartido / nada compartido de un solo clúster, Snowflake tiene una arquitectura de datos compartidos de clústeres múltiples que es dinámica y altamente escalable gracias a los sistemas de almacenamiento basados ​​en la nube de clase empresarial.',
+            webAPIInfo: 'Conéctese con {customBrandName} Designer utilizando casi todas las fuentes de datos que tienen una API REST. Cree informes y vea la historia que vive en sus datos.',
+            xmlInfo: 'Lleve sus archivos XML al {customBrandName} Designer y prepare informes para ver la historia que vive en sus datos.'
         }
     },
     imageManager: {

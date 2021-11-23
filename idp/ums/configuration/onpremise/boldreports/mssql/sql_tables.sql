@@ -176,6 +176,7 @@ CREATE TABLE [BOLDRS_ItemLog](
 	[FromCategoryId] [uniqueidentifier] NULL,
 	[ToCategoryId] [uniqueidentifier] NULL,
 	[UpdatedUserId] [int] NOT NULL,	
+	[AdditionalLogInfo] [nvarchar](max) NULL,
 	[ModifiedDate] [datetime] NOT NULL,
 	[IsActive] [bit] NOT NULL)
 ;
@@ -1522,6 +1523,28 @@ INSERT into [BOLDRS_LogField] (ModuleId,Field,Description,ModifiedDate,IsActive)
 INSERT into [BOLDRS_LogField] (ModuleId,Field,Description,ModifiedDate,IsActive) VALUES (19,N'Password',N'Password.EmailSettings',GETDATE(),1)
 ;
 INSERT into [BOLDRS_LogField] (ModuleId,Field,Description,ModifiedDate,IsActive) VALUES (19,N'EnableSSL',N'EnableSSL.EmailSettings',GETDATE(),1)
+;
+INSERT into [BOLDRS_LogField] (ModuleId,Field,Description,ModifiedDate,IsActive) VALUES (1,N'ManageLicenseSettings',N'ManageLicenseSettings',GETDATE(),1)
+;
+INSERT into [BOLDRS_LogField] (ModuleId,Field,Description,ModifiedDate,IsActive) VALUES (1,N'DataConnectors',N'DataConnectors',GETDATE(),1)
+;
+INSERT into [BOLDRS_LogField] (ModuleId,Field,Description,ModifiedDate,IsActive) VALUES (1,N'EnableDefaultAuthentication',N'EnableDefaultAuthentication',GETDATE(),1)
+;
+INSERT into [BOLDRS_LogField] (ModuleId,Field,Description,ModifiedDate,IsActive) VALUES (1,N'EnableAuthSettings',N'EnableAuthSettings',GETDATE(),1)
+;
+INSERT into [BOLDRS_LogField] (ModuleId,Field,Description,ModifiedDate,IsActive) VALUES (1,N'EnableAuthControlSettings',N'EnableAuthControlSettings',GETDATE(),1)
+;
+INSERT into [BOLDRS_LogField] (ModuleId,Field,Description,ModifiedDate,IsActive) VALUES (1,N'ScheduleExportFileSettings',N'ScheduleExportFileSettings',GETDATE(),1)
+;
+INSERT into [BOLDRS_LogField] (ModuleId,Field,Description,ModifiedDate,IsActive) VALUES (10,N'UserDirectory.OAuth2',N'UserDirectory.OAuth2',GETDATE(),1)
+;
+INSERT into [BOLDRS_LogField] (ModuleId,Field,Description,ModifiedDate,IsActive) VALUES (10,N'UserDirectory.OpenIDConnect',N'UserDirectory.OpenIDConnect',GETDATE(),1)
+;
+INSERT into [BOLDRS_LogField] (ModuleId,Field,Description,ModifiedDate,IsActive) VALUES (10,N'UserDirectory.AuthControl',N'UserDirectory.AuthControl',GETDATE(),1)
+;
+INSERT into [BOLDRS_LogField] (ModuleId,Field,Description,ModifiedDate,IsActive) VALUES (1,N'ReportSettings',N'ReportSettings',GETDATE(),1)
+;
+INSERT into [BOLDRS_LogField] (ModuleId,Field,Description,ModifiedDate,IsActive) VALUES (2,N'NotificationSettings',N'NotificationSettings',GETDATE(),1)
 ;
 
 ---- PASTE ALTER Queries below this section --------

@@ -304,6 +304,7 @@
                         .description {
                             margin-top: 14px;
                         }
+
                         padding: 10px !important;
                         min-height: 433px !important;
 
@@ -702,7 +703,13 @@
     white-space: normal;
 }
 
+.e-dialog {
+    max-height: 100%;
+}
+
 #add-tenant-popup_wrapper {
+    top: 0 !important;
+
     .e-dialog-scroller {
         border: 0px;
     }

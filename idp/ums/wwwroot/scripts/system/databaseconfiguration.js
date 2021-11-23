@@ -1,5 +1,6 @@
 ﻿var databaseValidationMessage = window.TM.App.LocalizationContent.OneOrMoreErrors + " " + window.TM.App.LocalizationContent.Click + " " + "<a id='know-more-error'>" + window.TM.App.LocalizationContent.Here + "</a> " + window.TM.App.LocalizationContent.KnowMore + ".";
 $(document).ready(function () {
+    removeError();
     $("#db-content-holder").validate({
         errorElement: "span",
         onkeyup: function (element, event) {
@@ -589,6 +590,10 @@ function onDatbaseChange(args) {
             $("div.placeholder").remove();
             $(".note-additional-parameter a").attr("href", postgresSQLParameter);
             DomResize();
+            if (isSiteCreation) {
+                ResizeHeightForDOM();
+            }
+
             break;
     }
     $("#new-db").prop("checked", true).trigger("change");
@@ -643,8 +648,13 @@ function onDbSelectChange() {
     } else {
         $(".sql-server-existing-db, #sql-existing-db-submit").hide();
         $(".database-name, #db-config-submit").show();
-        
     }
+
+    var databaseType = getDropDownValue("database-type");
+    if (databaseType == "MySQL") {
+        hideDataStore();
+    }
+
     changeFooterPostion();
     DomResize();
     if (!isBoldBI) {

@@ -34,20 +34,20 @@
                 hasWhiteSpace: false,
                 isValidName: true,
                 isValidUser: true,
-                additionalSpecialCharValidation: true
+                additionalSpecialCharValidation: false
             },
             firstname: {
                 isRequired: true,
                 isValidName: true,
-                additionalSpecialCharValidation: true
+                additionalSpecialCharValidation: false
             },
             lastname: {
-                additionalSpecialCharValidation: true
+                additionalSpecialCharValidation: false
             },
             username: {
                 isRequired: true,
                 isValidUsernameLength: true,
-                isValidUsername: true
+                isValidUsername: false
             },
             email: {
                 isRequired: true,

@@ -1764,7 +1764,10 @@ ej.ReportDesigner.Locale['tr-TR'] = {
             gcsqlLabel: 'Google Bulut SQL\'i',
             redshiftLabel: 'Amazon Kırmızıya Kaydırma',
             amazonAuroraLabel: 'Amazon Aurora\'sı',
-            amazonRDSLabel: 'Amazon RDS'
+            amazonRDSLabel: 'Amazon RDS',
+            webapilabel: 'Web API\'si',
+            postgresqllabel: 'PostgreSQL',
+            odatalabel: 'OData'
         },
         datasourceConnection: {
             newConnection: 'YENİ BAĞLANTI',
@@ -2128,6 +2131,28 @@ ej.ReportDesigner.Locale['tr-TR'] = {
             duplicateName: 'Belirtilen ad DataSource listesinde zaten mevcut',
             invalidCharacterValidation: 'Ad, boşluk ve özel karakterler içermemelidir',
             sharedPermissionValidation: 'Veri kaynağı oluşturma, paylaşılan veri kaynağı dışında kısıtlanmıştır.'
+        },
+        descriptionText: {
+            amazonAuroraInfo: 'Amazon Aurora, Amazon Web Services tarafından geliştirilen ve sunulan ilişkisel bir veritabanı hizmetidir. Amazon Aurora bağlayıcısı, {customBrandName} Designer içindeki Amazon Aurora veritabanlarındaki verilere erişmenize olanak tanır.',
+            azureSqlInfo: 'Azure SQL Veri Ambarı, Microsoft bulut tabanlı bir kurumsal veri ambarı hizmeti teklifidir. Petabaytlarca veri üzerinde karmaşık sorguları hızla çalıştırmak için büyük ölçüde paralel işlemeden yararlanır. Azure SQL Veri Ambarı bağlayıcısı, {customBrandName} Designer içindeki Azure SQL Veri Ambarı veritabanlarından verilere erişmenize olanak tanır.',
+            cdataInfo: 'CDATA, her yerde çalışabilen dağıtılmış, yüksek düzeyde ölçeklenebilir bir SQL veritabanıdır. Tanıdık ilişkisel veri yapılarına sahip işlemsel ve analitik iş yükleri için maksimum performans sağlar. cdata bağlayıcısı, {customBrandName} Designer içinde MySQL uç noktası ile cdata veritabanlarından verilere erişmenize olanak tanır.',
+            csvInfo: 'CSV dosyalarınızı {customBrandName} Designer\'a getirin ve verilerinizde yaşayan hikayeyi görmek için raporlar hazırlayın.',
+            excelInfo: 'Excel dosyalarınızı Tablolar veya Çalışma Sayfaları olarak {customBrandName} Tasarımcısına getirin. Verilerinizi keşfedin ve oynayın, verilerinizde yaşayan hikayeyi görmek için raporlar hazırlayın.',
+            googleBigQueryInfo: 'BigQuery, Google Storage ile birlikte çalışan büyük veri kümelerinin etkileşimli analizini sağlayan RESTful bir web hizmetidir. MapReduce ile tamamlayıcı olarak kullanılabilen, sunucusuz bir Hizmet Olarak Yazılımdır.',
+            jsonInfo: 'Raporlar hazırlamak ve verilerinizde yaşayan hikayeyi görmek için JSON dosyalarınızı Yükleyerek {customBrandName} Designer\'a getirin.',
+            mariadbInfo: 'MariaDB, açık kaynaklı kalması garanti edilen MySQL ilişkisel veritabanı yönetim sisteminin topluluk tarafından geliştirilmiş, ticari olarak desteklenen bir çatalıdır. MariaDB bağlayıcısı, {customBrandName} Designer içindeki MariaDB veritabanlarından verilere erişmenizi sağlar.',
+            memsqlInfo: 'MemSQL, her yerde çalışabilen, dağıtılmış, yüksek düzeyde ölçeklenebilir bir SQL veritabanıdır. Bilinen ilişkisel veri yapılarıyla işlemsel ve analitik iş yükleri için maksimum performans sunar. MemSQL bağlayıcısı, {customBrandName} Designer içindeki MemSQL veritabanlarından verilere erişmenizi sağlar.',
+            microsoftsqlInfo: 'SQL Server, Microsoft\'un ilişkisel veritabanı yönetim sistemidir. Piyasadaki en güvenilir ve güvenilir veritabanı sunucularından biri olarak, çekirdek veritabanı yönetim sisteminin üstünde analiz, raporlama ve daha fazlası gibi bir dizi katma değerli hizmetle birlikte gelir. SQL Server bağlayıcısı, {customBrandName} Designer içindeki Microsoft SQL sunucu veritabanlarından verilere erişmenizi sağlar.',
+            ssasInfo: 'SQL Server Analiz Hizmetleri (SSAS), Çevrimiçi Analitik İşleme (OLAP) çözümleri geliştirmek için Microsoft İş Zekası yığınından gelen teknolojidir. Basit bir ifadeyle, daha derin ve daha hızlı veri analizi için veri pazarlarından / veri ambarından gelen verileri kullanarak küpler oluşturmak için SSAS\'ı kullanabilirsiniz.',
+            mysqlInfo: 'MySQL, ücretsiz olarak kullanılabilen, açık kaynaklı bir ilişkisel veritabanı yönetim sistemidir ve en çok hızlı işlemesi, kanıtlanmış güvenilirliği, kullanım kolaylığı ve esnekliği ile dikkat çeker. MySQL bağlayıcısı, {customBrandName} Designer içindeki MySQL veritabanlarından verilere erişmenizi sağlar.',
+            odataInfo: 'OData, sorgulanabilir ve birlikte çalışabilir RESTful API\'lerinin basit ve standart bir şekilde oluşturulmasına ve tüketilmesine izin veren açık bir protokoldür. {customBrandName} Designer ile bağlantı kurun ve verilerinizde yaşayan hikayeyi görmek için raporlar oluşturun.',
+            odbcInfo: 'Bir ODBC sürücüsü, Microsoft\'un Açık Veritabanı Bağlantısı (ODBC) arabirimini kullanır ve bu, uygulamaların verilere erişmek için standart olarak SQL kullanarak veritabanı yönetim sistemlerindeki (DBMS) verilere erişmesine olanak tanır.',
+            oledbInfo: 'OLE DB, farklı veri kaynaklarına erişim için Microsoft\'un stratejik düşük seviyeli uygulama programı arabirimidir (API). OLE DB, yalnızca Microsoft sponsorluğundaki standart veri arabirimi Açık Veritabanı Bağlantısı\'nın (ODBC) Yapılandırılmış Sorgu Dili (SQL) yeteneklerini değil, aynı zamanda SQL verileri dışındaki verilere erişimi de içerir.',
+            oracleInfo: 'Oracle, gelişmiş analitik özelliklere sahip kurumsal düzeyde bir ilişkisel veritabanıdır. Oracle bağlayıcısı, {customBrandName} Designer içindeki Oracle veritabanlarından verilere erişmenizi sağlar.',
+            psqlInfo: 'PostgreSQL, genişletilebilirliği ve standartlara uygunluğu vurgulayan güçlü ve açık kaynaklı bir nesne ilişkisel veritabanı sistemidir. PostgreSQL bağlayıcısı, {customBrandName} Designer içindeki PostgreSQL veritabanlarından verilere erişmenizi sağlar.',
+            snowflakeInfo: 'Snowflake, verileri depolamak ve almak için sınırsız bir platform sağlayan bulut tabanlı bir veri ambarıdır. Geleneksel tek kümeli paylaşılan disk/paylaşılan hiçbir şey mimarilerinden farklı olarak, Snowflake, kurumsal sınıf bulut tabanlı depolama sistemleri sayesinde dinamik ve yüksek düzeyde ölçeklenebilir, çok kümeli, paylaşılan bir veri mimarisine sahiptir.',
+            webAPIInfo: 'REST API\'si olan hemen hemen tüm veri kaynaklarını kullanarak {customBrandName} Designer ile bağlantı kurun. Raporlar oluşturun ve verilerinizde yaşayan hikayeyi görün.',
+            xmlInfo: 'XML dosyalarınızı {customBrandName} Designer\'a getirin ve verilerinizde yaşayan hikayeyi görmek için raporlar hazırlayın.'
         }
     },
     imageManager: {

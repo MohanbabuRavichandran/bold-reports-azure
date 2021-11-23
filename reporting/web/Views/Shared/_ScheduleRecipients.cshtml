@@ -65,7 +65,7 @@
         {
             <div class="col-sm-12 col-xs-12 send-mail-align">
                 <div id="enable-mail-attachment" class="col-sm-6 col-xs-6 no-padding no-margin">
-                    @Html.CheckBox("enable-send-mail", true, new { @class = "material-checkbox  enable-sendmail-checkbox" })
+                    @Html.CheckBox("enable-send-mail", false, new { @class = "material-checkbox  enable-sendmail-checkbox" })
                     @Html.Label("enable-send-mail", "[[[Email attachment]]]", new { @class = "clspadleft app-checkbox-label normal-font sendmail-label" })
                 </div>
                 <div class="col-sm-6 col-xs-6" id="checkbox-validation" style="visibility: hidden">[[[Please select at least one option to schedule a report ]]]</div>

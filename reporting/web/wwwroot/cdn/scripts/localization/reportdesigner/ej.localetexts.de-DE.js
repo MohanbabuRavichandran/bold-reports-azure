@@ -1764,7 +1764,10 @@ ej.ReportDesigner.Locale['de-DE'] = {
             gcsqlLabel: 'Google Cloud SQL',
             redshiftLabel: 'Amazon Redshift',
             amazonAuroraLabel: 'Amazon Aurora',
-            amazonRDSLabel: 'Amazon RDS'
+            amazonRDSLabel: 'Amazon RDS',
+            webapilabel: 'Web API',
+            postgresqllabel: 'PostgreSQL',
+            odatalabel: 'OData'
         },
         datasourceConnection: {
             newConnection: 'NEUE VERBINDUNG',
@@ -2128,6 +2131,28 @@ ej.ReportDesigner.Locale['de-DE'] = {
             duplicateName: 'Der angegebene Name existiert bereits in der Datenquelle-Liste',
             invalidCharacterValidation: 'Name sollte keine Leerzeichen und Sonderzeichen enthalten',
             sharedPermissionValidation: 'Die Erstellung von Datenquellen wurde mit Ausnahme der gemeinsam genutzten Datenquelle eingeschränkt.'
+        },
+        descriptionText: {
+            amazonAuroraInfo: 'Amazon Aurora ist ein relationaler Datenbankdienst, der von Amazon Web Services entwickelt und angeboten wird. Der Amazon Aurora-Connector ermöglicht Ihnen den Zugriff auf Daten aus Amazon Aurora-Datenbanken im {customBrandName} Designer.',
+            azureSqlInfo: 'Azure SQL Data Warehouse ist ein cloudbasiertes Enterprise-Data-Warehouse-Dienstangebot von Microsoft. Es nutzt massiv parallele Verarbeitung, um schnell komplexe Abfragen über Petabyte an Daten auszuführen. Der Azure SQL Data Warehouse-Connector ermöglicht Ihnen den Zugriff auf Daten aus Azure SQL Data Warehouse-Datenbanken im {customBrandName} Designer.',
+            cdataInfo: 'CDATA ist eine verteilte, hochskalierbare SQL-Datenbank, die überall ausgeführt werden kann. Es bietet maximale Leistung für transaktionale und analytische Workloads mit vertrauten relationalen Datenstrukturen. Der cdata-Connector ermöglicht Ihnen den Zugriff auf Daten aus cdata-Datenbanken mit MySQL-Endpunkt im {customBrandName} Designer.',
+            csvInfo: 'Bringen Sie Ihre CSV-Dateien in den {customBrandName} Designer und bereiten Sie Berichte vor, um die Geschichte zu sehen, die in Ihren Daten steckt.',
+            excelInfo: 'Bringen Sie Ihre Excel-Dateien als Tabellen oder Arbeitsblätter in den {customBrandName} Designer. Erkunden und spielen Sie mit Ihren Daten, erstellen Sie Berichte, um die Geschichte zu sehen, die in Ihren Daten steckt.',
+            googleBigQueryInfo: 'BigQuery ist ein RESTful-Webservice, der in Verbindung mit Google Storage eine interaktive Analyse riesiger Datensätze ermöglicht. Es handelt sich um eine serverlose Software as a Service, die ergänzend zu MapReduce verwendet werden kann.',
+            jsonInfo: 'Bringen Sie Ihre JSON-Dateien in den {customBrandName} Designer, indem Sie sie hochladen, um Berichte vorzubereiten und die Geschichte zu sehen, die in Ihren Daten steckt.',
+            mariadbInfo: 'MariaDB ist ein von der Community entwickelter, kommerziell unterstützter Fork des relationalen Datenbankverwaltungssystems MySQL, der garantiert quelloffen bleibt. Der MariaDB-Connector ermöglicht Ihnen den Zugriff auf Daten aus MariaDB-Datenbanken im {customBrandName} Designer.',
+            memsqlInfo: 'MemSQL ist eine verteilte, hochskalierbare SQL-Datenbank, die überall ausgeführt werden kann. Es bietet maximale Leistung für transaktionale und analytische Workloads mit vertrauten relationalen Datenstrukturen. Der MemSQL-Connector ermöglicht Ihnen den Zugriff auf Daten aus MemSQL-Datenbanken im {customBrandName} Designer.',
+            microsoftsqlInfo: 'SQL Server ist das relationale Datenbankverwaltungssystem von Microsoft. Als einer der zuverlässigsten und vertrauenswürdigsten Datenbankserver auf dem Markt bietet er neben dem zentralen Datenbankverwaltungssystem eine Reihe von Mehrwertdiensten wie Analyse, Berichterstellung und mehr Der SQL Server-Connector ermöglicht Ihnen den Zugriff auf Daten aus Microsoft SQL Server-Datenbanken im {customBrandName} Designer.',
+            ssasInfo: 'SQL Server Analysis Services (SSAS) ist die Technologie aus dem Microsoft Business Intelligence-Stack zur Entwicklung von Online Analytical Processing (OLAP)-Lösungen. Einfach ausgedrückt, können Sie SSAS verwenden, um Cubes mit Daten aus Data Marts / Data Warehouse für eine tiefere und schnellere Datenanalyse zu erstellen.',
+            mysqlInfo: 'MySQL ist ein frei verfügbares, relationales Open-Source-Datenbankverwaltungssystem, das vor allem für seine schnelle Verarbeitung, bewährte Zuverlässigkeit sowie Benutzerfreundlichkeit und Flexibilität bekannt ist. Der MySQL-Connector ermöglicht Ihnen den Zugriff auf Daten aus MySQL-Datenbanken im {customBrandName} Designer.',
+            odataInfo: 'OData ist ein offenes Protokoll, das die Erstellung und Nutzung abfragbarer und interoperabler RESTful-APIs auf einfache und standardmäßige Weise ermöglicht. Verbinden Sie sich mit dem {customBrandName} Designer und erstellen Sie Berichte, um die Geschichte zu sehen, die in Ihren Daten steckt.s',
+            odbcInfo: 'Ein ODBC-Treiber verwendet die Open Database Connectivity (ODBC)-Schnittstelle von Microsoft, die es Anwendungen ermöglicht, auf Daten in Datenbankverwaltungssystemen (DBMS) zuzugreifen, die SQL als Standard für den Zugriff auf die Daten verwenden.',
+            oledbInfo: 'OLE DB ist die strategische Low-Level-Anwendungsprogrammschnittstelle (API) von Microsoft für den Zugriff auf verschiedene Datenquellen. OLE DB umfasst nicht nur die Funktionen der Structured Query Language (SQL) der von Microsoft gesponserten Standarddatenschnittstelle Open Database Connectivity (ODBC), sondern umfasst auch den Zugriff auf andere Daten als SQL-Daten.',
+            oracleInfo: 'Oracle ist eine relationale Datenbank der Enterprise-Klasse mit erweiterten Analysefunktionen. Der Oracle-Connector ermöglicht Ihnen den Zugriff auf Daten aus Oracle-Datenbanken im {customBrandName} Designer.',
+            psqlInfo: 'PostgreSQL ist ein leistungsstarkes und quelloffenes objektrelationales Datenbanksystem, das Wert auf Erweiterbarkeit und die Einhaltung von Standards legt. Der PostgreSQL-Connector ermöglicht Ihnen den Zugriff auf Daten aus PostgreSQL-Datenbanken im {customBrandName} Designer.',
+            snowflakeInfo: 'Snowflake ist ein Cloud-basiertes Data Warehouse, das eine unbegrenzte Plattform zum Speichern und Abrufen von Daten bietet. Im Gegensatz zu herkömmlichen Single-Cluster-Shared-Disk-/Shared-Nothing-Architekturen verfügt Snowflake über eine Multi-Cluster-Shared-Data-Architektur, die dank cloudbasierter Speichersysteme der Enterprise-Klasse dynamisch und hoch skalierbar ist.',
+            webAPIInfo: 'Verbinden Sie sich mit dem {customBrandName} Designer über fast alle Datenquellen, die über eine REST-API verfügen. Erstellen Sie Berichte und sehen Sie die Geschichte, die in Ihren Daten steckt.',
+            xmlInfo: 'Bringen Sie Ihre XML-Dateien in den {customBrandName} Designer und erstellen Sie Berichte, um die Geschichte zu sehen, die in Ihren Daten steckt.'
         }
     },
     imageManager: {

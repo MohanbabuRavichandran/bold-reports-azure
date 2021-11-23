@@ -2138,6 +2138,10 @@ $(document).ready(function () {
         if ($(this).attr("id") == "advanced-tab") {
             $("#default-tab").removeClass("active");
             $("#advanced-tab").addClass("active");
+            if (!isSiteCreation) {
+                $("#label_txt-dbname").html(window.TM.App.LocalizationContent.IDDatabaseName);
+                $("#label_database-name").html(window.TM.App.LocalizationContent.IDDatabaseName);
+            }
             $("#simple_tab_db_name").hide();
             $("#advanced_tab_db_name").show();
             if (getDropDownValue("database-type").toLowerCase() == "mysql" || !isBoldBI && isSiteCreation && isBoldReportsTenantType() || !isBoldBI && !isSiteCreation) {
@@ -2160,6 +2164,10 @@ $(document).ready(function () {
             $("#default-tab").addClass("active");
             $("#advanced-tab").removeClass("active");
             $("#simple_tab_db_name").show();
+            if (!isSiteCreation) {
+                $("#label_txt-dbname").html(window.TM.App.LocalizationContent.DatabaseName);
+                $("#label_database-name").html(window.TM.App.LocalizationContent.DatabaseName);
+            }
             $(".db-name-info").html(isBoldBI ? window.TM.App.LocalizationContent.DatabaseInfoBI : window.TM.App.LocalizationContent.DatabaseInfoReports);
             if (!isSiteCreation) {
                 $(".db-name-info").html(isBoldBI ? window.TM.App.LocalizationContent.DatabaseInfoBI3 : window.TM.App.LocalizationContentDatabaseInfoReports2);
@@ -2506,7 +2514,7 @@ function connectDatabase(element, actionType) {
     var isNewDatabase = true;
     window.serverName = $("#txt-servername").val();
     window.portNumber = $("#txt-portnumber").val();
-    window.maintenanceDb = $('#server-maintenance-db').val();
+    window.maintenanceDb = $('#maintenance-db').val();
     window.IsWindowsAuthentication = getRadioButtonValue("checkWindows") == "windows";
     window.login = $("#txt-login").val();
     window.password = $("#txt-password-db").val();
@@ -2559,7 +2567,7 @@ function getDatabaseFormValues() {
     var isNewDatabase = $("#new-db").is(":checked");
     var databaseName = $("#new-db").is(":checked") ? $("#txt-dbname").val() : $("#database-name").val();
     var serverType = getDropDownValue("database-type");
-    var maintenanceDb = $('#server-maintenance-db').val();
+    var maintenanceDb = $('#maintenance-db').val();
     var authenticationType = 0;
     var enableSSL = $("#secure-sql-connection").is(":checked");
     var additionalParameters = $("#additional-parameter").val();
@@ -3049,20 +3057,20 @@ $(document).ready(function () {
                 hasWhiteSpace: false,
                 isValidName: true,
                 isValidUser: true,
-                additionalSpecialCharValidation: true
+                additionalSpecialCharValidation: false
             },
             firstname: {
                 isRequired: true,
                 isValidName: true,
-                additionalSpecialCharValidation: true
+                additionalSpecialCharValidation: false
             },
             lastname: {
-                additionalSpecialCharValidation: true
+                additionalSpecialCharValidation: false
             },
             username: {
                 isRequired: true,
                 isValidUsernameLength: true,
-                isValidUsername: true
+                isValidUsername: false
             },
             email: {
                 isRequired: true,
@@ -3161,6 +3169,7 @@ $(document).ready(function () {
 
 var databaseValidationMessage = window.TM.App.LocalizationContent.OneOrMoreErrors + " " + window.TM.App.LocalizationContent.Click + " " + "<a id='know-more-error'>" + window.TM.App.LocalizationContent.Here + "</a> " + window.TM.App.LocalizationContent.KnowMore + ".";
 $(document).ready(function () {
+    removeError();
     $("#db-content-holder").validate({
         errorElement: "span",
         onkeyup: function (element, event) {
@@ -3750,6 +3759,10 @@ function onDatbaseChange(args) {
             $("div.placeholder").remove();
             $(".note-additional-parameter a").attr("href", postgresSQLParameter);
             DomResize();
+            if (isSiteCreation) {
+                ResizeHeightForDOM();
+            }
+
             break;
     }
     $("#new-db").prop("checked", true).trigger("change");
@@ -3804,8 +3817,13 @@ function onDbSelectChange() {
     } else {
         $(".sql-server-existing-db, #sql-existing-db-submit").hide();
         $(".database-name, #db-config-submit").show();
-        
     }
+
+    var databaseType = getDropDownValue("database-type");
+    if (databaseType == "MySQL") {
+        hideDataStore();
+    }
+
     changeFooterPostion();
     DomResize();
     if (!isBoldBI) {

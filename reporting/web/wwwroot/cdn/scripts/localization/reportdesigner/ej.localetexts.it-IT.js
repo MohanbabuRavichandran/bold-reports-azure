@@ -1764,7 +1764,10 @@ ej.ReportDesigner.Locale['it-IT'] = {
             gcsqlLabel: 'Google Cloud SQL',
             redshiftLabel: 'Amazon Redshift',
             amazonAuroraLabel: 'Aurora amazzonica',
-            amazonRDSLabel: 'Amazon RDS'
+            amazonRDSLabel: 'Amazon RDS',
+            webapilabel: 'API Web',
+            postgresqllabel: 'PostgreSQL',
+            odatalabel: 'OData'
         },
         datasourceConnection: {
             newConnection: 'NUOVO COLLEGAMENTO',
@@ -2128,6 +2131,28 @@ ej.ReportDesigner.Locale['it-IT'] = {
             duplicateName: 'Il nome specificato esiste già nell\'elenco DataSource',
             invalidCharacterValidation: 'Il nome non deve contenere spazi e caratteri speciali',
             sharedPermissionValidation: 'La creazione dell\'origine dati è stata limitata ad eccezione dell\'origine dati condivisa.'
+        },
+        descriptionText: {
+            amazonAuroraInfo: 'Amazon Aurora è un servizio di database relazionale sviluppato e offerto da Amazon Web Services. Il connettore Amazon Aurora ti consente di accedere ai dati dai database Amazon Aurora all\'interno di {customBrandName} Designer.',
+            azureSqlInfo: 'Azure SQL Data Warehouse è un\'offerta di servizi di data warehouse aziendale basata su cloud Microsoft. Sfrutta l\'elaborazione massicciamente parallela per eseguire rapidamente query complesse su petabyte di dati. Il connettore Azure SQL Data Warehouse consente di accedere ai dati dai database di Azure SQL Data Warehouse all\'interno di {customBrandName} Designer.',
+            cdataInfo: 'CDATA è un database SQL distribuito e altamente scalabile che può essere eseguito ovunque. Offre le massime prestazioni per carichi di lavoro transazionali e analitici con strutture di dati relazionali familiari. Il connettore cdata consente di accedere ai dati da database cdata con l\'endpoint MySQL all\'interno di {customBrandName} Designer.',
+            csvInfo: 'Porta i tuoi file CSV in {customBrandName} Designer e prepara i report per vedere la storia che vive nei tuoi dati.',
+            excelInfo: 'Porta i tuoi file Excel come tabelle o fogli di lavoro in {customBrandName} Designer. Esplora e gioca con i tuoi dati, prepara report per vedere la storia che vive nei tuoi dati.',
+            googleBigQueryInfo: 'BigQuery è un servizio web RESTful che consente l\'analisi interattiva di enormi set di dati in collaborazione con Google Storage. È un Software as a Service serverless che può essere utilizzato in modo complementare con MapReduce.',
+            jsonInfo: 'Porta i tuoi file JSON in {customBrandName} Designer caricandoli per preparare i report e vedere la storia che vive nei tuoi dati.',
+            mariadbInfo: 'MariaDB è un fork del sistema di gestione del database relazionale MySQL, sviluppato dalla comunità e supportato commercialmente, che è garantito per rimanere open source. Il connettore MariaDB consente di accedere ai dati dai database MariaDB all\'interno di {customBrandName} Designer.',
+            memsqlInfo: 'MemSQL è un database SQL distribuito e altamente scalabile che può essere eseguito ovunque. Offre le massime prestazioni per carichi di lavoro transazionali e analitici con strutture di dati relazionali familiari. Il connettore MemSQL consente di accedere ai dati dai database MemSQL all\'interno di {customBrandName} Designer.',
+            microsoftsqlInfo: 'SQL Server è il sistema di gestione di database relazionali di Microsoft. Essendo uno dei server di database più affidabili e affidabili sul mercato, viene fornito con un assortimento di servizi a valore aggiunto come analisi, report e altro oltre al sistema di gestione del database di base. Il connettore SQL Server consente di accedere ai dati dai database del server Microsoft SQL all\'interno di {customBrandName} Designer.',
+            ssasInfo: 'SQL Server Analysis Services (SSAS) è la tecnologia dello stack Microsoft Business Intelligence per sviluppare soluzioni OLAP (Online Analytical Processing). In parole povere, puoi utilizzare SSAS per creare cubi utilizzando i dati dei data mart/data warehouse per un\'analisi dei dati più profonda e veloce.',
+            mysqlInfo: 'MySQL è un sistema di gestione di database relazionali open source e disponibile gratuitamente, noto soprattutto per la sua elaborazione rapida, la comprovata affidabilità e la facilità e flessibilità d\'uso. Il connettore MySQL consente di accedere ai dati dai database MySQL all\'interno di {customBrandName} Designer.',
+            odataInfo: 'OData è un protocollo aperto per consentire la creazione e il consumo di API RESTful interrogabili e interoperabili in modo semplice e standard. Connettiti con {customBrandName} Designer e crea report per vedere la storia che vive nei tuoi dati.',
+            odbcInfo: 'Un driver ODBC utilizza l\'interfaccia Open Database Connectivity (ODBC) di Microsoft che consente alle applicazioni di accedere ai dati nei sistemi di gestione del database (DBMS) utilizzando SQL come standard per l\'accesso ai dati.',
+            oledbInfo: 'OLE DB è l\'API (Application Program Interface) strategica di Microsoft per l\'accesso a diverse origini dati. OLE DB include non solo le funzionalità SQL (Structured Query Language) dell\'interfaccia dati standard Open Database Connectivity (ODBC) sponsorizzata da Microsoft, ma include anche l\'accesso a dati diversi dai dati SQL.',
+            oracleInfo: 'Oracle è un database relazionale di livello aziendale con funzionalità di analisi avanzate. Il connettore Oracle consente di accedere ai dati dai database Oracle all\'interno di {customBrandName} Designer.',
+            psqlInfo: 'PostgreSQL è un potente sistema di database relazionale a oggetti open source che enfatizza l\'estensibilità e la conformità agli standard. Il connettore PostgreSQL consente di accedere ai dati dai database PostgreSQL all\'interno di {customBrandName} Designer.',
+            snowflakeInfo: 'Snowflake è un data warehouse basato su cloud che fornisce una piattaforma illimitata per l\'archiviazione e il recupero dei dati. A differenza delle tradizionali architetture single-cluster shared-disk/shared-nothing, Snowflake ha un\'architettura di dati condivisi multi-cluster che è dinamica e altamente scalabile grazie a sistemi di storage basati su cloud di classe enterprise.',
+            webAPIInfo: 'Connettiti con {customBrandName} Designer utilizzando quasi tutte le origini dati che dispongono di un\'API REST. Crea report e guarda la storia che vive nei tuoi dati.',
+            xmlInfo: 'Porta i tuoi file XML in {customBrandName} Designer e prepara i report per vedere la storia che vive nei tuoi dati.'
         }
     },
     imageManager: {

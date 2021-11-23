@@ -35,10 +35,12 @@ cloudAuthControl = ViewBag.AuthControl as TenantAuthControl;
     <environment include="Development,CloudDevelopment">
         <link rel="stylesheet" asp-append-version="true" href="@reportServerResourceUrl/cdn/css/site-settings.css" />
         <link rel="stylesheet" asp-append-version="true" href="@reportServerResourceUrl/cdn/css/user-database-import.css" />
+        <link rel="stylesheet" asp-append-version="true" href="@reportServerResourceUrl/cdn/css/emaileditor.css" />
     </environment>
     <environment exclude="Development,CloudDevelopment">
         <link rel="stylesheet" asp-append-version="true" href="@reportServerResourceUrl/cdn/css/site-settings.min.css" />
         <link rel="stylesheet" asp-append-version="true" href="@reportServerResourceUrl/cdn/css/user-database-import.css" />
+        <link rel="stylesheet" asp-append-version="true" href="@reportServerResourceUrl/cdn/css/emaileditor.min.css" />
     </environment>
 }
 @section scripts{
@@ -402,6 +404,77 @@ cloudAuthControl = ViewBag.AuthControl as TenantAuthControl;
                                             </div>
                                         </div>
                                     </div>
+                                    @*<div class="col-md-12 form-group">
+                                        <div id="identity-provider-info" class="col-sm-12 col-xs-12">
+                                            <div id="enable-checkbox">
+                                                @if (isOAuthIdIdentityProviderOptionEnabled)
+                                                {
+                                                    <input type="checkbox" class="material-checkbox" id="configure-oauth-identity-provider-info" name="oauthIdentityProviderInfoIsEnabled" ng-model="oauthIdentityProviderInfoIsEnabled" ng-init="oauthIdentityProviderInfoIsEnabled=true" ng-checked=true />
+                                                }
+                                                else
+                                                {
+                                                    <input type="checkbox" class="material-checkbox" id="configure-oauth-identity-provider-info" name="oauthIdentityProviderInfoIsEnabled" ng-model="oauthIdentityProviderInfoIsEnabled" ng-init="oauthIdentityProviderInfoIsEnabled=false" />
+                                                }
+                                                @Html.Hidden("configure-oauth-identity-provider-info")
+                                                @Html.Label("configure-oauth-identity-provider-info", "[[[Configure identity provider info to add users]]]")
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="oauth-identity-provider-info-section" ng-if="oauthIdentityProviderInfoIsEnabled">
+                                        <div class="col-md-12 form-group">
+                                            <div class="col-md-6 no-padding no-margin">
+                                                <label class="app-textbox-label col-md-4 no-margin">[[[Provider Name]]]</label>
+                                                <div class="col-md-8 no-margin form-input-field" id="oauth-identity-provider-name" ng-class="(oauthSettingsForm.oauthIdentityProviderName.$dirty && oauthSettingsForm.oauthIdentityProviderName.$invalid) ? 'has-error' : ''">
+                                                    <input type="text" class="form-control col-md-6 no-margin" placeholder="[[[Provider Name]]]" name="oauthIdentityProviderName" ng-model="oauthIdentityProviderName" ng-init="oauthIdentityProviderName='@oAuthIdentityProviderName'" data-ng-disabled="!oauthIsEnabled" required />
+                                                    <span class="validation-message" id="oauthIPN-validation-message" ng-show="oauthSettingsForm.oauthIdentityProviderName.$error.required && oauthSettingsForm.oauthIdentityProviderName.$dirty && oauthIsEnabled">[[[Please enter the identity provider name.]]]</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 form-group">
+                                            <div class="col-md-6 no-padding no-margin">
+                                                <label class="app-textbox-label col-md-4 no-margin">[[[Provider URL]]]</label>
+                                                <div class="col-md-8 no-margin form-input-field" id="oauth-identity-provider-url" ng-class="(oauthSettingsForm.oauthIdentityProviderUrl.$dirty && oauthSettingsForm.oauthIdentityProviderUrl.$invalid) ? 'has-error' : ''">
+                                                    <input type="text" class="form-control col-md-6 no-margin" placeholder="[[[Provider URL]]]" name="oauthIdentityProviderUrl" ng-model="oauthIdentityProviderUrl" ng-init="oauthIdentityProviderUrl='@oAuthIdentityProviderURL'" data-ng-disabled="!oauthIsEnabled" required />
+                                                    <span class="validation-message" id="oauthIPU-validation-message" ng-show="oauthSettingsForm.oauthIdentityProviderUrl.$error.required && oauthSettingsForm.oauthIdentityProviderUrl.$dirty && oauthIsEnabled">[[[Please enter the identity provider URL.]]]</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                        <div id="custom-mail-content" class="col-sm-12 col-xs-12">
+                                            <div id="enable-checkbox">
+                                                @if (isOAuthCustomMailOptionEnabled)
+                                                {
+                                                    <input type="checkbox" class="material-checkbox" id="configure-oauth-custom-mail-content" name="oauthCustomMailContentIsEnabled" ng-model="oauthCustomMailContentIsEnabled" ng-init="oauthCustomMailContentIsEnabled=true" ng-checked=true />
+                                                }
+                                                else
+                                                {
+                                                    <input type="checkbox" class="material-checkbox" id="configure-oauth-custom-mail-content" name="oauthCustomMailContentIsEnabled" ng-model="oauthCustomMailContentIsEnabled" ng-init="oauthCustomMailContentIsEnabled=false" />
+                                                }
+                                                @Html.Hidden("configure-oauth-custom-mail-content")
+                                                @Html.Label("configure-oauth-custom-mail-content", "[[[Configure custom invite mail]]]")
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="oauth-custom-mail-content-section" ng-if="oauthCustomMailContentIsEnabled">
+                                        <div class="col-md-12 form-group">
+                                            <div class="col-md-6 no-padding no-margin">
+                                                <label class="app-textbox-label col-md-4 no-margin">[[[Subject]]]</label>
+                                                <div class="col-md-8 no-margin form-input-field" id="oauth-identity-provider-url" ng-class="(oauthSettingsForm.oauthMailSubject.$dirty && oauthSettingsForm.oauthMailSubject.$invalid) ? 'has-error' : ''">
+                                                    <input type="text" class="form-control col-md-6 no-margin" placeholder="[[[Subject]]]" name="oauthMailSubject" ng-model="oauthMailSubject" ng-init="oauthMailSubject='@oAuthSubject'" data-ng-disabled="!oauthIsEnabled" required />
+                                                    <span class="validation-message" id="oauthIPU-validation-message" ng-show="oauthSettingsForm.oauthMailSubject.$error.required && oauthSettingsForm.oauthMailSubject.$dirty && oauthIsEnabled">[[[Please enter a subject.]]]</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 form-group oauth-custom-mail-content">
+                                            <div class="col-md-6 no-padding no-margin">
+                                                <label class="app-textbox-label col-md-4 no-margin">[[[Custom invite mail content]]]</label>
+                                                <div class="col-md-8 no-margin form-input-field" id="oauth-email-editor">
+                                                    <textarea class="col-sm-12 col-xs-12 no-padding" id="oauth-custom-mail-content"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>*@
                                 </form>
                             </div>
                         </div>
@@ -505,6 +578,77 @@ cloudAuthControl = ViewBag.AuthControl as TenantAuthControl;
                                             </div>
                                         </div>
                                     </div>
+                                    @*<div class="col-md-12 form-group">
+                                        <div id="identity-provider-info" class="col-sm-12 col-xs-12s">
+                                            <div id="enable-checkbox">
+                                                @if (isOpenIdIdentityProviderOptionEnabled)
+                                                {
+                                                    <input type="checkbox" class="material-checkbox" id="configure-openid-identity-provider-info" name="identityproviderInfoiseEnbled" ng-model="openIdIdentityProviderInfoIsEnabled" ng-init="openIdIdentityProviderInfoIsEnabled=true" ng-checked=true />
+                                                }
+                                                else
+                                                {
+                                                    <input type="checkbox" class="material-checkbox" id="configure-openid-identity-provider-info" name="identityproviderInfoiseEnbled" ng-model="openIdIdentityProviderInfoIsEnabled" ng-init="openIdIdentityProviderInfoIsEnabled=false" />
+                                                }
+                                                @Html.Hidden("configure-openid-identity-provider-info")
+                                                @Html.Label("configure-openid-identity-provider-info", "[[[Configure identity provider info to add users]]]")
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="openid-identity-provider-info-section" ng-if="openIdIdentityProviderInfoIsEnabled">
+                                        <div class="col-md-12 form-group">
+                                            <div class="col-md-6 no-padding no-margin">
+                                                <label class="app-textbox-label col-md-4 no-margin">[[[Provider Name]]]</label>
+                                                <div class="col-md-8 no-margin form-input-field" ng-class="(openidSettingsForm.openIdIdentityProviderName.$dirty && openidSettingsForm.openIdIdentityProviderName.$invalid) ? 'has-error' : ''">
+                                                    <input type="text" class="form-control col-md-6 no-margin" name="openIdIdentityProviderName" ng-model="openIdIdentityProviderName" ng-init="openIdIdentityProviderName='@openIdIdentityProviderName'" placeholder="[[[Provider Name]]]" data-ng-disabled="!openidIsEnabled" required />
+                                                    <span class="validation-message" id="opendidIPN-validation-message" ng-show="openidSettingsForm.openIdIdentityProviderName.$error.required && openidSettingsForm.openIdIdentityProviderName.$dirty && openidIsEnabled">[[[Please enter the identity provider name.]]]</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 form-group">
+                                            <div class="col-md-6 no-padding no-margin">
+                                                <label class="app-textbox-label col-md-4 no-margin">[[[Provider URL]]]</label>
+                                                <div class="col-md-8 no-margin form-input-field" ng-class="(openidSettingsForm.openIdIdentityProviderURL.$dirty && openidSettingsForm.openIdIdentityProviderURL.$invalid) ? 'has-error' : ''">
+                                                    <input type="text" class="form-control col-md-6 no-margin" name="openIdIdentityProviderURL" ng-model="openIdIdentityProviderURL" ng-init="openIdIdentityProviderURL='@openIdIdentityProviderURL'" placeholder="[[[Provider URL]]]" data-ng-disabled="!openidIsEnabled" required />
+                                                    <span class="validation-message" id="opendidIPU-validation-message" ng-show="openidSettingsForm.openIdIdentityProviderURL.$error.required && openidSettingsForm.openIdIdentityProviderURL.$dirty && openidIsEnabled">[[[Please enter the identity provider URL.]]]</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                        <div id="custom-mail-content" class="col-sm-12 col-xs-12s">
+                                            <div id="enable-checkbox">
+                                                @if (isOpenIdCustomMailOptionEnabled)
+                                                {
+                                                    <input type="checkbox" class="material-checkbox" id="configure-openid-custom-mail-content" name="customMailContentiseEnbled" ng-model="openIdCustomMailContentIsEnabled" ng-init="openIdCustomMailContentIsEnabled=true" ng-checked=true />
+                                                }
+                                                else
+                                                {
+                                                    <input type="checkbox" class="material-checkbox" id="configure-openid-custom-mail-content" name="customMailContentiseEnbled" ng-model="openIdCustomMailContentIsEnabled" ng-init="openIdCustomMailContentIsEnabled=false" />
+                                                }
+                                                @Html.Hidden("configure-openid-custom-mail-content")
+                                                @Html.Label("configure-openid-custom-mail-content", "[[[Configure custom invite mail]]]")
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="openid-custom-invite-mail-content-section" ng-if="openIdCustomMailContentIsEnabled">
+                                        <div class="col-md-12 form-group">
+                                            <div class="col-md-6 no-padding no-margin">
+                                                <label class="app-textbox-label col-md-4 no-margin">[[[Subject]]]</label>
+                                                <div class="col-md-8 no-margin form-input-field" ng-class="(openidSettingsForm.openidMailSubject.$dirty && openidSettingsForm.openidMailSubject.$invalid) ? 'has-error' : ''">
+                                                    <input type="text" class="form-control col-md-6 no-margin" name="openidMailSubject" ng-model="openidMailSubject" ng-init="openidMailSubject='@openIdSubject'" placeholder="[[[Subject]]]" data-ng-disabled="!openidIsEnabled" required />
+                                                    <span class="validation-message" id="opendidIPU-validation-message" ng-show="openidSettingsForm.openidMailSubject.$error.required && openidSettingsForm.openidMailSubject.$dirty && openidIsEnabled">[[[Please enter a subject.]]]</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 form-group">
+                                            <div class="col-md-6 no-padding no-margin">
+                                                <label class="app-textbox-label col-md-4 no-margin">[[[Custom invite mail content]]]</label>
+                                                <div class="col-md-8 no-margin form-input-field" id="openid-email-editor">
+                                                    <textarea class="col-sm-12 col-xs-12 no-padding" id="openid-custom-mail-content"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>*@
                                 </form>
                             </div>
                         </div>
