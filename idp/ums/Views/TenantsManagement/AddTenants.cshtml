@@ -143,21 +143,27 @@
                                 <div class="circle"></div>
                                 <div class="hr-tag"> </div>
                             </div>
-                            <div class="selector-panel" id="selection-data-security">
-                                <div class="circle"></div>
-                                <div class="hr-tag"> </div>
+                            @if (ViewBag.IsBoldBIMultiTenant)
+                            {
+                                <div class="selector-panel" id="selection-data-security">
+                                    <div class="circle"></div>
+                                    <div class="hr-tag"> </div>
+                                </div>
+                            }
+                                <div class="selector-panel" id="selectionadmin">
+                                    <div class="circle"></div>
+                                </div>
                             </div>
-                            <div class="selector-panel" id="selectionadmin">
-                                <div class="circle"></div>
-                            </div>
-                        </div>
                         <div class="selector-content">
                             <span class="site-creation selectedContent">[[[SITE CREATION]]]</span>
                             <span class="select-database">[[[SELECT DATABASE]]]</span>
                             <span class="select-storage">[[[SELECT STORAGE]]]</span>
-                            <span class="get-data-security">[[[DATA SECURITY]]]</span>
-                            <span class="administrator">[[[ADMINISTRATOR]]]</span>
-                        </div>
+                            @if (ViewBag.IsBoldBIMultiTenant)
+                            {
+                                <span class="get-data-security">[[[DATA SECURITY]]]</span>
+                            }
+                                <span class="administrator">[[[ADMINISTRATOR]]]</span>
+                            </div>
                     </div>
                 </div>
             </div>

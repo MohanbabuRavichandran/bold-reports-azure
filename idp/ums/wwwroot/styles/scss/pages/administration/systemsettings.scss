@@ -66,6 +66,11 @@ $color-grey-200: #CCCCCC;
     #look-and-feel-form {
         color: $primary-text-color;
 
+        #site-name-validation {
+            right: 10px;
+            width: auto;
+        }
+
         .table-section {
             border-collapse: collapse;
             border: 1px solid $grey-200;
@@ -241,15 +246,17 @@ $color-grey-200: #CCCCCC;
     .exist-domain-info {
         margin-left: 17%;
         margin-top: 5px;
-        input{
+
+        input {
             margin-right: 5px;
             cursor: pointer;
         }
+
         a {
             color: $primary-color;
         }
-    } 
-    
+    }
+
     .bootstrap-select {
         .btn {
             font-size: $app-large-text-size;

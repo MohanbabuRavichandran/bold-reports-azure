@@ -34,6 +34,9 @@
                 parent.$("#uploadValidation").html("");
                 parent.$("#publish_report").attr("disabled", true);
                 var filename = $("#browse_file").val();
+                if (filename == "") {
+                    $("#upload_browse_file").val('');
+                }
                 if (filename.substring(filename.lastIndexOf('.') + 1) == "rdl") {
                     filename = filename.substring(filename.lastIndexOf('\\') + 1);
                     $("#upload_browse_file").css("color", "#555555");

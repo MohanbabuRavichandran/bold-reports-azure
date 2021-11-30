@@ -175,9 +175,12 @@
                                 <a href="#data-security-tab" aria-controls="data-security-tab" role="tab" data-toggle="tab">[[[Isolation Code]]]</a>
                             </li>
                         }
-                        <li role="presentation" class="@isAttributesTab" id="custom-attribute">
-                            <a href="#custom-attribute-tab" aria-controls="custom-attribute-tab" role="tab" data-toggle="tab">[[[Attributes]]]</a>
-                        </li>
+                        @if (Model.TenantTypeId == (int)TenantType.BoldBIOnPremise)
+                        {
+                            <li role="presentation" class="@isAttributesTab" id="custom-attribute">
+                                <a href="#custom-attribute-tab" aria-controls="custom-attribute-tab" role="tab" data-toggle="tab">[[[Attributes]]]</a>
+                            </li>
+                        }
                     }
                 </ul>
             </div>

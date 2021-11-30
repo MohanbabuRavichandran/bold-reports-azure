@@ -317,6 +317,9 @@
     @if (!embedConfig.IsEmbedReport || @embedConfig.HasViews && !itemDetail.IsPublic)
     {
         @await Html.PartialAsync("_ReportViews")
+    }
+    @if (!embedConfig.IsEmbedCode && isUserAuthenticatedInCurrentTenant)
+    {
         @await Html.PartialAsync("../Items/_SharePermission");
     }
 

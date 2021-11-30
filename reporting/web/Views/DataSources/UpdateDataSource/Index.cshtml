@@ -1,11 +1,11 @@
-﻿﻿@using System.Globalization;﻿
-@using System.Runtime.InteropServices;
+﻿@using System.Globalization;
+﻿@using System.Runtime.InteropServices;
 @{
     Layout = null;
     var globalAppSettings = _globalAppSettings;
     var CreateAccess = ViewData["CreateAccess"] != null ? Convert.ToBoolean(ViewData["CreateAccess"]) : false;
     var reportServerResourceUrl = globalAppSettings.SystemSettings.CDNLink.TrimEnd('/');
-	var isWindowsPlatform = RuntimeInformation.IsOSPlatform(OSPlatform.Windows);
+    var isWindowsPlatform = RuntimeInformation.IsOSPlatform(OSPlatform.Windows);
     var designerServiceUrl = ServerAppConfig.InternalAppDataServiceUrl.TrimEnd('/');
     var reportServerApiUrl = new DashboardServerApiEndPoints(globalAppSettings).BoldReportsApiUrl();
     var reportServiceUrl = designerServiceUrl + "/api/Designer";
@@ -111,23 +111,19 @@
         var isWindows = @Json.Serialize(@isWindowsPlatform);
         var isSelfHosted = @Json.Serialize(ServerAppConfig.IsSelfHosted);
         var designerToken = "@ViewBag.AccessToken";
-        var dataConnectors = {
-            connectionList: null,
-            customDataList: null
-        }
+        var connectionList = null;
         var availableDSList = [];
         var designerInstance;
         var serverURL = "@reportServerApiUrl";
         var serviceURL = "@designerServiceUrl" + "/api/Designer";
-        var getDataConnectors = "@designerServiceUrl" + "/api/v1.0/configuration/connectionsetting/";
-        var loadCustomConnectors = "@designerServiceUrl" + "/api/v1.0/datasource/load-custom-connector/";
+        var getDataConnectors = "@designerServiceUrl" + "/api/v1.0/configuration/GetDataConnectors/";
         var custombrandName = "@ServerAppConfig.CustomBrandName";
-        var customDomain = @ServerAppConfig.AllowCustomHelpLink ? "@ServerAppConfig.AppSettings.Documentation.BaseUri" : "https://help.boldreports.com";
+        var customDomain = @Json.Serialize(@ServerAppConfig.AllowCustomHelpLink) ? "@ServerAppConfig.AppSettings.Documentation.BaseUri" : "https://help.boldreports.com";
         var isHideHelpLink = @Json.Serialize(ServerAppConfig.IsHideHelpLink);
 </script>
 </head>
 <body ng-app="updateDataSourceApp">
-	<div id="updateDesigner" style="display:none !important"></div>
+    <div id="updateDesigner" style="display:none !important"></div>
     <div class="ud-container" ng-controller="updateDataSourceCtrl">
         @{ Html.RenderPartial("~/Views/DataSources/UpdateDataSource/_Header.cshtml"); }
         <div class="ud-connector" ng-if="selectedDataConnector">

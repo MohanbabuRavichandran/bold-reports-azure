@@ -691,6 +691,10 @@ $(document).ready(function () {
         },
         onfocusout: function (element) { $(element).valid(); },
         rules: {
+            "site_name": {
+                isRequired: true,
+                maxlength: 255
+            },
             "site_url": {
                 isRequired: true,
                 isValidUrl: true
@@ -705,22 +709,25 @@ $(document).ready(function () {
         },
         unhighlight: function (element) {
             $(element).closest("div").removeClass("has-error");
-            if (element.id == "site-copyright") {
-                $(element).parent().find("span.validation-errors").html("");
+            if (element.id == "site_url") {
+                $(element).parent().parent().next().next().find("span.validation-errors").html("");
             }
             else {
-                $(element).parent().parent().next().find("span.validation-errors").html("");
+                $(element).parent().find("span.validation-errors").html("");
             }
         },
         errorPlacement: function (error, element) {
-            if (element.attr("id") == "site-copyright") {
-                $(element).parent().find("span.validation-errors").html(error);
+            if (element.attr("id") == "site_url") {
+                $(element).parent().parent().next().next().find("span.validation-errors").html(error);
             }
             else {
-                $(element).parent().parent().next().find("span.validation-errors").html(error);
+                $(element).parent().find("span.validation-errors").html(error);
             }
         },
         messages: {
+            "site_name": {
+                isRequired: window.TM.App.LocalizationContent.OrganizationName
+            },
             "site_url": {
                 isRequired: window.TM.App.LocalizationContent.Urlvalidator
             },

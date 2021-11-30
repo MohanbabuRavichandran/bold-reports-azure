@@ -59,7 +59,7 @@ html {
 
                     .selector {
                         position: relative;
-                        width: 650px;
+                        width: 750px;
                         margin: auto;
 
                         .selector-icons {
@@ -514,6 +514,14 @@ html {
                                             display: none;
                                         }
 
+                                        .storage-block {
+                                            .azure-validation {
+                                                .blob-error-message {
+                                                    position: relative;
+                                                    bottom: 10px;
+                                                }
+                                            }
+                                        }
 
                                         .database-types {
                                             padding-top: 15px;
@@ -691,7 +699,7 @@ html {
                 }
 
                 .adjustment {
-                    overflow-y: auto;
+                    overflow-y: scroll;
                 }
 
                 .site-page-adjustment {
@@ -832,7 +840,7 @@ html {
 
                 p {
                     font-size: map-get($app-text-size, sm);
-                    color:$grey-500;
+                    color: $grey-500;
                 }
             }
         }
@@ -884,6 +892,7 @@ html {
     padding: 21px 20px 20px 20px;
     float: left;
     width: 100%;
+
     .su-search {
         width: 12px;
         height: 12px;
@@ -1038,8 +1047,8 @@ html {
                 }
             }
 
-            .secure-sql{
-                .popover{
+            .secure-sql {
+                .popover {
                     left: -114px !important;
                 }
             }

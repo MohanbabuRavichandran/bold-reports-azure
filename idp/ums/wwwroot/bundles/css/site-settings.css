@@ -223,6 +223,9 @@
 
 #look-and-feel-container #look-and-feel-form {
   color: var(--colorText); }
+  #look-and-feel-container #look-and-feel-form #site-name-validation {
+    right: 10px;
+    width: auto; }
   #look-and-feel-container #look-and-feel-form .table-section {
     border-collapse: collapse;
     border: 1px solid #cccccc;

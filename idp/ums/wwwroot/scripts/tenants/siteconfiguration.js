@@ -295,8 +295,9 @@ function changeTenantType(args) {
             item = "reports";
             $("#enable-ssl").val(reportScheme);
             $("#input-domain").val(reportDomain);
-            $(".get-data-security").css("display", "inline");
-            $("#selection-data-security").css("display", "inline");
+            $(".get-data-security").css("display", "none");
+            $("#selection-data-security").css("display", "none");
+            $(".selector").removeClass("selector-alignment");
             $(".select-storage").html(window.TM.App.LocalizationContent.SelectStorage);
             $("#header-description").html(window.TM.App.LocalizationContent.BoldReportsMultiTenancy);
             if (useSiteIdentifierEnable) {
@@ -320,6 +321,7 @@ function changeTenantType(args) {
             $("#input-domain").val(biDomain);
             $(".get-data-security").css("display", "inline");
             $("#selection-data-security").css("display", "inline");
+            $(".selector").addClass("selector-alignment");
             $(".select-intermediate-database").html(window.TM.App.LocalizationContent.SiteDataStore);
             $(".select-storage").html(window.TM.App.LocalizationContent.SelectStorage);
             $("#header-description").html(window.TM.App.LocalizationContent.BoldBiMultiTenancy);

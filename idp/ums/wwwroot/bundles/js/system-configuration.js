@@ -3680,7 +3680,16 @@ function DomResize() {
 function onDatbaseChange(args) {
     removeError();
     var checkedVal = args.value.toLowerCase();
-    $("#admin-nav").show();
+    if (!isSiteCreation) {
+        $("#admin-nav").show();
+    }
+    else if (!isBoldReportsTenantType() && isSiteCreation) {
+        $("#admin-nav").show();
+    }
+    else if (isBoldReportsTenantType && isSiteCreation) {
+        $("#admin-nav").hide();
+    }
+
     showDataStore();
     switch (checkedVal) {
         case "mssql":
@@ -3697,6 +3706,12 @@ function onDatbaseChange(args) {
             $(".show-sql-content").slideDown("slow");
             if (!isSiteCreation) {
                 prefillDbNames();
+            }
+            if (!isSiteCreation && isBoldReports) {
+                hideDataStore();
+            }
+            else if (isSiteCreation && isBoldReportsTenantType()) {
+                hideDataStore();
             }
             $("div.placeholder").remove();
             $(".note-additional-parameter a").attr("href", sqlParameter);
@@ -3755,6 +3770,12 @@ function onDatbaseChange(args) {
             $(".show-sql-content").slideDown("slow");
             if (!isSiteCreation) {
                 prefillDbNames();
+            }
+            if (!isSiteCreation && isBoldReports) {
+                hideDataStore();
+            }
+            else if (isSiteCreation && isBoldReportsTenantType()) {
+                hideDataStore();
             }
             $("div.placeholder").remove();
             $(".note-additional-parameter a").attr("href", postgresSQLParameter);

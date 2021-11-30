@@ -48,8 +48,11 @@
   <DB_TableName>BOLDRS_SystemSettings</DB_TableName>
   <DB_TableName>BOLDRS_TableRelation</DB_TableName>
   <DB_TableName>BOLDRS_User</DB_TableName>
+  <DB_TableName>BOLDRS_UserAttributes</DB_TableName>
   <DB_TableName>BOLDRS_ScheduleStatus</DB_TableName>
   <DB_TableName>BOLDRS_ServerVersion</DB_TableName>
+  <DB_TableName>BOLDRS_SettingsType</DB_TableName>
+  <DB_TableName>BOLDRS_SiteAttributes</DB_TableName>
   <DB_TableName>BOLDRS_Source</DB_TableName>
   <DB_TableName>BOLDRS_PermissionLogType</DB_TableName>
   <DB_TableName>BOLDRS_PermissionAccess</DB_TableName>
@@ -60,6 +63,7 @@
   <DB_TableName>BOLDRS_ItemCommentLogType</DB_TableName>
   <DB_TableName>BOLDRS_GroupLogType</DB_TableName>
   <DB_TableName>BOLDRS_Group</DB_TableName>
+  <DB_TableName>BOLDRS_GroupAttributes</DB_TableName>
   <DB_TableName>BOLDRS_ExportType</DB_TableName>
   <DB_TableName>BOLDRS_ADCredential</DB_TableName>
   <DB_TableName>BOLDRS_AzureADCredential</DB_TableName>

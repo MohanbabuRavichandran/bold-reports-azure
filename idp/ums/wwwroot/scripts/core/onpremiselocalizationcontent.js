@@ -61,6 +61,7 @@
             EnterName: "[[[Please enter the name.]]]",
             InvalidEmailAddress: "[[[Invalid email address]]]",
             Urlvalidator: "[[[Please enter URL]]]",
+            OrganizationName: "[[[Please enter the organization name]]]",
             AzureADSettings: "[[[Azure Active Directory Settings]]]",
             PasswordPlaceholder: "[[[Password]]]",
             CopyRightValidator: "[[[Please enter the copy right information text]]]",

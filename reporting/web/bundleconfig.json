@@ -3198,7 +3198,7 @@
     ]
   },
   {
-    "outputFileName": "wwwroot/cdn/scripts/essentialjs/datasource-connection-configuration-dependency.js",
+    "outputFileName": "wwwroot/cdn/scripts/essentialjs/datatile-configuration-dependency.js",
     "inputFiles": [
       "wwwroot/Scripts/jQuery/jsrender.min.js",
       "wwwroot/Scripts/Bootstrap/bootstrap.min.js",
@@ -3207,16 +3207,16 @@
     ]
   },
   {
-    "outputFileName": "wwwroot/cdn/scripts/essentialjs/datasource-connection-configuration.js",
+    "outputFileName": "wwwroot/cdn/scripts/essentialjs/datatile-configuration.js",
     "inputFiles": [
-      "wwwroot/Scripts/EssentialJS/ej.connection.configuration.min.js"
+      "wwwroot/Scripts/EssentialJS/bold.datatileconfiguration.min.js"
     ]
   },
   {
-    "outputFileName": "wwwroot/cdn/css/essentialjs/reportdesigner/connection-configuration/connection-configuration.css",
+    "outputFileName": "wwwroot/cdn/css/essentialjs/reportdesigner/data-configuration/data-configuration.css",
     "inputFiles": [
-      "wwwroot/Styles/EssentialJS/reportdesigner/connection-configuration/bold.connectionconfiguration.core.css",
-      "wwwroot/Styles/EssentialJS/reportdesigner/connection-configuration/bold.connectionconfiguration.theme.css"
+      "wwwroot/Styles/EssentialJS/reportdesigner/data-configuration/bold.data-configuration.core.css",
+      "wwwroot/Styles/EssentialJS/reportdesigner/data-configuration/bold.data-configuration.theme.css"
     ]
   }
 ]

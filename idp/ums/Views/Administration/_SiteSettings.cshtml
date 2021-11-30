@@ -35,7 +35,8 @@ new SelectListItem
                         @class = "col-xs-2 app-textbox-label"
                     })
                     <div class="col-xs-4">
-                        <input type="text" id="site-orgname" class="form-control site-orgname-fields" placeholder="[[[Enter your Organization Name]]]" value="@ViewBag.SystemSettings.OrganizationName" data-original-value="@ViewBag.SystemSettings.OrganizationName" />
+                        <input type="text" id="site-orgname" name="site_name" class="form-control site-orgname-fields" placeholder="[[[Enter your Organization Name]]]" value="@ViewBag.SystemSettings.OrganizationName" data-original-value="@ViewBag.SystemSettings.OrganizationName" />
+                        <span class="validation-errors col-xs-4" id="site-name-validation"></span>
                     </div>
                 </div>
                 <div class="form-group">
@@ -64,7 +65,7 @@ new SelectListItem
                         })
                         <label class="app-textbox-label">[[[Update the URL of the ]]]<a target="_blank" href="@existingDomainUrl">[[[sites]]]</a>[[[ that are deployed to the same URL.]]]</label>
                     </div>
-                    <div class="col-xs-12 no-padding">
+                    <div class="col-xs-12 no-padding site-url-validation">
                         <div class="col-xs-2"></div>
                         <span class="validation-errors col-xs-4" id="site-url-validation"></span>
                     </div>

@@ -26,29 +26,30 @@
   },
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "Syncfusion.Server.Jobs/3.3.18": {
+      "Syncfusion.Server.Jobs/3.3.23": {
         "dependencies": {
-          "Bold.Licensing": "3.3.18",
-          "BoldReports.CRI.Barcode": "3.3.18",
-          "BoldReports.Data.Csv": "3.3.18",
-          "BoldReports.Data.Excel": "3.3.18",
-          "BoldReports.Data.WebData": "3.3.18",
-          "BoldReports.Net.Core": "3.3.18",
+          "Bold.Licensing": "3.3.23",
+          "BoldReports.CRI.Barcode": "3.3.23",
+          "BoldReports.Data.Csv": "3.3.23",
+          "BoldReports.Data.Excel": "3.3.23",
+          "BoldReports.Data.SSAS": "3.3.23",
+          "BoldReports.Data.WebData": "3.3.23",
+          "BoldReports.Net.Core": "3.3.23",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "3.1.4",
           "Microsoft.CodeAnalysis.FxCopAnalyzers": "2.9.8",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.9.10",
           "Syncfusion.Licensing": "19.2.0.44",
-          "Syncfusion.Server.Base": "3.3.18",
-          "Syncfusion.Server.Base.ActiveDirectory": "3.3.18",
-          "Syncfusion.Server.Base.Data": "3.3.18",
-          "Syncfusion.Server.Base.DataClasses": "3.3.18",
-          "Syncfusion.Server.Base.Encryption": "3.3.18",
-          "Syncfusion.Server.Base.Item": "3.3.18",
-          "Syncfusion.Server.Base.Logger": "3.3.18",
-          "Syncfusion.Server.Base.MarkdownSharp": "3.3.18",
-          "Syncfusion.Server.Base.Resources.Storage": "3.3.18",
-          "Syncfusion.Server.Base.Scheduler": "3.3.18",
-          "Syncfusion.Server.Base.TemplateGenerator": "3.3.18",
+          "Syncfusion.Server.Base": "3.3.23",
+          "Syncfusion.Server.Base.ActiveDirectory": "3.3.23",
+          "Syncfusion.Server.Base.Data": "3.3.23",
+          "Syncfusion.Server.Base.DataClasses": "3.3.23",
+          "Syncfusion.Server.Base.Encryption": "3.3.23",
+          "Syncfusion.Server.Base.Item": "3.3.23",
+          "Syncfusion.Server.Base.Logger": "3.3.23",
+          "Syncfusion.Server.Base.MarkdownSharp": "3.3.23",
+          "Syncfusion.Server.Base.Resources.Storage": "3.3.23",
+          "Syncfusion.Server.Base.Scheduler": "3.3.23",
+          "Syncfusion.Server.Base.TemplateGenerator": "3.3.23",
           "Microsoft.AspNetCore.Antiforgery.Reference": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -421,81 +422,95 @@
           "lib/netstandard2.0/BarcodeStandard.dll": {}
         }
       },
-      "Bold.Licensing/3.3.18": {
+      "Bold.Licensing/3.3.23": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
           "lib/netcoreapp3.0/Bold.Licensing.dll": {
-            "assemblyVersion": "3.3.18.0",
-            "fileVersion": "3.3.18.0"
+            "assemblyVersion": "3.3.23.0",
+            "fileVersion": "3.3.23.0"
           }
         },
         "compile": {
           "lib/netcoreapp3.0/Bold.Licensing.dll": {}
         }
       },
-      "BoldReports.CRI.Barcode/3.3.18": {
+      "BoldReports.CRI.Barcode/3.3.23": {
         "dependencies": {
           "BarcodeLib": "2.2.6",
-          "BoldReports.Web": "3.3.18",
+          "BoldReports.Web": "3.3.23",
           "Syncfusion.Pdf.Imaging.Net.Core": "19.2.0.44"
         },
         "runtime": {
           "lib/netcoreapp5.0/BoldReports.CRI.Barcode.dll": {
-            "assemblyVersion": "3.3500.18.0",
-            "fileVersion": "3.3500.18.0"
+            "assemblyVersion": "3.3500.23.0",
+            "fileVersion": "3.3500.23.0"
           }
         },
         "compile": {
           "lib/netcoreapp5.0/BoldReports.CRI.Barcode.dll": {}
         }
       },
-      "BoldReports.Data.Csv/3.3.18": {
+      "BoldReports.Data.Csv/3.3.23": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
           "lib/netcoreapp5.0/BoldReports.Data.Csv.dll": {
-            "assemblyVersion": "3.3500.18.0",
-            "fileVersion": "3.3500.18.0"
+            "assemblyVersion": "3.3500.23.0",
+            "fileVersion": "3.3500.23.0"
           }
         },
         "compile": {
           "lib/netcoreapp5.0/BoldReports.Data.Csv.dll": {}
         }
       },
-      "BoldReports.Data.Excel/3.3.18": {
+      "BoldReports.Data.Excel/3.3.23": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
           "lib/netcoreapp5.0/BoldReports.Data.Excel.dll": {
-            "assemblyVersion": "3.3500.18.0",
-            "fileVersion": "3.3500.18.0"
+            "assemblyVersion": "3.3500.23.0",
+            "fileVersion": "3.3500.23.0"
           }
         },
         "compile": {
           "lib/netcoreapp5.0/BoldReports.Data.Excel.dll": {}
         }
       },
-      "BoldReports.Data.WebData/3.3.18": {
+      "BoldReports.Data.SSAS/3.3.23": {
+        "dependencies": {
+          "Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64": "19.22.0.1"
+        },
+        "runtime": {
+          "lib/netcoreapp5.0/BoldReports.Data.SSAS.dll": {
+            "assemblyVersion": "3.3500.23.0",
+            "fileVersion": "3.3500.23.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp5.0/BoldReports.Data.SSAS.dll": {}
+        }
+      },
+      "BoldReports.Data.WebData/3.3.23": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
           "lib/netcoreapp5.0/BoldReports.Data.WebData.dll": {
-            "assemblyVersion": "3.3500.18.0",
-            "fileVersion": "3.3500.18.0"
+            "assemblyVersion": "3.3500.23.0",
+            "fileVersion": "3.3500.23.0"
           }
         },
         "compile": {
           "lib/netcoreapp5.0/BoldReports.Data.WebData.dll": {}
         }
       },
-      "BoldReports.Net.Core/3.3.18": {
+      "BoldReports.Net.Core/3.3.23": {
         "dependencies": {
-          "Bold.Licensing": "3.3.18",
+          "Bold.Licensing": "3.3.23",
           "Microsoft.CodeAnalysis.VisualBasic": "3.8.0",
           "Microsoft.Windows.Compatibility": "3.1.0",
           "Newtonsoft.Json": "12.0.3",
@@ -515,17 +530,17 @@
         },
         "runtime": {
           "lib/netcoreapp5.0/BoldReports.Web.dll": {
-            "assemblyVersion": "3.3500.18.0",
-            "fileVersion": "3.3500.18.0"
+            "assemblyVersion": "3.3500.23.0",
+            "fileVersion": "3.3500.23.0"
           }
         },
         "compile": {
           "lib/netcoreapp5.0/BoldReports.Web.dll": {}
         }
       },
-      "BoldReports.Web/3.3.18": {
+      "BoldReports.Web/3.3.23": {
         "dependencies": {
-          "Bold.Licensing": "3.3.18",
+          "Bold.Licensing": "3.3.23",
           "Syncfusion.DocIO.AspNet": "19.2.0.44",
           "Syncfusion.Pdf.AspNet": "19.2.0.44",
           "Syncfusion.Presentation.AspNet": "19.2.0.44",
@@ -570,7 +585,7 @@
           "System.IO.FileSystem": "4.3.0",
           "System.IO.FileSystem.Watcher": "4.0.0",
           "System.Linq": "4.3.0",
-          "System.Net.NameResolution": "4.0.0",
+          "System.Net.NameResolution": "4.3.0",
           "System.Net.Requests": "4.0.11",
           "System.Net.Sockets": "4.1.0",
           "System.Reflection": "4.3.0",
@@ -595,6 +610,30 @@
         },
         "compile": {
           "lib/netstandard1.3/log4net.dll": {}
+        }
+      },
+      "Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64/19.22.0.1": {
+        "dependencies": {
+          "Microsoft.Identity.Client": "4.6.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.AnalysisServices.AdomdClient.dll": {
+            "assemblyVersion": "19.22.0.1",
+            "fileVersion": "15.1.94.18"
+          },
+          "lib/netcoreapp3.0/Microsoft.AnalysisServices.Platform.Core.dll": {
+            "assemblyVersion": "19.22.0.1",
+            "fileVersion": "15.1.94.18"
+          },
+          "lib/netcoreapp3.0/Microsoft.AnalysisServices.Platform.Windows.dll": {
+            "assemblyVersion": "19.22.0.1",
+            "fileVersion": "15.1.94.18"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.AnalysisServices.AdomdClient.dll": {},
+          "lib/netcoreapp3.0/Microsoft.AnalysisServices.Platform.Core.dll": {},
+          "lib/netcoreapp3.0/Microsoft.AnalysisServices.Platform.Windows.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/2.2.0": {
@@ -983,6 +1022,28 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
           "Microsoft.Extensions.Options": "2.2.0",
           "System.Text.Encodings.Web": "4.5.0"
+        }
+      },
+      "Microsoft.Identity.Client/4.6.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.ComponentModel.TypeConverter": "4.3.0",
+          "System.Net.NameResolution": "4.3.0",
+          "System.Private.Uri": "4.3.2",
+          "System.Runtime.Serialization.Formatters": "4.3.0",
+          "System.Runtime.Serialization.Json": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0",
+          "System.Security.SecureString": "4.3.0",
+          "System.Xml.XDocument": "4.3.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/Microsoft.Identity.Client.dll": {
+            "assemblyVersion": "4.6.0.0",
+            "fileVersion": "4.6.0.0"
+          }
+        },
+        "compile": {
+          "ref/netcoreapp2.1/Microsoft.Identity.Client.dll": {}
         }
       },
       "Microsoft.IdentityModel.Clients.ActiveDirectory/5.2.7": {
@@ -2281,7 +2342,7 @@
           "runtime.native.System.Security.Cryptography.OpenSsl": "4.3.2"
         }
       },
-      "System.Net.NameResolution/4.0.0": {
+      "System.Net.NameResolution/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
           "System.Collections": "4.3.0",
@@ -3113,16 +3174,17 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
-      "Syncfusion.Server.Base/3.3.18": {
+      "Syncfusion.Server.Base/3.3.23": {
         "dependencies": {
           "AWSSDK.CognitoIdentityProvider": "3.3.108.7",
           "AWSSDK.Core": "3.3.104.31",
-          "Bold.Licensing": "3.3.18",
-          "BoldReports.CRI.Barcode": "3.3.18",
-          "BoldReports.Data.Csv": "3.3.18",
-          "BoldReports.Data.Excel": "3.3.18",
-          "BoldReports.Data.WebData": "3.3.18",
-          "BoldReports.Net.Core": "3.3.18",
+          "Bold.Licensing": "3.3.23",
+          "BoldReports.CRI.Barcode": "3.3.23",
+          "BoldReports.Data.Csv": "3.3.23",
+          "BoldReports.Data.Excel": "3.3.23",
+          "BoldReports.Data.SSAS": "3.3.23",
+          "BoldReports.Data.WebData": "3.3.23",
+          "BoldReports.Net.Core": "3.3.23",
           "Microsoft.AspNetCore.Localization": "2.2.0",
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
           "Microsoft.CodeAnalysis.CSharp": "3.8.0",
@@ -3132,15 +3194,15 @@
           "RazorEngine.NetCore": "3.1.0",
           "Syncfusion.DocIO.AspNet": "19.2.0.44",
           "Syncfusion.Licensing": "19.2.0.44",
-          "Syncfusion.Server.Base.ActiveDirectory": "3.3.18",
-          "Syncfusion.Server.Base.Data": "3.3.18",
-          "Syncfusion.Server.Base.DataClasses": "3.3.18",
-          "Syncfusion.Server.Base.Encryption": "3.3.18",
-          "Syncfusion.Server.Base.IdPDirectory": "3.3.18",
-          "Syncfusion.Server.Base.Logger": "3.3.18",
-          "Syncfusion.Server.Base.MarkdownSharp": "3.3.18",
-          "Syncfusion.Server.Base.Resources.Storage": "3.3.18",
-          "Syncfusion.Server.Base.TemplateGenerator": "3.3.18",
+          "Syncfusion.Server.Base.ActiveDirectory": "3.3.23",
+          "Syncfusion.Server.Base.Data": "3.3.23",
+          "Syncfusion.Server.Base.DataClasses": "3.3.23",
+          "Syncfusion.Server.Base.Encryption": "3.3.23",
+          "Syncfusion.Server.Base.IdPDirectory": "3.3.23",
+          "Syncfusion.Server.Base.Logger": "3.3.23",
+          "Syncfusion.Server.Base.MarkdownSharp": "3.3.23",
+          "Syncfusion.Server.Base.Resources.Storage": "3.3.23",
+          "Syncfusion.Server.Base.TemplateGenerator": "3.3.23",
           "System.CodeDom": "5.0.0",
           "System.Configuration.ConfigurationManager": "4.7.0",
           "System.Drawing.Common": "5.0.0",
@@ -3155,11 +3217,11 @@
           "Syncfusion.Server.Base.dll": {}
         }
       },
-      "Syncfusion.Server.Base.ActiveDirectory/3.3.18": {
+      "Syncfusion.Server.Base.ActiveDirectory/3.3.23": {
         "dependencies": {
           "Microsoft.CodeAnalysis.FxCopAnalyzers": "2.9.8",
           "Microsoft.IdentityModel.Clients.ActiveDirectory": "5.2.7",
-          "Syncfusion.Server.Base.Logger": "3.3.18",
+          "Syncfusion.Server.Base.Logger": "3.3.23",
           "System.DirectoryServices.Protocols": "4.7.0",
           "log4net": "2.0.8"
         },
@@ -3170,17 +3232,17 @@
           "Syncfusion.Server.Base.ActiveDirectory.dll": {}
         }
       },
-      "Syncfusion.Server.Base.Data/3.3.18": {
+      "Syncfusion.Server.Base.Data/3.3.23": {
         "dependencies": {
           "Microsoft.CodeAnalysis.FxCopAnalyzers": "2.9.8",
           "Microsoft.Win32.Registry": "4.7.0",
           "MySqlConnector": "1.2.1",
           "Npgsql": "4.1.4",
-          "Syncfusion.Server.Base.ActiveDirectory": "3.3.18",
-          "Syncfusion.Server.Base.DataClasses": "3.3.18",
-          "Syncfusion.Server.Base.Encryption": "3.3.18",
-          "Syncfusion.Server.Base.Logger": "3.3.18",
-          "Syncfusion.Server.Base.MarkdownSharp": "3.3.18",
+          "Syncfusion.Server.Base.ActiveDirectory": "3.3.23",
+          "Syncfusion.Server.Base.DataClasses": "3.3.23",
+          "Syncfusion.Server.Base.Encryption": "3.3.23",
+          "Syncfusion.Server.Base.Logger": "3.3.23",
+          "Syncfusion.Server.Base.MarkdownSharp": "3.3.23",
           "System.Data.Odbc": "4.7.0",
           "System.Data.OleDb": "4.7.0",
           "System.Data.SqlClient": "4.8.1"
@@ -3192,13 +3254,13 @@
           "Syncfusion.Server.Base.Data.dll": {}
         }
       },
-      "Syncfusion.Server.Base.DataClasses/3.3.18": {
+      "Syncfusion.Server.Base.DataClasses/3.3.23": {
         "dependencies": {
           "Microsoft.CodeAnalysis.FxCopAnalyzers": "2.9.8",
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.6",
           "Newtonsoft.Json": "12.0.3",
-          "Syncfusion.Server.Base.Encryption": "3.3.18",
-          "Syncfusion.Server.Base.MarkdownSharp": "3.3.18",
+          "Syncfusion.Server.Base.Encryption": "3.3.23",
+          "Syncfusion.Server.Base.MarkdownSharp": "3.3.23",
           "System.Configuration.ConfigurationManager": "4.7.0"
         },
         "runtime": {
@@ -3208,7 +3270,7 @@
           "Syncfusion.Server.Base.DataClasses.dll": {}
         }
       },
-      "Syncfusion.Server.Base.Encryption/3.3.18": {
+      "Syncfusion.Server.Base.Encryption/3.3.23": {
         "dependencies": {
           "Microsoft.CodeAnalysis.FxCopAnalyzers": "2.9.8"
         },
@@ -3219,15 +3281,15 @@
           "Syncfusion.Server.Base.Encryption.dll": {}
         }
       },
-      "Syncfusion.Server.Base.IdPDirectory/3.3.18": {
+      "Syncfusion.Server.Base.IdPDirectory/3.3.23": {
         "dependencies": {
           "Microsoft.CodeAnalysis.FxCopAnalyzers": "2.9.8",
           "Newtonsoft.Json": "12.0.3",
-          "Syncfusion.Server.Base.ActiveDirectory": "3.3.18",
-          "Syncfusion.Server.Base.DataClasses": "3.3.18",
-          "Syncfusion.Server.Base.Encryption": "3.3.18",
-          "Syncfusion.Server.Base.Logger": "3.3.18",
-          "Syncfusion.Server.Base.MarkdownSharp": "3.3.18"
+          "Syncfusion.Server.Base.ActiveDirectory": "3.3.23",
+          "Syncfusion.Server.Base.DataClasses": "3.3.23",
+          "Syncfusion.Server.Base.Encryption": "3.3.23",
+          "Syncfusion.Server.Base.Logger": "3.3.23",
+          "Syncfusion.Server.Base.MarkdownSharp": "3.3.23"
         },
         "runtime": {
           "Syncfusion.Server.Base.IdPDirectory.dll": {}
@@ -3236,14 +3298,14 @@
           "Syncfusion.Server.Base.IdPDirectory.dll": {}
         }
       },
-      "Syncfusion.Server.Base.Item/3.3.18": {
+      "Syncfusion.Server.Base.Item/3.3.23": {
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp": "3.8.0",
           "Microsoft.CodeAnalysis.FxCopAnalyzers": "2.9.8",
-          "Syncfusion.Server.Base": "3.3.18",
-          "Syncfusion.Server.Base.Data": "3.3.18",
-          "Syncfusion.Server.Base.DataClasses": "3.3.18",
-          "Syncfusion.Server.Base.Resources.Storage": "3.3.18",
+          "Syncfusion.Server.Base": "3.3.23",
+          "Syncfusion.Server.Base.Data": "3.3.23",
+          "Syncfusion.Server.Base.DataClasses": "3.3.23",
+          "Syncfusion.Server.Base.Resources.Storage": "3.3.23",
           "TimeZoneConverter": "3.3.0"
         },
         "runtime": {
@@ -3253,7 +3315,7 @@
           "Syncfusion.Server.Base.Item.dll": {}
         }
       },
-      "Syncfusion.Server.Base.Logger/3.3.18": {
+      "Syncfusion.Server.Base.Logger/3.3.23": {
         "dependencies": {
           "Microsoft.CodeAnalysis.FxCopAnalyzers": "2.9.8",
           "System.Configuration.ConfigurationManager": "4.7.0",
@@ -3266,7 +3328,7 @@
           "Syncfusion.Server.Base.Logger.dll": {}
         }
       },
-      "Syncfusion.Server.Base.MarkdownSharp/3.3.18": {
+      "Syncfusion.Server.Base.MarkdownSharp/3.3.23": {
         "dependencies": {
           "Microsoft.CodeAnalysis.FxCopAnalyzers": "2.9.8",
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.6",
@@ -3279,15 +3341,15 @@
           "Syncfusion.Server.Base.MarkdownSharp.dll": {}
         }
       },
-      "Syncfusion.Server.Base.Resources.Storage/3.3.18": {
+      "Syncfusion.Server.Base.Resources.Storage/3.3.23": {
         "dependencies": {
           "Azure.Storage.Blobs": "12.4.4",
           "Microsoft.CodeAnalysis.FxCopAnalyzers": "2.9.8",
-          "Syncfusion.Server.Base.ActiveDirectory": "3.3.18",
-          "Syncfusion.Server.Base.DataClasses": "3.3.18",
-          "Syncfusion.Server.Base.Encryption": "3.3.18",
-          "Syncfusion.Server.Base.Logger": "3.3.18",
-          "Syncfusion.Server.Base.MarkdownSharp": "3.3.18",
+          "Syncfusion.Server.Base.ActiveDirectory": "3.3.23",
+          "Syncfusion.Server.Base.DataClasses": "3.3.23",
+          "Syncfusion.Server.Base.Encryption": "3.3.23",
+          "Syncfusion.Server.Base.Logger": "3.3.23",
+          "Syncfusion.Server.Base.MarkdownSharp": "3.3.23",
           "WindowsAzure.Storage": "9.3.3",
           "log4net": "2.0.8"
         },
@@ -3298,27 +3360,28 @@
           "Syncfusion.Server.Base.Resources.Storage.dll": {}
         }
       },
-      "Syncfusion.Server.Base.Scheduler/3.3.18": {
+      "Syncfusion.Server.Base.Scheduler/3.3.23": {
         "dependencies": {
-          "Bold.Licensing": "3.3.18",
-          "BoldReports.CRI.Barcode": "3.3.18",
-          "BoldReports.Data.Csv": "3.3.18",
-          "BoldReports.Data.Excel": "3.3.18",
-          "BoldReports.Data.WebData": "3.3.18",
-          "BoldReports.Net.Core": "3.3.18",
+          "Bold.Licensing": "3.3.23",
+          "BoldReports.CRI.Barcode": "3.3.23",
+          "BoldReports.Data.Csv": "3.3.23",
+          "BoldReports.Data.Excel": "3.3.23",
+          "BoldReports.Data.SSAS": "3.3.23",
+          "BoldReports.Data.WebData": "3.3.23",
+          "BoldReports.Net.Core": "3.3.23",
           "DotNetZip": "1.15.0",
           "Microsoft.CodeAnalysis.FxCopAnalyzers": "2.9.8",
-          "Syncfusion.Server.Base": "3.3.18",
-          "Syncfusion.Server.Base.ActiveDirectory": "3.3.18",
-          "Syncfusion.Server.Base.Data": "3.3.18",
-          "Syncfusion.Server.Base.DataClasses": "3.3.18",
-          "Syncfusion.Server.Base.Encryption": "3.3.18",
-          "Syncfusion.Server.Base.IdPDirectory": "3.3.18",
-          "Syncfusion.Server.Base.Item": "3.3.18",
-          "Syncfusion.Server.Base.Logger": "3.3.18",
-          "Syncfusion.Server.Base.MarkdownSharp": "3.3.18",
-          "Syncfusion.Server.Base.Resources.Storage": "3.3.18",
-          "Syncfusion.Server.Base.TemplateGenerator": "3.3.18",
+          "Syncfusion.Server.Base": "3.3.23",
+          "Syncfusion.Server.Base.ActiveDirectory": "3.3.23",
+          "Syncfusion.Server.Base.Data": "3.3.23",
+          "Syncfusion.Server.Base.DataClasses": "3.3.23",
+          "Syncfusion.Server.Base.Encryption": "3.3.23",
+          "Syncfusion.Server.Base.IdPDirectory": "3.3.23",
+          "Syncfusion.Server.Base.Item": "3.3.23",
+          "Syncfusion.Server.Base.Logger": "3.3.23",
+          "Syncfusion.Server.Base.MarkdownSharp": "3.3.23",
+          "Syncfusion.Server.Base.Resources.Storage": "3.3.23",
+          "Syncfusion.Server.Base.TemplateGenerator": "3.3.23",
           "System.ServiceModel.Primitives": "4.7.0"
         },
         "runtime": {
@@ -3328,10 +3391,10 @@
           "Syncfusion.Server.Base.Scheduler.dll": {}
         }
       },
-      "Syncfusion.Server.Base.TemplateGenerator/3.3.18": {
+      "Syncfusion.Server.Base.TemplateGenerator/3.3.23": {
         "dependencies": {
           "Microsoft.CodeAnalysis.FxCopAnalyzers": "2.9.8",
-          "Syncfusion.Server.Base.DataClasses": "3.3.18"
+          "Syncfusion.Server.Base.DataClasses": "3.3.23"
         },
         "runtime": {
           "Syncfusion.Server.Base.TemplateGenerator.dll": {}
@@ -5005,7 +5068,7 @@
     }
   },
   "libraries": {
-    "Syncfusion.Server.Jobs/3.3.18": {
+    "Syncfusion.Server.Jobs/3.3.23": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -5052,54 +5115,61 @@
       "path": "barcodelib/2.2.6",
       "hashPath": "barcodelib.2.2.6.nupkg.sha512"
     },
-    "Bold.Licensing/3.3.18": {
+    "Bold.Licensing/3.3.23": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mVA2qTu9WP65F6T0D65q3/S+QbWM11GZxeM+xA6mKYUkiY6ujmr7cOXFFdWM/atN9MYit4i/Cuqk+lVRwtIDrg==",
-      "path": "bold.licensing/3.3.18",
-      "hashPath": "bold.licensing.3.3.18.nupkg.sha512"
+      "sha512": "sha512-ZqW/8bfmsUuO+5ZrwJqoClhkX62vvcPbW8wU4u7xci5NuCU78l3gNxnODyhrg4jGMzg1t8LWq9NdVmjY8SN7lw==",
+      "path": "bold.licensing/3.3.23",
+      "hashPath": "bold.licensing.3.3.23.nupkg.sha512"
     },
-    "BoldReports.CRI.Barcode/3.3.18": {
+    "BoldReports.CRI.Barcode/3.3.23": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-d45+rtooCDoKPrm/fBK4ufSp4Zje7iQxcbaIYO3BIzX83j/M5LCh3tThAT05rMv/xuenR6CkmQUo8op5Ou7X5w==",
-      "path": "boldreports.cri.barcode/3.3.18",
-      "hashPath": "boldreports.cri.barcode.3.3.18.nupkg.sha512"
+      "sha512": "sha512-LRhVAfyVWNb3yhq0SEDo4IM4fPasz35TAUkfCF5jaYkgJjMqlMWGW30eFtmwq9YbpgEoAe6zIXqb1hGc+LsT5Q==",
+      "path": "boldreports.cri.barcode/3.3.23",
+      "hashPath": "boldreports.cri.barcode.3.3.23.nupkg.sha512"
     },
-    "BoldReports.Data.Csv/3.3.18": {
+    "BoldReports.Data.Csv/3.3.23": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dKInzEHTIAxx79e4DsMkhGxSIw/ZACdNrtPJMLf+nadEPWbYn+gL+ioqqF2FVKUItxf+9EOmUU1emzQpzO3rig==",
-      "path": "boldreports.data.csv/3.3.18",
-      "hashPath": "boldreports.data.csv.3.3.18.nupkg.sha512"
+      "sha512": "sha512-pI4vPn+X1f7f7qQ3HLhoPTqR9PyEF5Z+TIed6WUGeiV84fQbd9Z02KaXx0FzZ20K2oviD5N6FlbHtAZ6t9N5Hw==",
+      "path": "boldreports.data.csv/3.3.23",
+      "hashPath": "boldreports.data.csv.3.3.23.nupkg.sha512"
     },
-    "BoldReports.Data.Excel/3.3.18": {
+    "BoldReports.Data.Excel/3.3.23": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-CnlIEkKyFjgZpMZbs2NhoIeLHX1JiMd265QeaQ0VDAnKbEiH3+tTffjI0CmAwj9cf/trHfTXaV89fGPDtpPMPg==",
-      "path": "boldreports.data.excel/3.3.18",
-      "hashPath": "boldreports.data.excel.3.3.18.nupkg.sha512"
+      "sha512": "sha512-ipBlou0H3E577WsNOvBsAECzDoMedsyF3z0wFy8qn0W1K/j2MaUk6e6949c2QJKjjS6V5sGqQEOBe9SkRTDyMA==",
+      "path": "boldreports.data.excel/3.3.23",
+      "hashPath": "boldreports.data.excel.3.3.23.nupkg.sha512"
     },
-    "BoldReports.Data.WebData/3.3.18": {
+    "BoldReports.Data.SSAS/3.3.23": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6vijwLnm57aYTjmDHZm84fPw5nL/m3hAc52xW+2vkHuY7MWAA6TvxG27+GQYGURtjGSpVNDSIKKAhwXUvJRmrg==",
-      "path": "boldreports.data.webdata/3.3.18",
-      "hashPath": "boldreports.data.webdata.3.3.18.nupkg.sha512"
+      "sha512": "sha512-SQ3WxnHf22cFiF3rc8YIVzTOzyRAWn/jg5Xxur51qdZq8p7owNQjixkaaYX27SvKsb2dj0lPm1W4WR5/TEi28Q==",
+      "path": "boldreports.data.ssas/3.3.23",
+      "hashPath": "boldreports.data.ssas.3.3.23.nupkg.sha512"
     },
-    "BoldReports.Net.Core/3.3.18": {
+    "BoldReports.Data.WebData/3.3.23": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-OUUFIZkVyqfxxHvO3zbkpbdkHPBn2lItIx47tDckXO+kBarb3k2m5HU1fMwDDp+27KVC48iR3i57WNtH++9qpg==",
-      "path": "boldreports.net.core/3.3.18",
-      "hashPath": "boldreports.net.core.3.3.18.nupkg.sha512"
+      "sha512": "sha512-rGi/sVD/8/e0hCJUW9Xlnxn3JsdJz8HXYhYlUDvykLpiEa+0tRpT7j/IdKewkndjtqs6duzMUtoXkGtw9UkJrw==",
+      "path": "boldreports.data.webdata/3.3.23",
+      "hashPath": "boldreports.data.webdata.3.3.23.nupkg.sha512"
     },
-    "BoldReports.Web/3.3.18": {
+    "BoldReports.Net.Core/3.3.23": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ODd8/yvVTSjrBzG9rkh/UZ6qe3yvTDkfrHBiSNbEvpUaw2vDSknlX9pHeL6c6iAOJckuUygeb/0A6icDPJelHg==",
-      "path": "boldreports.web/3.3.18",
-      "hashPath": "boldreports.web.3.3.18.nupkg.sha512"
+      "sha512": "sha512-1ti51wDy//BrgNz2jVwTB7SmLK2ABd6TN2nNXpLWhKg0mm5Yj3eGmorZU/05l5Ie0qOBGSVoqzfyPg8/NdItrw==",
+      "path": "boldreports.net.core/3.3.23",
+      "hashPath": "boldreports.net.core.3.3.23.nupkg.sha512"
+    },
+    "BoldReports.Web/3.3.23": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3dHdB1dd/bDs4KbNWefpjuwZfTALJXdhaST16evqxDDYZo8LjNpLmru2tdNhTjkoFpwSR/umw8RBQSb2DFVgBA==",
+      "path": "boldreports.web/3.3.23",
+      "hashPath": "boldreports.web.3.3.23.nupkg.sha512"
     },
     "DotNetZip/1.15.0": {
       "type": "package",
@@ -5121,6 +5191,13 @@
       "sha512": "sha512-N41MQGHZImiCfn0cUuSBjZxrcNfIQCuCgQP0rpgB3J/NWponEh3lc1LxJEuIsPAR9Oc1jVvfkNNFCY1C5hf9LA==",
       "path": "log4net/2.0.8",
       "hashPath": "log4net.2.0.8.nupkg.sha512"
+    },
+    "Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64/19.22.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dMD+sHf8O1iIdKcFWEf3MH2sHxXv7zw2ZqxgKwPjnRbrDWtSQSD+Ee8O2pHKTc+HP69/OLCzOmDeG68tAkW0Ew==",
+      "path": "microsoft.analysisservices.adomdclient.netcore.retail.amd64/19.22.0.1",
+      "hashPath": "microsoft.analysisservices.adomdclient.netcore.retail.amd64.19.22.0.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Antiforgery/2.2.0": {
       "type": "package",
@@ -5492,6 +5569,13 @@
       "sha512": "sha512-V8XcqYcpcdBAxUhLeyYcuKmxu4CtNQA9IphTnARpQGhkop4A93v2XgM3AtaVVJo3H2cDWxWM6aeO8HxkifREqw==",
       "path": "microsoft.extensions.webencoders/2.2.0",
       "hashPath": "microsoft.extensions.webencoders.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.Identity.Client/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4cXU1CYMl1BXUF1Apri84yvUOj7xrO69gJYf7wz2gbmGCRAK+xIizNncc/AFpdQMcaYdK1yMOPg/H84fdJangg==",
+      "path": "microsoft.identity.client/4.6.0",
+      "hashPath": "microsoft.identity.client.4.6.0.nupkg.sha512"
     },
     "Microsoft.IdentityModel.Clients.ActiveDirectory/5.2.7": {
       "type": "package",
@@ -6263,12 +6347,12 @@
       "path": "system.net.http/4.3.4",
       "hashPath": "system.net.http.4.3.4.nupkg.sha512"
     },
-    "System.Net.NameResolution/4.0.0": {
+    "System.Net.NameResolution/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-JdqRdM1Qym3YehqdKIi5LHrpypP4JMfxKQSNCJ2z4WawkG0il+N3XfNeJOxll2XrTnG7WgYYPoeiu/KOwg0DQw==",
-      "path": "system.net.nameresolution/4.0.0",
-      "hashPath": "system.net.nameresolution.4.0.0.nupkg.sha512"
+      "sha512": "sha512-AFYl08R7MrsrEjqpQWTZWBadqXyTzNDaWpMqyxhb0d6sGhV6xMDKueuBXlLL30gz+DIRY6MpdgnHWlCh5wmq9w==",
+      "path": "system.net.nameresolution/4.3.0",
+      "hashPath": "system.net.nameresolution.4.3.0.nupkg.sha512"
     },
     "System.Net.Primitives/4.3.0": {
       "type": "package",
@@ -6781,62 +6865,62 @@
       "path": "windowsazure.storage/9.3.3",
       "hashPath": "windowsazure.storage.9.3.3.nupkg.sha512"
     },
-    "Syncfusion.Server.Base/3.3.18": {
+    "Syncfusion.Server.Base/3.3.23": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.ActiveDirectory/3.3.18": {
+    "Syncfusion.Server.Base.ActiveDirectory/3.3.23": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.Data/3.3.18": {
+    "Syncfusion.Server.Base.Data/3.3.23": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.DataClasses/3.3.18": {
+    "Syncfusion.Server.Base.DataClasses/3.3.23": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.Encryption/3.3.18": {
+    "Syncfusion.Server.Base.Encryption/3.3.23": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.IdPDirectory/3.3.18": {
+    "Syncfusion.Server.Base.IdPDirectory/3.3.23": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.Item/3.3.18": {
+    "Syncfusion.Server.Base.Item/3.3.23": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.Logger/3.3.18": {
+    "Syncfusion.Server.Base.Logger/3.3.23": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.MarkdownSharp/3.3.18": {
+    "Syncfusion.Server.Base.MarkdownSharp/3.3.23": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.Resources.Storage/3.3.18": {
+    "Syncfusion.Server.Base.Resources.Storage/3.3.23": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.Scheduler/3.3.18": {
+    "Syncfusion.Server.Base.Scheduler/3.3.23": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Syncfusion.Server.Base.TemplateGenerator/3.3.18": {
+    "Syncfusion.Server.Base.TemplateGenerator/3.3.23": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -502,7 +502,7 @@ function getAppUsers() {
                 templateID: "#user-username-template",
                 headerTemplateID: "#user-username-header",
                 type: "string",
-                width: 155
+                width: 120
             },
             {
                 field: "Email",
@@ -510,7 +510,7 @@ function getAppUsers() {
                 templateID: "#user-email-template",
                 headerTemplateID: "#email-header",
                 type: "string",
-                width: 155
+                width: 135
             },
             {
                 field: "IsActive",
@@ -526,7 +526,7 @@ function getAppUsers() {
                 allowFiltering: false,
                 templateID: "#commandstemplate",
                 headerTemplateID: "#actionsheader",
-                width: (window.innerWidth > 1024) ? 40 : 80
+                width: 80
             }
         ]
     });

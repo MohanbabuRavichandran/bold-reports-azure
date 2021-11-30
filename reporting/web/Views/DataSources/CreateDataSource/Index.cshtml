@@ -31,7 +31,7 @@
     <link rel="stylesheet" asp-append-version="true" href="@reportServerResourceUrl/cdn/css/essentialjs/reportdesigner/bootstrap-theme/bold.reportdesigner.min.css" />
     <link rel="stylesheet" asp-append-version="true" href="@reportServerResourceUrl/cdn/css/create-datasource-dependent.css" />
     <link rel="stylesheet" asp-append-version="true" href="@reportServerResourceUrl/cdn/css/create-datasource.css" />
-    <link rel="stylesheet" asp-append-version="true" href="@reportServerResourceUrl/cdn/css/essentialjs/reportdesigner/connection-configuration/connection-configuration.css" />
+    <link rel="stylesheet" asp-append-version="true" href="@reportServerResourceUrl/cdn/css/essentialjs/reportdesigner/data-configuration/data-configuration.css" />
     <link rel="stylesheet" asp-append-version="true" href="@ServerAppConfig.CustomFontUrl(globalAppSettings?.SystemSettings?.FontPreference, reportServerResourceUrl)" />
 </environment>
 <environment exclude="Development,CloudDevelopment">
@@ -39,7 +39,7 @@
     <link rel="stylesheet" asp-append-version="true" href="@reportServerResourceUrl/cdn/css/essentialjs/reportdesigner/bootstrap-theme/bold.reportdesigner.min.css" />
     <link rel="stylesheet" asp-append-version="true" href="@reportServerResourceUrl/cdn/css/create-datasource-dependent.min.css" />
     <link rel="stylesheet" asp-append-version="true" href="@reportServerResourceUrl/cdn/css/create-datasource.min.css" />
-    <link rel="stylesheet" asp-append-version="true" href="@reportServerResourceUrl/cdn/css/essentialjs/reportdesigner/connection-configuration/connection-configuration.min.css" />
+    <link rel="stylesheet" asp-append-version="true" href="@reportServerResourceUrl/cdn/css/essentialjs/reportdesigner/data-configuration/data-configuration.min.css" />
     <link rel="stylesheet" asp-append-version="true" href="@ServerAppConfig.CustomFontUrl(globalAppSettings?.SystemSettings?.FontPreference, reportServerResourceUrl)" />
 </environment>
         <environment include="Development,CloudDevelopment">
@@ -73,12 +73,12 @@
             <script type='text/javascript' src='@ServerAppConfig.ReportServiceCdnLink/extensions/ssas.data.js'></script>*@
 <environment include="Development,CloudDevelopment">
     <link rel="stylesheet" asp-append-version="true" href="@reportServerResourceUrl/cdn/css/create-datasource-dependent.css" />
-    <link rel="stylesheet" asp-append-version="true" href="@reportServerResourceUrl/cdn/css/essentialjs/reportdesigner/connection-configuration/connection-configuration.css" />
+    <link rel="stylesheet" asp-append-version="true" href="@reportServerResourceUrl/cdn/css/essentialjs/reportdesigner/data-configuration/data-configuration.css" />
     <link rel="stylesheet" asp-append-version="true" href="@ServerAppConfig.CustomFontUrl(globalAppSettings?.SystemSettings?.FontPreference, reportServerResourceUrl)" />
 </environment>
 <environment exclude="Development,CloudDevelopment">
     <link rel="stylesheet" asp-append-version="true" href="@reportServerResourceUrl/cdn/css/create-datasource-dependent.min.css" />
-    <link rel="stylesheet" asp-append-version="true" href="@reportServerResourceUrl/cdn/css/essentialjs/reportdesigner/connection-configuration/connection-configuration.min.css" />
+    <link rel="stylesheet" asp-append-version="true" href="@reportServerResourceUrl/cdn/css/essentialjs/reportdesigner/data-configuration/data-configuration.min.css" />
     <link rel="stylesheet" asp-append-version="true" href="@ServerAppConfig.CustomFontUrl(globalAppSettings?.SystemSettings?.FontPreference, reportServerResourceUrl)" />
 </environment>
         @*<link href="@ServerAppConfig.StaticCdnLink/css/essentialjs/ej2-base.css" rel="stylesheet" />
@@ -107,18 +107,14 @@
         var datasource = "@Url.Action("DataSources", "DataSources")";
         var isWindows = @Json.Serialize(@isWindowsPlatform);
         var designerToken = "@ViewBag.AccessToken";
-        var dataConnectors = {
-            connectionList: null,
-            customDataList: null
-        }
+        var connectionList = null;
         var availableDSList = [];
         var designerInstance;
         var serverURL = "@reportServerApiUrl";
         var serviceURL = "@designerServiceUrl" + "/api/Designer";
-        var getDataConnectors = "@designerServiceUrl" + "/api/v1.0/configuration/connectionsetting/";
-        var loadCustomConnectors = "@designerServiceUrl" + "/api/v1.0/datasource/load-custom-connector/";
+        var getDataConnectors = "@designerServiceUrl" + "/api/v1.0/configuration/GetDataConnectors/";
         var custombrandName = "@ServerAppConfig.CustomBrandName";
-        var customDomain = @ServerAppConfig.AllowCustomHelpLink ? "@ServerAppConfig.AppSettings.Documentation.BaseUri" : "https://help.boldreports.com";
+        var customDomain = @Json.Serialize(@ServerAppConfig.AllowCustomHelpLink) ? "@ServerAppConfig.AppSettings.Documentation.BaseUri" : "https://help.boldreports.com";
         var isHideHelpLink = @Json.Serialize(ServerAppConfig.IsHideHelpLink);
 </script>
 </head>

@@ -133,7 +133,7 @@ html {
               margin: 0; }
           html body .add-tenant-dialog-wrapper #popup-container .modal-header .selector {
             position: relative;
-            width: 650px;
+            width: 750px;
             margin: auto; }
             html body .add-tenant-dialog-wrapper #popup-container .modal-header .selector .selector-icons {
               height: 28px;
@@ -404,6 +404,9 @@ html {
                     position: relative; }
                   html body .add-tenant-dialog-wrapper #popup-container .modal-tenant-body #dialog-body .dialog-body-div #dialog-body-container .storage-form #system-settings-filestorage-container .storage-checkbox.file-storage-button {
                     display: none; }
+                  html body .add-tenant-dialog-wrapper #popup-container .modal-tenant-body #dialog-body .dialog-body-div #dialog-body-container .storage-form #system-settings-filestorage-container .storage-block .azure-validation .blob-error-message {
+                    position: relative;
+                    bottom: 10px; }
                   html body .add-tenant-dialog-wrapper #popup-container .modal-tenant-body #dialog-body .dialog-body-div #dialog-body-container .storage-form #system-settings-filestorage-container .database-types {
                     padding-top: 15px;
                     position: relative; }
@@ -554,7 +557,7 @@ html {
               html body .add-tenant-dialog-wrapper #popup-container .modal-tenant-body #dialog-body .dialog-body-div .grid-height-control {
                 height: 400px; }
         html body .add-tenant-dialog-wrapper #popup-container .adjustment {
-          overflow-y: auto; }
+          overflow-y: scroll; }
         html body .add-tenant-dialog-wrapper #popup-container .site-page-adjustment {
           margin-top: 30px !important; }
         html body .add-tenant-dialog-wrapper #popup-container #dialog-body-footer {

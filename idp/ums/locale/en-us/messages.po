@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-11-18 10:12+05:30\n"
+"POT-Creation-Date: 2021-11-24 21:56+05:30\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -34,7 +34,7 @@ msgstr ""
 msgid " Revoke Access"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:65
+#: Views\Administration\_SiteSettings.cshtml:66
 msgid " that are deployed to the same URL."
 msgstr ""
 
@@ -46,12 +46,12 @@ msgstr ""
 msgid " you need to configure TenantServer first."
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:154
+#: Views\Administration\_SiteSettings.cshtml:155
 msgid "*200x40 pixels preferred"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:170
-#: Views\Administration\_SiteSettings.cshtml:185
+#: Views\Administration\_SiteSettings.cshtml:171
+#: Views\Administration\_SiteSettings.cshtml:186
 msgid "*40x40 pixels preferred"
 msgstr ""
 
@@ -75,8 +75,8 @@ msgstr ""
 msgid "{ c: '1' }"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:107
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:107
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:108
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:108
 msgid "{0} of {1} pages ({2} items)"
 msgstr ""
 
@@ -127,8 +127,8 @@ msgstr ""
 msgid "13:00"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:200
-#: Views\Administration\_SiteSettings.cshtml:216
+#: Views\Administration\_SiteSettings.cshtml:201
+#: Views\Administration\_SiteSettings.cshtml:217
 msgid "200x40 pixels preferred"
 msgstr ""
 
@@ -215,36 +215,36 @@ msgid "Actions"
 msgstr ""
 
 #: Views\TenantsManagement\Sites.cshtml:71
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:250
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:250
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:251
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:251
 msgid "Activate"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:134
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:134
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:135
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:135
 msgid "Activate User"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:300
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:300
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:301
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:301
 msgid ""
 "Activation code has been generated successfully. As email settings are not "
 "configured we are not able to send activation email to the user."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:303
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:303
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:304
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:304
 msgid "Activation code has been resent successfully."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:302
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:302
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:303
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:303
 msgid "Activation code has been sent successfully."
 msgstr ""
 
 #: Views\Administration\UserSettings.cshtml:44
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:82
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:82
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:83
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:83
 msgid ""
 "Activation emails cannot be sent until the email settings are configured. "
 "You can select 'Automatic Activation' to activate the user without "
@@ -269,14 +269,14 @@ msgstr ""
 msgid "Add a new font"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:236
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:236
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:237
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:237
 msgid "Add Administrators"
 msgstr ""
 
 #: Views\TenantsManagement\_SiteCustomAttribute.cshtml:66
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:320
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:320
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:321
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:321
 msgid "Add Attribute"
 msgstr ""
 
@@ -301,8 +301,8 @@ msgstr ""
 #: Views\TenantsManagement\_SiteUsers.cshtml:27
 #: Views\UserManagement\Index.cshtml:345
 #: Views\UserManagement\_UserAddDialog.cshtml:12
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:267
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:267
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:268
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:268
 msgid "Add User"
 msgstr ""
 
@@ -322,13 +322,13 @@ msgstr ""
 msgid "Admin"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:290
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:290
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:291
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:291
 msgid "Admin access has been given to the selected user(s) successfully."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:291
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:291
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:292
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:292
 msgid "Admin access has been removed from the selected users successfully."
 msgstr ""
 
@@ -336,7 +336,7 @@ msgstr ""
 msgid "Administration"
 msgstr ""
 
-#: Views\TenantsManagement\AddTenants.cshtml:159
+#: Views\TenantsManagement\AddTenants.cshtml:165
 msgid "ADMINISTRATOR"
 msgstr ""
 
@@ -344,8 +344,8 @@ msgstr ""
 msgid "Administrators have complete control over the application."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:211
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:211
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:212
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:212
 msgid "Administrators have complete control over the site."
 msgstr ""
 
@@ -359,23 +359,23 @@ msgid ""
 "OAuth client to access protected resources."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:294
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:294
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:295
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:295
 msgid "An error occured while giving admin access"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:295
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:295
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:296
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:296
 msgid "An error occured while removing admin access"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:239
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:239
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:240
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:240
 msgid "An error occurred while granting access to users."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:244
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:244
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:245
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:245
 msgid "An error occurred while revoking access for users."
 msgstr ""
 
@@ -384,23 +384,23 @@ msgstr ""
 msgid "An error occurred while updating authentication settings."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:260
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:260
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:261
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:261
 msgid "An error occurred while updating isolation code."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:85
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:85
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:86
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:86
 msgid "An unknown error occurred."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:172
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:172
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:173
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:173
 msgid "and leading and trailing spaces."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:176
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:176
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:177
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:177
 msgid "and leading spaces and trailing spaces."
 msgstr ""
 
@@ -441,7 +441,7 @@ msgstr ""
 msgid "Application Id URI"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:127
+#: Views\Administration\_SiteSettings.cshtml:128
 msgid "Application language"
 msgstr ""
 
@@ -466,13 +466,13 @@ msgstr ""
 msgid "Are you sure you want to assign Admin access to the users?"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:332
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:332
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:333
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:333
 msgid "Are you sure you want to delete the attribute - "
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:308
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:308
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:309
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:309
 msgid "Are you sure you want to delete the profile picture?"
 msgstr ""
 
@@ -499,8 +499,8 @@ msgstr ""
 
 #: Views\UserManagement\_MakeMultipleAdminDialog.cshtml:6
 #: Views\UserManagement\_MakeSingleAdminDialog.cshtml:6
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:292
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:292
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:293
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:293
 msgid "Assign Role"
 msgstr ""
 
@@ -509,29 +509,29 @@ msgstr ""
 msgid "at least 6 characters"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:322
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:322
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:323
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:323
 msgid "Attribute has been added successfully."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:327
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:327
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:328
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:328
 msgid "Attribute has been deleted successfully."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:325
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:325
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:326
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:326
 msgid "Attribute has been updated successfully."
 msgstr ""
 
 #: Controllers\Tenants\CustomAttributeController.cs:42
 #: Controllers\Tenants\CustomAttributeController.cs:103
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:324
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:324
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:325
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:325
 msgid "Attribute name already exists."
 msgstr ""
 
-#: Views\TenantsManagement\ViewSite.cshtml:179
+#: Views\TenantsManagement\ViewSite.cshtml:181
 #: Views\TenantsManagement\_AddDataSecurity.cshtml:73
 msgid "Attributes"
 msgstr ""
@@ -596,8 +596,8 @@ msgstr ""
 msgid "AWS Accesskey Secret"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:64
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:64
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:65
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:65
 msgid "Azure Active Directory Settings"
 msgstr ""
 
@@ -606,11 +606,11 @@ msgid "Azure AD User"
 msgstr ""
 
 #: Views\ServerConfiguration\Index.cshtml:206
-#: Views\TenantsManagement\AddTenants.cshtml:326
+#: Views\TenantsManagement\AddTenants.cshtml:332
 msgid "Back"
 msgstr ""
 
-#: Views\TenantsManagement\AddTenants.cshtml:296
+#: Views\TenantsManagement\AddTenants.cshtml:302
 msgid ""
 "Based on branding chosen, localization, date format and images will be "
 "copied to tenant. Otherwise, default images and values will be used for the "
@@ -647,15 +647,15 @@ msgstr ""
 msgid "Bold BI logo"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:137
+#: Views\Administration\_SiteSettings.cshtml:138
 msgid "Branding"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:147
-#: Views\Administration\_SiteSettings.cshtml:163
-#: Views\Administration\_SiteSettings.cshtml:179
-#: Views\Administration\_SiteSettings.cshtml:194
-#: Views\Administration\_SiteSettings.cshtml:210
+#: Views\Administration\_SiteSettings.cshtml:148
+#: Views\Administration\_SiteSettings.cshtml:164
+#: Views\Administration\_SiteSettings.cshtml:180
+#: Views\Administration\_SiteSettings.cshtml:195
+#: Views\Administration\_SiteSettings.cshtml:211
 #: wwwroot\bundles\js\onpremiselocalizationcontent.js:19
 #: wwwroot\scripts\core\onpremiselocalizationcontent.js:19
 msgid "Browse file path"
@@ -670,13 +670,13 @@ msgid "Browse file path (.json)"
 msgstr ""
 
 #: Views\Administration\_uploadfont.cshtml:20
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:353
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:353
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:354
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:354
 msgid "Browse file path (.woff2)"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:309
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:309
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:310
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:310
 msgid "browse image path"
 msgstr ""
 
@@ -689,13 +689,13 @@ msgstr ""
 #: Views\Administration\UserSettings.cshtml:75
 #: Views\Administration\_EmailSettings.cshtml:134
 #: Views\Administration\_offlinelicenseupdate.cshtml:55
-#: Views\Administration\_SiteSettings.cshtml:391
+#: Views\Administration\_SiteSettings.cshtml:392
 #: Views\Administration\_uploadfont.cshtml:38 Views\Group\_AddGroup.cshtml:83
 #: Views\TenantsManagement\_SiteDataSecurity.cshtml:36
 #: Views\TenantsManagement\_SiteUsers.cshtml:73
 #: Views\UserManagement\_GrantAccessDialog.cshtml:65
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:330
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:330
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:331
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:331
 msgid "Cancel"
 msgstr ""
 
@@ -714,8 +714,8 @@ msgstr ""
 msgid "Change Password"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:304
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:304
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:305
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:305
 msgid "Change Profile picture"
 msgstr ""
 
@@ -759,12 +759,12 @@ msgstr ""
 msgid "Choose site to enter"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:106
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:106
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:107
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:107
 msgid "Clear"
 msgstr ""
 
-#: Views\TenantsManagement\AddTenants.cshtml:200
+#: Views\TenantsManagement\AddTenants.cshtml:206
 #: Views\TenantsManagement\Sites.cshtml:242
 #: Views\TenantsManagement\_SiteUsers.cshtml:22
 #: Views\TenantsManagement\_SiteUsers.cshtml:62
@@ -773,8 +773,8 @@ msgstr ""
 msgid "Clear search"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:137
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:137
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:138
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:138
 msgid "Click"
 msgstr ""
 
@@ -795,8 +795,8 @@ msgstr ""
 msgid "Click to copy"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:349
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:349
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:350
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:350
 msgid "Click to hide"
 msgstr ""
 
@@ -807,8 +807,8 @@ msgstr ""
 #: Views\Administration\ApiKeys.cshtml:42
 #: Views\Administration\_JWTSettings.cshtml:81
 #: Views\TenantsManagement\_SiteDetail.cshtml:45
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:348
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:348
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:349
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:349
 msgid "Click to view"
 msgstr ""
 
@@ -840,8 +840,8 @@ msgstr ""
 msgid "Client Secret"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:246
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:246
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:247
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:247
 msgid "Client secret generated successfully."
 msgstr ""
 
@@ -892,14 +892,15 @@ msgstr ""
 msgid "Configuration have been updated."
 msgstr ""
 
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:157
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:158
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:158
 msgid ""
 "Configure a single database for site metadata and data store. Recommended "
 "for evaluation environments."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:156
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:156
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:157
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:157
 msgid ""
 "Configure a single database for UMS, site metadata, and the data store. By "
 "default, sites will be deployed in the local file system. Recommended for "
@@ -910,21 +911,21 @@ msgstr ""
 msgid "Configure authentication/authorization providers’ information."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:217
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:217
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:218
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:218
 msgid "Configure Data Security"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:158
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:158
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:159
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:159
 msgid ""
 "Configure individual databases and choose between the local file system and "
 "Azure Blob Storage for UMS, site metadata, and the data store. Recommended "
 "for production environments."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:159
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:159
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:160
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:160
 msgid ""
 "Configure individual databases for site metadata and data store. Recommended "
 "for production environments."
@@ -934,12 +935,6 @@ msgstr ""
 msgid ""
 "Configure row-level security applied to all dashboards in the site. Here, "
 "you can set the filter value in a specific column of the data source."
-msgstr ""
-
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:157
-msgid ""
-"Configure single database for site metadata and data store. Recommended for "
-"evaluation environments."
 msgstr ""
 
 #: Views\ServerConfiguration\_UserAccount.cshtml:49
@@ -955,8 +950,8 @@ msgid "Connection"
 msgstr ""
 
 #: Views\UnlockFeatures\UnlockFeatures.cshtml:25
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:117
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:117
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:118
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:118
 msgid "contact us"
 msgstr ""
 
@@ -964,8 +959,8 @@ msgstr ""
 msgid "Container name"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:101
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:101
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:102
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:102
 msgid "Contains"
 msgstr ""
 
@@ -991,8 +986,8 @@ msgstr ""
 msgid "Create a new database(s) for"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:224
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:224
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:225
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:225
 msgid "Create and launch site"
 msgstr ""
 
@@ -1008,8 +1003,8 @@ msgstr ""
 msgid "Created Date"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:190
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:190
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:191
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:191
 msgid "Creation"
 msgstr ""
 
@@ -1025,17 +1020,17 @@ msgstr ""
 msgid "Dashboard Tenants"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:215
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:215
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:216
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:216
 msgid "dashboards."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:199
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:199
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:200
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:200
 msgid "data connectors and save it offline to access your dashboard quickly."
 msgstr ""
 
-#: Views\TenantsManagement\AddTenants.cshtml:158
+#: Views\TenantsManagement\AddTenants.cshtml:163
 msgid "DATA SECURITY"
 msgstr ""
 
@@ -1043,21 +1038,21 @@ msgstr ""
 msgid "Database connection error"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:167
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:167
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:168
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:168
 msgid "Database Creation"
 msgstr ""
 
 #: Views\Error\ConnectionError.cshtml:14
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:188
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:188
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:189
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:189
 msgid "Database Error"
 msgstr ""
 
 #: Views\ServerConfiguration\_DatabaseName.cshtml:8
 #: Views\ServerConfiguration\_DatabaseName.cshtml:14
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:202
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:202
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:203
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:203
 msgid "Database name"
 msgstr ""
 
@@ -1070,7 +1065,7 @@ msgstr ""
 msgid "Datastore database name"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:108
+#: Views\Administration\_SiteSettings.cshtml:109
 msgid "Date format"
 msgstr ""
 
@@ -1084,42 +1079,42 @@ msgstr ""
 
 #: Views\TenantsManagement\Sites.cshtml:95
 #: Views\UserManagement\Index.cshtml:184
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:252
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:252
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:253
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:253
 msgid "Delete"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:331
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:331
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:332
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:332
 msgid "Delete Attribute"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:96
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:96
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:97
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:97
 msgid "Delete Avatar"
 msgstr ""
 
 #: Views\UserManagement\ViewProfile.cshtml:111
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:94
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:94
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:95
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:95
 msgid "Delete profile picture"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:307
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:307
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:308
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:308
 msgid "Delete Profile Picture"
 msgstr ""
 
 #: Views\UserManagement\ViewProfile.cshtml:276
 #: Views\UserManagement\_MultipleUserDeleteDialog.cshtml:7
 #: Views\UserManagement\_SingleUserDeleteDialog.cshtml:7
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:264
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:264
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:265
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:265
 msgid "Delete User"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:279
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:279
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:280
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:280
 msgid "Delete User(s)"
 msgstr ""
 
@@ -1129,11 +1124,11 @@ msgstr ""
 msgid "Description"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:84
+#: Views\Administration\_SiteSettings.cshtml:85
 msgid "Display"
 msgstr ""
 
-#: Views\TenantsManagement\AddTenants.cshtml:262
+#: Views\TenantsManagement\AddTenants.cshtml:268
 msgid "Do not use site identifier"
 msgstr ""
 
@@ -1141,7 +1136,7 @@ msgstr ""
 msgid "documentation to configure"
 msgstr ""
 
-#: Views\TenantsManagement\AddTenants.cshtml:250
+#: Views\TenantsManagement\AddTenants.cshtml:256
 msgid "Domain"
 msgstr ""
 
@@ -1161,8 +1156,8 @@ msgid "Download Template"
 msgstr ""
 
 #: Views\UserManagement\UploadFileFormAction.cshtml:151
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:284
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:284
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:285
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:285
 msgid ""
 "Duplicate or Invalid data is found. Please change the data accordingly and "
 "re-upload the file."
@@ -1174,8 +1169,8 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:321
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:321
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:322
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:322
 msgid "Edit Attribute"
 msgstr ""
 
@@ -1207,8 +1202,8 @@ msgstr ""
 
 #: Models\Administration\UserManagementModel.cs:494
 #: Models\Administration\UserManagementModel.cs:504
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:271
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:271
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:272
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:272
 msgid "Email address already exists"
 msgstr ""
 
@@ -1220,14 +1215,14 @@ msgstr ""
 msgid "Email address is Invalid"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:191
+#: Views\Administration\_SiteSettings.cshtml:192
 msgid "Email logo"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:331
-#: Views\Administration\_SiteSettings.cshtml:336
-#: Views\Administration\_SiteSettings.cshtml:340
-#: Views\Administration\_SiteSettings.cshtml:345
+#: Views\Administration\_SiteSettings.cshtml:332
+#: Views\Administration\_SiteSettings.cshtml:337
+#: Views\Administration\_SiteSettings.cshtml:341
+#: Views\Administration\_SiteSettings.cshtml:346
 msgid "Email Logo"
 msgstr ""
 
@@ -1262,14 +1257,14 @@ msgstr ""
 msgid "Embed secret"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:338
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:338
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:339
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:339
 msgid "Embed Secret has been updated successfully"
 msgstr ""
 
 #: Views\Administration\EmbedSettings.cshtml:2
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:337
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:337
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:338
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:338
 msgid "Embed Settings"
 msgstr ""
 
@@ -1332,12 +1327,12 @@ msgid ""
 "resource. It returns the claims about the authenticated user."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:100
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:100
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:101
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:101
 msgid "EndsWith"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:226
+#: Views\Administration\_SiteSettings.cshtml:227
 msgid "Enter copyright information"
 msgstr ""
 
@@ -1345,7 +1340,7 @@ msgstr ""
 msgid "Enter your Organization Name"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:57
+#: Views\Administration\_SiteSettings.cshtml:58
 msgid "Enter your URL"
 msgstr ""
 
@@ -1355,8 +1350,8 @@ msgid ""
 "feature with the Enterprise Plan"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:102
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:102
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:103
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:103
 msgid "Equal"
 msgstr ""
 
@@ -1364,8 +1359,8 @@ msgstr ""
 msgid "Error"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:97
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:97
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:98
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:98
 msgid "Error in deleting profile picture."
 msgstr ""
 
@@ -1373,8 +1368,8 @@ msgstr ""
 msgid "Error in establishing a connection to our login service."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:247
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:247
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:248
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:248
 msgid "Error while generating client secret."
 msgstr ""
 
@@ -1383,8 +1378,8 @@ msgstr ""
 msgid "Error while generating signing key."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:315
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:315
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:316
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:316
 msgid "Error while updating notification settings."
 msgstr ""
 
@@ -1417,23 +1412,23 @@ msgstr ""
 msgid "Failed"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:323
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:323
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:324
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:324
 msgid "Failed to add attribute."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:328
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:328
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:329
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:329
 msgid "Failed to delete attribute."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:281
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:281
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:282
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:282
 msgid "Failed to delete user(s), please try again later."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:287
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:287
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:288
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:288
 msgid "Failed to delete user, please try again later."
 msgstr ""
 
@@ -1441,8 +1436,8 @@ msgstr ""
 msgid "Failed to enable the embed authentication"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:326
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:326
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:327
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:327
 msgid "Failed to update attribute."
 msgstr ""
 
@@ -1451,21 +1446,21 @@ msgstr ""
 msgid "Failed to update the license."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:127
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:127
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:128
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:128
 msgid "Failed to update the Password, try again later."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:306
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:306
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:307
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:307
 msgid "Failed to update the Profile picture, try again later."
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:176
-#: Views\Administration\_SiteSettings.cshtml:281
-#: Views\Administration\_SiteSettings.cshtml:286
-#: Views\Administration\_SiteSettings.cshtml:290
-#: Views\Administration\_SiteSettings.cshtml:295
+#: Views\Administration\_SiteSettings.cshtml:177
+#: Views\Administration\_SiteSettings.cshtml:282
+#: Views\Administration\_SiteSettings.cshtml:287
+#: Views\Administration\_SiteSettings.cshtml:291
+#: Views\Administration\_SiteSettings.cshtml:296
 msgid "Favicon"
 msgstr ""
 
@@ -1477,13 +1472,13 @@ msgstr ""
 msgid "File Storage"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:105
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:105
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:106
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:106
 msgid "Filter"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:104
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:104
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:105
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:105
 msgid "Filter Value"
 msgstr ""
 
@@ -1512,8 +1507,8 @@ msgstr ""
 msgid "Font name"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:354
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:354
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:355
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:355
 msgid "Font Settings"
 msgstr ""
 
@@ -1521,7 +1516,7 @@ msgstr ""
 msgid "footer logo"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:76
+#: Views\Administration\_SiteSettings.cshtml:77
 msgid "for more details."
 msgstr ""
 
@@ -1563,23 +1558,23 @@ msgstr ""
 msgid "Get diagnostic logs"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:108
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:108
-msgid "Go to first page"
-msgstr ""
-
 #: wwwroot\bundles\js\onpremiselocalizationcontent.js:109
 #: wwwroot\scripts\core\onpremiselocalizationcontent.js:109
-msgid "Go to last page"
+msgid "Go to first page"
 msgstr ""
 
 #: wwwroot\bundles\js\onpremiselocalizationcontent.js:110
 #: wwwroot\scripts\core\onpremiselocalizationcontent.js:110
-msgid "Go to next page"
+msgid "Go to last page"
 msgstr ""
 
 #: wwwroot\bundles\js\onpremiselocalizationcontent.js:111
 #: wwwroot\scripts\core\onpremiselocalizationcontent.js:111
+msgid "Go to next page"
+msgstr ""
+
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:112
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:112
 msgid "Go to previous page"
 msgstr ""
 
@@ -1598,13 +1593,13 @@ msgid "Grant Access to users "
 msgstr ""
 
 #: Views\UserManagement\Index.cshtml:327
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:238
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:238
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:239
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:239
 msgid "Grant Site Access"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:240
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:240
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:241
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:241
 msgid "Granted access to"
 msgstr ""
 
@@ -1612,8 +1607,8 @@ msgstr ""
 msgid "Granting user access to sites"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:277
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:277
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:278
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:278
 msgid "Group already exists with this name"
 msgstr ""
 
@@ -1621,8 +1616,8 @@ msgstr ""
 msgid "Group Import Settings"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:160
-#: Views\Administration\_SiteSettings.cshtml:311
+#: Views\Administration\_SiteSettings.cshtml:161
+#: Views\Administration\_SiteSettings.cshtml:312
 msgid "Header Logo"
 msgstr ""
 
@@ -1636,14 +1631,14 @@ msgstr ""
 
 #: Views\Administration\LicenseSettings.cshtml:269
 #: Views\Administration\LicenseSettings.cshtml:333
-#: Views\Administration\_SiteSettings.cshtml:76
+#: Views\Administration\_SiteSettings.cshtml:77
 #: Views\ServerConfiguration\_FileStorage.cshtml:26
 #: Views\ServerConfiguration\_FileStorage.cshtml:37
 #: Views\ServerConfiguration\_FileStorage.cshtml:50
 #: Views\ServerConfiguration\_FileStorage.cshtml:60
 #: Views\UserManagement\_GrantAccessReport.cshtml:23
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:138
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:138
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:139
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:139
 msgid "here"
 msgstr ""
 
@@ -1651,12 +1646,12 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: Views\TenantsManagement\AddTenants.cshtml:268
+#: Views\TenantsManagement\AddTenants.cshtml:274
 msgid "i.e "
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:203
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:203
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:204
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:204
 msgid "ID database name"
 msgstr ""
 
@@ -1665,7 +1660,7 @@ msgstr ""
 msgid "Identifier"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:87
+#: Views\Administration\_SiteSettings.cshtml:88
 msgid ""
 "If Inherit from user’s browser locale/timezone is selected, the displayed "
 "date, time, and time zone will be based on the user’s browser settings."
@@ -1704,8 +1699,8 @@ msgid "IMPORT USERS "
 msgstr ""
 
 #: Views\UserManagement\Index.cshtml:349
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:268
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:268
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:269
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:269
 msgid "Import users from CSV"
 msgstr ""
 
@@ -1725,8 +1720,8 @@ msgstr ""
 msgid "Internal Server Error (500)"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:254
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:254
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:255
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:255
 msgid "Internal server error. Please try again"
 msgstr ""
 
@@ -1734,8 +1729,8 @@ msgstr ""
 msgid "Invalid Azure Blob storage"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:163
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:163
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:164
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:164
 msgid "Invalid custom end point"
 msgstr ""
 
@@ -1754,13 +1749,13 @@ msgstr ""
 msgid "Invalid file format"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:71
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:71
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:72
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:72
 msgid "Invalid file type. Please select .lic format only"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:181
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:181
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:182
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:182
 msgid "Invalid password"
 msgstr ""
 
@@ -1772,13 +1767,13 @@ msgstr ""
 #: Views\TenantsManagement\_AddDataSecurity.cshtml:45
 #: Views\TenantsManagement\_AddDataSecurity.cshtml:66
 #: Views\TenantsManagement\_SiteDataSecurity.cshtml:25
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:258
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:258
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:259
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:259
 msgid "Isolation Code"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:259
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:259
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:260
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:260
 msgid "Isolation code has been updated successfully."
 msgstr ""
 
@@ -1807,15 +1802,15 @@ msgstr ""
 msgid "Last Name"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:174
 #: wwwroot\bundles\js\onpremiselocalizationcontent.js:175
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:174
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:176
 #: wwwroot\scripts\core\onpremiselocalizationcontent.js:175
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:176
 msgid "leading and trailing spaces."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:173
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:173
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:174
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:174
 msgid "leading spaces."
 msgstr ""
 
@@ -1832,8 +1827,8 @@ msgstr ""
 msgid "License Expired"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:72
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:72
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:73
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:73
 msgid "License file is corrupted. Please get the new license file from"
 msgstr ""
 
@@ -1865,8 +1860,8 @@ msgstr ""
 msgid "Log in"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:141
-#: Views\Administration\_SiteSettings.cshtml:262
+#: Views\Administration\_SiteSettings.cshtml:142
+#: Views\Administration\_SiteSettings.cshtml:263
 msgid "Log in screen"
 msgstr ""
 
@@ -1896,9 +1891,9 @@ msgstr ""
 msgid "Login Error"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:267
-#: Views\Administration\_SiteSettings.cshtml:271
-#: Views\Administration\_SiteSettings.cshtml:276
+#: Views\Administration\_SiteSettings.cshtml:268
+#: Views\Administration\_SiteSettings.cshtml:272
+#: Views\Administration\_SiteSettings.cshtml:277
 #: Views\Error\AccessDeniedWithoutLayout.cshtml:35
 msgid "Login Logo"
 msgstr ""
@@ -1937,9 +1932,9 @@ msgstr ""
 msgid "Look and Feel"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:316
-#: Views\Administration\_SiteSettings.cshtml:320
-#: Views\Administration\_SiteSettings.cshtml:325
+#: Views\Administration\_SiteSettings.cshtml:317
+#: Views\Administration\_SiteSettings.cshtml:321
+#: Views\Administration\_SiteSettings.cshtml:326
 msgid "Main Screen Logo"
 msgstr ""
 
@@ -2018,8 +2013,8 @@ msgstr ""
 #: Views\TenantsManagement\_SiteCustomAttribute.cshtml:29
 #: Views\UserManagement\Index.cshtml:104 Views\UserManagement\Index.cshtml:237
 #: Views\UserManagement\UploadFileFormAction.cshtml:42
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:218
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:218
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:219
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:219
 msgid "Name"
 msgstr ""
 
@@ -2067,46 +2062,46 @@ msgstr ""
 #: Views\ServerConfiguration\_FileStorage.cshtml:127
 #: Views\ServerConfiguration\_FileStorage.cshtml:130
 #: Views\ServerConfiguration\_UserAccount.cshtml:54
-#: Views\TenantsManagement\AddTenants.cshtml:327
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:223
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:223
+#: Views\TenantsManagement\AddTenants.cshtml:333
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:224
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:224
 msgid "Next"
 msgstr ""
 
 #: Views\Administration\_DiologBox.cshtml:50
 #: Views\TenantsManagement\_SiteUsers.cshtml:98
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:92
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:92
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:93
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:93
 msgid "No"
-msgstr ""
-
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:194
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:194
-msgid "no database found"
 msgstr ""
 
 #: wwwroot\bundles\js\onpremiselocalizationcontent.js:195
 #: wwwroot\scripts\core\onpremiselocalizationcontent.js:195
+msgid "no database found"
+msgstr ""
+
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:196
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:196
 msgid "No database found"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:197
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:197
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:198
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:198
 msgid "No DSN found"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:310
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:310
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:311
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:311
 msgid "No file selected."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:98
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:98
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:99
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:99
 msgid "No records to display"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:113
-#: Views\Administration\_SiteSettings.cshtml:120
+#: Views\Administration\_SiteSettings.cshtml:114
+#: Views\Administration\_SiteSettings.cshtml:121
 msgid "No results match"
 msgstr ""
 
@@ -2139,13 +2134,13 @@ msgid ""
 "application manually."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:103
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:103
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:104
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:104
 msgid "NotEqual"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:314
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:314
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:315
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:315
 msgid "Notification settings has been updated successfully."
 msgstr ""
 
@@ -2157,8 +2152,8 @@ msgstr ""
 msgid "Offline Setup"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:93
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:93
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:94
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:94
 msgid "OK"
 msgstr ""
 
@@ -2166,8 +2161,8 @@ msgstr ""
 msgid "Okta"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:136
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:136
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:137
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:137
 msgid "One or more errors occured."
 msgstr ""
 
@@ -2195,8 +2190,8 @@ msgstr ""
 msgid "OpenID Connect User"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:119
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:119
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:120
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:120
 msgid "or"
 msgstr ""
 
@@ -2220,8 +2215,8 @@ msgstr ""
 #: Views\UserManagement\UploadFileFormAction.cshtml:48
 #: Views\UserManagement\_UserAddDialog.cshtml:59
 #: Views\UserManagement\_UserAddDialog.cshtml:62
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:65
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:65
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:66
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:66
 msgid "Password"
 msgstr ""
 
@@ -2230,8 +2225,8 @@ msgstr ""
 msgid "Password cannot exceed 85 characters"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:126
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:126
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:127
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:127
 msgid "Password has been updated successfully."
 msgstr ""
 
@@ -2259,8 +2254,8 @@ msgstr ""
 msgid "Password should not be empty"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:183
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:183
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:184
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:184
 msgid "Passwords mismatch"
 msgstr ""
 
@@ -2290,8 +2285,8 @@ msgstr ""
 msgid "Plan Name"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:116
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:116
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:117
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:117
 msgid "Please"
 msgstr ""
 
@@ -2304,23 +2299,23 @@ msgstr ""
 msgid "Please avoid special characters"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:171
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:171
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:172
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:172
 msgid "Please avoid special characters, numbers and white spaces."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:301
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:301
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:302
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:302
 msgid "Please click here to configure the email settings."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:182
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:182
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:183
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:183
 msgid "Please confirm password"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:124
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:124
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:125
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:125
 msgid "Please confirm your new password"
 msgstr ""
 
@@ -2352,19 +2347,19 @@ msgstr ""
 msgid "Please enter a valid authorization endpoint."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:228
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:228
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:229
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:229
 msgid "Please enter a valid domain"
 msgstr ""
 
 #: Views\ServerConfiguration\_UserAccount.cshtml:35
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:170
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:170
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:171
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:171
 msgid "Please enter a valid email address."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:261
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:261
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:262
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:262
 msgid "Please enter a valid isolation code."
 msgstr ""
 
@@ -2393,8 +2388,8 @@ msgstr ""
 msgid "Please enter a valid Username."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:161
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:161
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:162
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:162
 msgid "Please enter access key"
 msgstr ""
 
@@ -2406,13 +2401,13 @@ msgstr ""
 msgid "Please enter Application Id URI"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:160
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:160
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:161
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:161
 msgid "Please enter blob service endpoint"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:164
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:164
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:165
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:165
 msgid "Please enter blob URL"
 msgstr ""
 
@@ -2420,13 +2415,13 @@ msgstr ""
 msgid "Please enter comma separated scopes."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:162
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:162
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:163
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:163
 msgid "Please enter container name"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:179
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:179
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:180
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:180
 msgid "Please enter database name."
 msgstr ""
 
@@ -2434,8 +2429,8 @@ msgstr ""
 msgid "Please enter email address"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:192
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:192
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:193
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:193
 msgid "Please enter email address."
 msgstr ""
 
@@ -2443,13 +2438,13 @@ msgstr ""
 msgid "Please enter first name"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:177
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:177
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:178
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:178
 msgid "Please enter first name."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:278
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:278
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:279
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:279
 msgid "Please enter group name"
 msgstr ""
 
@@ -2466,48 +2461,48 @@ msgstr ""
 msgid "Please enter phone number"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:180
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:180
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:181
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:181
 msgid "Please enter Port number."
-msgstr ""
-
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:75
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:75
-msgid "Please enter sender email address"
 msgstr ""
 
 #: wwwroot\bundles\js\onpremiselocalizationcontent.js:76
 #: wwwroot\scripts\core\onpremiselocalizationcontent.js:76
-msgid "Please enter sender name"
-msgstr ""
-
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:178
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:178
-msgid "Please enter server name."
-msgstr ""
-
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:208
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:208
-msgid "Please enter site identifier."
-msgstr ""
-
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:209
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:209
-msgid "Please enter site name."
-msgstr ""
-
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:78
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:78
-msgid "Please enter SMTP port"
+msgid "Please enter sender email address"
 msgstr ""
 
 #: wwwroot\bundles\js\onpremiselocalizationcontent.js:77
 #: wwwroot\scripts\core\onpremiselocalizationcontent.js:77
+msgid "Please enter sender name"
+msgstr ""
+
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:179
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:179
+msgid "Please enter server name."
+msgstr ""
+
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:209
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:209
+msgid "Please enter site identifier."
+msgstr ""
+
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:210
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:210
+msgid "Please enter site name."
+msgstr ""
+
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:79
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:79
+msgid "Please enter SMTP port"
+msgstr ""
+
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:78
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:78
 msgid "Please enter SMTP server"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:150
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:150
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:151
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:151
 msgid "Please enter storage account name"
 msgstr ""
 
@@ -2515,13 +2510,13 @@ msgstr ""
 msgid "Please enter Tenant Name"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:318
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:318
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:319
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:319
 msgid "Please enter the attribute name."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:319
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:319
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:320
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:320
 msgid "Please enter the attribute value."
 msgstr ""
 
@@ -2546,28 +2541,28 @@ msgstr ""
 msgid "Please enter the client secret."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:66
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:66
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:67
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:67
 msgid "Please enter the copy right information text"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:184
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:184
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:185
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:185
 msgid "Please enter the database name."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:193
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:193
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:194
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:194
 msgid "Please enter the database password"
-msgstr ""
-
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:186
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:186
-msgid "Please enter the designer database name."
 msgstr ""
 
 #: wwwroot\bundles\js\onpremiselocalizationcontent.js:187
 #: wwwroot\scripts\core\onpremiselocalizationcontent.js:187
+msgid "Please enter the designer database name."
+msgstr ""
+
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:188
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:188
 msgid "Please enter the existing database name."
 msgstr ""
 
@@ -2597,13 +2592,18 @@ msgstr ""
 msgid "Please enter the OpenID provider name."
 msgstr ""
 
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:64
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:64
+msgid "Please enter the organization name"
+msgstr ""
+
 #: wwwroot\bundles\js\onpremiselocalizationcontent.js:10
 #: wwwroot\scripts\core\onpremiselocalizationcontent.js:10
 msgid "Please enter the password"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:185
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:185
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:186
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:186
 msgid "Please enter the server database name."
 msgstr ""
 
@@ -2611,8 +2611,8 @@ msgstr ""
 msgid "Please enter the user information endpoint."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:298
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:298
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:299
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:299
 msgid "Please enter the valid phone number"
 msgstr ""
 
@@ -2639,13 +2639,13 @@ msgstr ""
 msgid "Please enter valid blob service endpoint"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:165
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:165
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:166
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:166
 msgid "Please enter valid blob URL"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:191
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:191
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:192
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:192
 msgid "Please enter valid port number."
 msgstr ""
 
@@ -2655,13 +2655,13 @@ msgstr ""
 msgid "Please enter valid URL"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:123
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:123
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:124
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:124
 msgid "Please enter your new password"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:122
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:122
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:123
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:123
 msgid "Please enter your old password"
 msgstr ""
 
@@ -2700,8 +2700,8 @@ msgid ""
 "need to be assigned to allow {helpLinkData} to connect and use the database."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:196
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:196
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:197
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:197
 msgid "Please select a database"
 msgstr ""
 
@@ -2718,14 +2718,14 @@ msgstr ""
 msgid "Please select the provider logo."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:115
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:115
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:116
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:116
 msgid "Please upgrade your plan or"
 msgstr ""
 
 #: Views\UserManagement\UploadFileFormAction.cshtml:124
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:289
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:289
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:290
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:290
 msgid "Please upload a valid csv file."
 msgstr ""
 
@@ -2756,11 +2756,11 @@ msgstr ""
 msgid "Powered by"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:207
-#: Views\Administration\_SiteSettings.cshtml:362
-#: Views\Administration\_SiteSettings.cshtml:367
-#: Views\Administration\_SiteSettings.cshtml:371
-#: Views\Administration\_SiteSettings.cshtml:376
+#: Views\Administration\_SiteSettings.cshtml:208
+#: Views\Administration\_SiteSettings.cshtml:363
+#: Views\Administration\_SiteSettings.cshtml:368
+#: Views\Administration\_SiteSettings.cshtml:372
+#: Views\Administration\_SiteSettings.cshtml:377
 msgid "Powered by logo"
 msgstr ""
 
@@ -2768,7 +2768,7 @@ msgstr ""
 msgid "Privacy Policy"
 msgstr ""
 
-#: Views\TenantsManagement\AddTenants.cshtml:328
+#: Views\TenantsManagement\AddTenants.cshtml:334
 msgid "Proceed"
 msgstr ""
 
@@ -2780,13 +2780,13 @@ msgstr ""
 msgid "PROFILE"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:95
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:95
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:96
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:96
 msgid "Profile picture has been deleted successfully."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:305
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:305
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:306
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:306
 msgid "Profile picture has been saved successfully."
 msgstr ""
 
@@ -2813,8 +2813,8 @@ msgstr ""
 msgid "Provider name is too long. Must be no more than 20 characters."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:198
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:198
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:199
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:199
 msgid "Pull your data from"
 msgstr ""
 
@@ -2840,8 +2840,8 @@ msgid ""
 "system administrator for more information."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:245
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:245
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:246
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:246
 msgid "Regenerate Client Secret"
 msgstr ""
 
@@ -2884,14 +2884,14 @@ msgstr ""
 msgid "Remove Admin"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:237
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:237
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:238
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:238
 msgid "Remove Administartor"
 msgstr ""
 
 #: Views\UserManagement\_RemoveAdminDialog.cshtml:6
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:293
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:293
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:294
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:294
 msgid "Remove Role"
 msgstr ""
 
@@ -2899,8 +2899,8 @@ msgstr ""
 msgid "Report Tenants"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:216
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:216
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:217
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:217
 msgid "reports."
 msgstr ""
 
@@ -2909,13 +2909,13 @@ msgid "Required"
 msgstr ""
 
 #: Views\Administration\EmbedSettings.cshtml:6
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:335
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:335
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:336
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:336
 msgid "Reset Secret"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:336
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:336
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:337
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:337
 msgid ""
 "Resetting the secret will break any embed dashboards using the old secret. "
 "Are you sure you want to reset the secret?"
@@ -2925,8 +2925,8 @@ msgstr ""
 msgid "Revoke access"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:243
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:243
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:244
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:244
 msgid "Revoke Site Access"
 msgstr ""
 
@@ -2934,8 +2934,8 @@ msgstr ""
 msgid "Revoke User(s) Access"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:242
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:242
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:243
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:243
 msgid "Revoked access for"
 msgstr ""
 
@@ -2952,10 +2952,10 @@ msgstr ""
 #: Views\Administration\LookandFeel.cshtml:54
 #: Views\Administration\UserSettings.cshtml:77
 #: Views\Administration\_EmailSettings.cshtml:136
-#: Views\Administration\_SiteSettings.cshtml:393
+#: Views\Administration\_SiteSettings.cshtml:394
 #: Views\TenantsManagement\_SiteDataSecurity.cshtml:37
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:329
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:329
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:330
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:330
 msgid "Save"
 msgstr ""
 
@@ -2971,9 +2971,9 @@ msgstr ""
 msgid "Scopes"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:113
-#: Views\Administration\_SiteSettings.cshtml:120
-#: Views\TenantsManagement\AddTenants.cshtml:201
+#: Views\Administration\_SiteSettings.cshtml:114
+#: Views\Administration\_SiteSettings.cshtml:121
+#: Views\TenantsManagement\AddTenants.cshtml:207
 #: Views\TenantsManagement\Sites.cshtml:243
 #: Views\TenantsManagement\_SiteUsers.cshtml:23
 #: Views\TenantsManagement\_SiteUsers.cshtml:63
@@ -2987,7 +2987,7 @@ msgstr ""
 msgid "Search sites"
 msgstr ""
 
-#: Views\TenantsManagement\AddTenants.cshtml:199
+#: Views\TenantsManagement\AddTenants.cshtml:205
 msgid "Search user"
 msgstr ""
 
@@ -3003,8 +3003,8 @@ msgstr ""
 msgid "See Clearly. Act Boldly."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:142
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:142
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:143
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:143
 msgid "Select a database"
 msgstr ""
 
@@ -3012,16 +3012,16 @@ msgstr ""
 msgid "Select a provider"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:212
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:212
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:213
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:213
 msgid "Select Database"
 msgstr ""
 
-#: Views\TenantsManagement\AddTenants.cshtml:156
+#: Views\TenantsManagement\AddTenants.cshtml:159
 msgid "SELECT DATABASE"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:113
+#: Views\Administration\_SiteSettings.cshtml:114
 msgid "Select DateFormat"
 msgstr ""
 
@@ -3029,19 +3029,19 @@ msgstr ""
 msgid "Select license file"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:210
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:210
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:211
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:211
 msgid "Select Site Administrator"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:214
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:214
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:215
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:215
 msgid "Select Storage"
 msgstr ""
 
-#: Views\TenantsManagement\AddTenants.cshtml:157
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:227
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:227
+#: Views\TenantsManagement\AddTenants.cshtml:160
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:228
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:228
 msgid "SELECT STORAGE"
 msgstr ""
 
@@ -3053,11 +3053,11 @@ msgstr ""
 msgid "Select the users who would be granted site access."
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:120
+#: Views\Administration\_SiteSettings.cshtml:121
 msgid "Select TimeFormat"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:101
+#: Views\Administration\_SiteSettings.cshtml:102
 msgid "Select Timezone"
 msgstr ""
 
@@ -3095,7 +3095,7 @@ msgstr ""
 msgid "Settings has been updated successfully"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:244
+#: Views\Administration\_SiteSettings.cshtml:245
 msgid "Show copyright information"
 msgstr ""
 
@@ -3103,7 +3103,7 @@ msgstr ""
 msgid "Show or hide Windows Authentication option from Login screen."
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:232
+#: Views\Administration\_SiteSettings.cshtml:233
 msgid "Show powered by Syncfusion"
 msgstr ""
 
@@ -3125,8 +3125,8 @@ msgstr ""
 msgid "SIMPLE"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:253
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:253
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:254
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:254
 msgid "site"
 msgstr ""
 
@@ -3134,46 +3134,46 @@ msgstr ""
 msgid "Site"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:221
+#: Views\Administration\_SiteSettings.cshtml:222
 msgid "Site copyright information"
 msgstr ""
 
-#: Views\TenantsManagement\AddTenants.cshtml:182
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:226
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:226
+#: Views\TenantsManagement\AddTenants.cshtml:188
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:227
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:227
 msgid "Site Creation"
 msgstr ""
 
-#: Views\TenantsManagement\AddTenants.cshtml:155
+#: Views\TenantsManagement\AddTenants.cshtml:158
 msgid "SITE CREATION"
+msgstr ""
+
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:258
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:258
+msgid "Site has been activated successfully."
 msgstr ""
 
 #: wwwroot\bundles\js\onpremiselocalizationcontent.js:257
 #: wwwroot\scripts\core\onpremiselocalizationcontent.js:257
-msgid "Site has been activated successfully."
+msgid "Site has been deleted successfully."
 msgstr ""
 
 #: wwwroot\bundles\js\onpremiselocalizationcontent.js:256
 #: wwwroot\scripts\core\onpremiselocalizationcontent.js:256
-msgid "Site has been deleted successfully."
-msgstr ""
-
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:255
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:255
 msgid "Site has been suspended successfully."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:220
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:220
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:221
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:221
 msgid "Site has been updated successfully."
 msgstr ""
 
-#: Views\TenantsManagement\AddTenants.cshtml:259
+#: Views\TenantsManagement\AddTenants.cshtml:265
 msgid "Site identifier"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:231
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:231
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:232
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:232
 msgid ""
 "Site identifier is not allowed, since it is restricted in global "
 "configuration."
@@ -3183,19 +3183,19 @@ msgstr ""
 msgid "Site Information - "
 msgstr ""
 
-#: Views\TenantsManagement\AddTenants.cshtml:235
+#: Views\TenantsManagement\AddTenants.cshtml:241
 #: Views\TenantsManagement\_SiteDetail.cshtml:21
 msgid "Site name"
 msgstr ""
 
-#: Views\TenantsManagement\AddTenants.cshtml:167
+#: Views\TenantsManagement\AddTenants.cshtml:173
 #: Views\TenantsManagement\Sites.cshtml:48
 #: Views\UserManagement\_GrantAccessDialog.cshtml:22
 msgid "Site Name"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:143
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:143
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:144
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:144
 msgid "Site name is too long. Must be fewer than 255 characters."
 msgstr ""
 
@@ -3208,20 +3208,20 @@ msgstr ""
 msgid "SITE SETTINGS"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:221
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:221
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:222
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:222
 msgid "Site Updation Failed"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:42
-#: Views\TenantsManagement\AddTenants.cshtml:171
+#: Views\Administration\_SiteSettings.cshtml:43
+#: Views\TenantsManagement\AddTenants.cshtml:177
 #: Views\TenantsManagement\Sites.cshtml:51
 #: Views\TenantsManagement\_SiteDetail.cshtml:27
 #: Views\UserManagement\_GrantAccessDialog.cshtml:25
 msgid "Site URL"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:65
+#: Views\Administration\_SiteSettings.cshtml:66
 msgid "sites"
 msgstr ""
 
@@ -3233,8 +3233,8 @@ msgstr ""
 msgid "Sites "
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:146
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:146
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:147
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:147
 msgid "sites."
 msgstr ""
 
@@ -3271,19 +3271,19 @@ msgid ""
 "complete your request."
 msgstr ""
 
-#: Views\TenantsManagement\AddTenants.cshtml:204
+#: Views\TenantsManagement\AddTenants.cshtml:210
 msgid "Sort by descending"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:67
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:67
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:68
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:68
 msgid ""
 "Specify the TCP port number that the server is listening for connections. "
 "The default port number is 3306."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:68
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:68
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:69
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:69
 msgid ""
 "Specify the TCP port number that the server is listening for connections. "
 "The default port number is 5432."
@@ -3299,18 +3299,18 @@ msgstr ""
 msgid "SSO settings have been updated."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:131
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:131
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:132
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:132
 msgid "Start Creating Dashboards"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:130
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:130
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:131
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:131
 msgid "Start Creating Reports"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:99
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:99
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:100
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:100
 msgid "StartsWith"
 msgstr ""
 
@@ -3328,13 +3328,13 @@ msgstr ""
 msgid "Step 1: You’re an administrator"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:144
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:144
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:145
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:145
 msgid "Step 2: Let’s configure the database"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:147
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:147
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:148
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:148
 msgid "Step 3: Your storage type"
 msgstr ""
 
@@ -3352,8 +3352,8 @@ msgid ""
 "page, you will not be able to retrieve or restore the generated secret key."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:166
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:166
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:167
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:167
 msgid "Subdomain name should match with the account name"
 msgstr ""
 
@@ -3384,8 +3384,8 @@ msgid "Success Icon"
 msgstr ""
 
 #: Views\TenantsManagement\Sites.cshtml:79
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:251
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:251
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:252
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:252
 msgid "Suspend"
 msgstr ""
 
@@ -3427,8 +3427,8 @@ msgstr ""
 msgid "Terms of Use"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:189
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:189
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:190
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:190
 msgid "The below table(s) already exists in the selected database."
 msgstr ""
 
@@ -3440,8 +3440,8 @@ msgstr ""
 msgid "The database server might have been down."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:339
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:339
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:340
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:340
 msgid "The embed dashboard URL must be used in an iframe."
 msgstr ""
 
@@ -3472,16 +3472,16 @@ msgid ""
 "called ‘postgres’, and on earlier versions, ‘template1’."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:213
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:213
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:214
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:214
 msgid "The place where you will create and share your"
 msgstr ""
 
-#: Views\TenantsManagement\ViewSite.cshtml:197
+#: Views\TenantsManagement\ViewSite.cshtml:200
 msgid "The requested tenant details not found."
 msgstr ""
 
-#: Views\TenantsManagement\AddTenants.cshtml:266
+#: Views\TenantsManagement\AddTenants.cshtml:272
 msgid "The site identifier should be unique, and it is part of your site URL."
 msgstr ""
 
@@ -3489,13 +3489,13 @@ msgstr ""
 msgid "The specified database is used for a different site: "
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:148
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:148
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:149
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:149
 msgid "The storage is used to maintain your Embedded BI resources."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:149
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:149
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:150
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:150
 msgid "The storage is used to maintain your Enterprise Reporting resources."
 msgstr ""
 
@@ -3514,8 +3514,8 @@ msgid ""
 msgstr ""
 
 #: Views\UserManagement\UploadFileFormAction.cshtml:149
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:269
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:269
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:270
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:270
 msgid ""
 "There is no data in the uploaded file. Please check and try uploading again."
 msgstr ""
@@ -3536,35 +3536,35 @@ msgstr ""
 msgid "this"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:76
+#: Views\Administration\_SiteSettings.cshtml:77
 msgid ""
 "This application needs to be hosted in IIS with a valid SSL certificate "
 "assigned. Click"
-msgstr ""
-
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:342
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:342
-msgid ""
-"This database is to store data pulled from files and web data sources to "
-"visualize them in dashboards."
 msgstr ""
 
 #: wwwroot\bundles\js\onpremiselocalizationcontent.js:343
 #: wwwroot\scripts\core\onpremiselocalizationcontent.js:343
 msgid ""
 "This database is to store data pulled from files and web data sources to "
-"visualize them in reports."
+"visualize them in dashboards."
 msgstr ""
 
 #: wwwroot\bundles\js\onpremiselocalizationcontent.js:344
 #: wwwroot\scripts\core\onpremiselocalizationcontent.js:344
 msgid ""
-"This database is to store metadata such as dashboards, users, and their "
-"permissions."
+"This database is to store data pulled from files and web data sources to "
+"visualize them in reports."
 msgstr ""
 
 #: wwwroot\bundles\js\onpremiselocalizationcontent.js:345
 #: wwwroot\scripts\core\onpremiselocalizationcontent.js:345
+msgid ""
+"This database is to store metadata such as dashboards, users, and their "
+"permissions."
+msgstr ""
+
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:346
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:346
 msgid ""
 "This database is to store metadata such as reports, users, and their "
 "permissions."
@@ -3591,8 +3591,8 @@ msgid ""
 msgstr ""
 
 #: Views\ServerConfiguration\_DatabaseName.cshtml:3
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:153
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:153
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:154
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:154
 msgid ""
 "This is where we store the BI tenants, dashboard resources, and data store "
 "configuration."
@@ -3604,47 +3604,47 @@ msgid ""
 "access permissions."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:155
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:155
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:156
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:156
 msgid ""
 "This is where we store the Enterprise Reporting tenants, report resources, "
 "users, and their resource access permissions."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:151
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:151
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:152
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:152
 msgid ""
 "This is where we store the tenants, users, and their tenant access "
 "permissions."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:145
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:145
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:146
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:146
 msgid "This is where we store user identities and "
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:200
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:200
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:201
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:201
 msgid ""
 "This is where we store your dashboards, users, and their access permissions."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:152
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:152
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:153
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:153
 msgid ""
 "This is where we store your Embedded BI resources and data store "
 "configuration."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:154
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:154
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:155
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:155
 msgid ""
 "This is where we store your Enterprise Reporting resources, users, and their "
 "access permissions."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:201
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:201
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:202
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:202
 msgid ""
 "This is where we store your reports, users, and their access permissions."
 msgstr ""
@@ -3661,23 +3661,23 @@ msgstr ""
 msgid "This site identifier already exists."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:222
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:222
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:223
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:223
 msgid "This site name already exists"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:249
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:249
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:250
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:250
 msgid ""
 "This will delete all the resource and database linked to this site, and this "
 "action cannot be undone."
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:118
+#: Views\Administration\_SiteSettings.cshtml:119
 msgid "Time format"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:90
+#: Views\Administration\_SiteSettings.cshtml:91
 msgid "Time Zone"
 msgstr ""
 
@@ -3685,8 +3685,8 @@ msgstr ""
 msgid "To configure "
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:139
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:139
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:140
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:140
 msgid "to know more"
 msgstr ""
 
@@ -3694,8 +3694,8 @@ msgstr ""
 msgid "To proceed with the installation, please activate your account."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:282
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:282
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:283
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:283
 msgid ""
 "To send account activation email to the user, please configure email "
 "settings or change the account activation mode as Automatic Activation."
@@ -3737,8 +3737,8 @@ msgstr ""
 msgid "unsatisfied-rule"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:225
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:225
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:226
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:226
 msgid "Update"
 msgstr ""
 
@@ -3746,18 +3746,18 @@ msgstr ""
 msgid "Update License"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:313
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:313
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:314
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:314
 msgid "Update Notification Settings"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:125
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:125
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:126
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:126
 msgid "Update Password"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:219
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:219
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:220
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:220
 msgid "Update Site"
 msgstr ""
 
@@ -3765,7 +3765,7 @@ msgstr ""
 msgid "Update the configuration of the application"
 msgstr ""
 
-#: Views\Administration\_SiteSettings.cshtml:65
+#: Views\Administration\_SiteSettings.cshtml:66
 msgid "Update the URL of the "
 msgstr ""
 
@@ -3773,8 +3773,8 @@ msgstr ""
 msgid "upgrade your license"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:118
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:118
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:119
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:119
 msgid "upgrade your plan"
 msgstr ""
 
@@ -3782,8 +3782,8 @@ msgstr ""
 #: Views\Administration\LicenseSettings.cshtml:144
 #: Views\Administration\LicenseSettings.cshtml:270
 #: Views\Administration\LicenseSettings.cshtml:332
-#: Views\Administration\_SiteSettings.cshtml:148
-#: Views\Administration\_SiteSettings.cshtml:180
+#: Views\Administration\_SiteSettings.cshtml:149
+#: Views\Administration\_SiteSettings.cshtml:181
 #: Views\Administration\_uploadfont.cshtml:37
 #: Views\UserManagement\UploadFileFormAction.cshtml:141
 msgid "Upload"
@@ -3798,8 +3798,8 @@ msgid "Upload Embed Configuration File here"
 msgstr ""
 
 #: Views\Administration\_uploadfont.cshtml:8
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:352
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:352
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:353
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:353
 msgid "Upload Font"
 msgstr ""
 
@@ -3841,8 +3841,8 @@ msgstr ""
 msgid "user"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:299
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:299
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:300
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:300
 msgid "User account has been activated successfully."
 msgstr ""
 
@@ -3850,30 +3850,30 @@ msgstr ""
 msgid "User data"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:274
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:274
-msgid "User has been added and activated successfully"
-msgstr ""
-
 #: wwwroot\bundles\js\onpremiselocalizationcontent.js:275
 #: wwwroot\scripts\core\onpremiselocalizationcontent.js:275
-msgid "User has been added successfully."
+msgid "User has been added and activated successfully"
 msgstr ""
 
 #: wwwroot\bundles\js\onpremiselocalizationcontent.js:276
 #: wwwroot\scripts\core\onpremiselocalizationcontent.js:276
+msgid "User has been added successfully."
+msgstr ""
+
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:277
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:277
 msgid ""
 "User has been created successfully. Activation emails cannot be sent until "
 "the user’s email settings are configured."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:288
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:288
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:289
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:289
 msgid "User has been deleted successfully."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:283
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:283
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:284
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:284
 msgid "User import incomplete.Do you want to continue?"
 msgstr ""
 
@@ -3887,8 +3887,8 @@ msgstr ""
 msgid "User Pool Id"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:81
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:81
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:82
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:82
 msgid "User Settings"
 msgstr ""
 
@@ -3896,13 +3896,13 @@ msgstr ""
 msgid "USER SETTINGS"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:286
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:286
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:287
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:287
 msgid "user(s) has been added and activated successfully."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:285
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:285
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:286
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:286
 msgid "user(s) has been added successfully"
 msgstr ""
 
@@ -3910,13 +3910,13 @@ msgstr ""
 msgid "User(s) has been added successfully."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:280
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:280
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:281
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:281
 msgid "User(s) has been deleted successfully"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:241
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:241
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:242
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:242
 msgid "user(s) successfully."
 msgstr ""
 
@@ -3938,13 +3938,13 @@ msgstr ""
 #: Models\Administration\UserManagementModel.cs:484
 #: Models\Administration\UserManagementModel.cs:641
 #: Models\Administration\UserManagementModel.cs:651
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:270
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:270
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:271
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:271
 msgid "Username already exists"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:273
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:273
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:274
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:274
 msgid "Username can contain letters, numbers, hyphen, underscore and period."
 msgstr ""
 
@@ -3953,20 +3953,20 @@ msgstr ""
 msgid "Username can contain letters, numbers, hyphen, underscore, and period."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:169
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:169
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:170
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:170
 msgid "Username contains invalid characters."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:168
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:168
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:169
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:169
 msgid "Username contains space."
 msgstr ""
 
 #: Models\Administration\UserManagementModel.cs:427
 #: Models\Administration\UserManagementModel.cs:603
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:272
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:272
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:273
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:273
 msgid "Username should be between 3 to 254 characters."
 msgstr ""
 
@@ -3975,13 +3975,13 @@ msgstr ""
 msgid "Username should not be empty"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:89
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:89
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:90
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:90
 msgid "Username should not contain special characters"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:88
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:88
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:89
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:89
 msgid "Username should not contain white space"
 msgstr ""
 
@@ -4006,25 +4006,25 @@ msgstr ""
 msgid "Users who already have access to the selected site(s) were skipped."
 msgstr ""
 
-#: Views\TenantsManagement\AddTenants.cshtml:193
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:207
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:207
+#: Views\TenantsManagement\AddTenants.cshtml:199
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:208
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:208
 msgid ""
 "Using a multitenant solution, you can host multiple Embedded BI sites on a "
 "single instance by isolating the database and resources for each site."
 msgstr ""
 
-#: Views\TenantsManagement\AddTenants.cshtml:187
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:206
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:206
+#: Views\TenantsManagement\AddTenants.cshtml:193
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:207
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:207
 msgid ""
 "Using a multitenant solution, you can host multiple Enterprise Reporting "
 "sites on a single instance by isolating the database and resources for each "
 "site."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:90
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:90
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:91
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:91
 msgid "valid"
 msgstr ""
 
@@ -4050,13 +4050,13 @@ msgstr ""
 msgid "Warning Icon"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:248
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:248
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:249
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:249
 msgid "Warning:"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:230
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:230
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:231
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:231
 msgid "We are unable to connect to the given domain."
 msgstr ""
 
@@ -4137,25 +4137,25 @@ msgstr ""
 
 #: Views\Administration\_DiologBox.cshtml:49
 #: Views\TenantsManagement\_SiteUsers.cshtml:97
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:91
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:91
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:92
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:92
 msgid "Yes"
 msgstr ""
 
 #: Views\TenantsManagement\_AddDataSecurity.cshtml:104
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:233
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:233
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:234
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:234
 msgid "You can configure attribute for this site later."
 msgstr ""
 
 #: Views\TenantsManagement\_AddDataSecurity.cshtml:100
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:232
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:232
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:233
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:233
 msgid "You can configure the isolation code and attribute for this site later."
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:229
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:229
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:230
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:230
 msgid "You cannot configure this site without site identifier"
 msgstr ""
 
@@ -4172,18 +4172,18 @@ msgstr ""
 msgid "You have chosen"
 msgstr ""
 
-#: wwwroot\bundles\js\onpremiselocalizationcontent.js:112
-#: wwwroot\scripts\core\onpremiselocalizationcontent.js:112
-msgid "Your Embedded BI and Enterprise Reporting license has expired."
-msgstr ""
-
 #: wwwroot\bundles\js\onpremiselocalizationcontent.js:113
 #: wwwroot\scripts\core\onpremiselocalizationcontent.js:113
-msgid "Your Embedded BI license has expired."
+msgid "Your Embedded BI and Enterprise Reporting license has expired."
 msgstr ""
 
 #: wwwroot\bundles\js\onpremiselocalizationcontent.js:114
 #: wwwroot\scripts\core\onpremiselocalizationcontent.js:114
+msgid "Your Embedded BI license has expired."
+msgstr ""
+
+#: wwwroot\bundles\js\onpremiselocalizationcontent.js:115
+#: wwwroot\scripts\core\onpremiselocalizationcontent.js:115
 msgid "Your Enterprise Reporting license has expired."
 msgstr ""
 
