@@ -353,6 +353,8 @@ $(document).ready(function () {
                                             if (result.Data.Key.toString().toLowerCase() == "true") {
                                                 $(".azure-validation,.blob-error-message").css("display", "none");
                                                 $(".storage-form #system-settings-filestorage-container").hide();
+                                                moveStepper("front", 4);
+                                                nextToUserPage();
                                             }
                                             else {
                                                 $(".azure-validation,.blob-error-message").css("display", "block");
@@ -366,14 +368,14 @@ $(document).ready(function () {
                             }
                             else {
                                 $(".storage-form #system-settings-filestorage-container").hide();
+                                moveStepper("front", 4);
+                                nextToUserPage();
                             }
                             $(this).removeAttr("disabled");
                         }
                         else {
                             $(this).removeAttr("disabled");
                         }
-                        moveStepper("front", 4);
-                        nextToUserPage();
                     }
                 }
                 $(this).removeAttr("disabled");
@@ -855,7 +857,7 @@ function ResizeHeightForDOM() {
             height = $(window).height() - $(".modal-header").height() - 210;
             modalheight = $("#dialog-body-container").height() + $("#dialog-body-header").height() + 102;
         } else {
-            height = $(window).height() - $(".modal-header").height() - 210 + 250;
+            height = $(window).height() - $(".modal-header").height() - 210 + 280;
             modalheight = $("#dialog-body-container").height() + $("#dialog-body-header").height() + 102;
         }
     }
@@ -1045,7 +1047,8 @@ function nextToStoragePage() {
         $(".storage-form #system-settings-filestorage-container").show();
         $("#file-storage").parent().hide();
         $(".report-content").hide();
-        $("#blob-storage").parent().css("margin-left", "130px");
+        $("#blob-storage").parent().hide();
+        $(".storage-checkbox").css("margin-top", "5px");
         $("#blob-storage-form").slideDown("slow");
         $(".storage-form #blob-storage-form").addClass("site-creation");
         $("#dialog-body-container").removeClass("grid-alignment");

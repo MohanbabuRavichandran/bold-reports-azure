@@ -11,6 +11,7 @@
     var dashboardServerResourceUrl = globalAppSettings.SystemSettings.CDNLink.TrimEnd('/');
     var reportServerResourceUrl = globalAppSettings.SystemSettings.DesignerCdnLink.TrimEnd('/');
     var reportServiceUrl = ServerAppConfig.InternalAppDataServiceUrl.TrimEnd('/');
+    var isAzureApplication = ServerAppConfig.IsAzureApplication;
 }
 
 @section meta{
@@ -18,6 +19,7 @@
     <meta name="user:is_admin" content="@isAdmin.ToString()" />
     <meta name="designer_service:url" content="@reportServiceUrl" />
     <meta name="designer_service:access_token" content="@ViewBag.AccessToken" />
+    <meta name="designer_service:isazureapp" content="@isAzureApplication.ToString().ToLower()" />
 }
 
 @section styles{

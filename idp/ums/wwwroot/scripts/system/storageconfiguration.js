@@ -198,6 +198,7 @@ function onBlobStorageChange(args) {
         $(".azure-validation").css("display", "none");
         $(".e-error").removeClass("e-error");
         $("div.placeholder").remove();
+        ResizeHeightForDOM();
     }
     addPlacehoder("#system-settings-filestorage-container");
     changeFooterPostion();
